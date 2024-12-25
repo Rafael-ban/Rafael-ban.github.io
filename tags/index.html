@@ -323,7 +323,19 @@
 </div>
 <header id="header">
   
-    <img fetchpriority="high" src="/images/banner.webp" alt="Tags">
+    <picture>
+      
+        <div></div>
+        <source media="(max-width: 479px)" srcset="/images/banner-600w.webp">
+      
+        <div></div>
+        <source media="(max-width: 799px)" srcset="/images/banner-800w.webp">
+      
+        <div></div>
+        <source media="(min-width: 800px)" srcset="/images/banner.webp">
+      
+      <img fetchpriority="high" src="/images/banner.webp" alt="Tags">
+    </picture>
   
 
   <div id="header-outer">
@@ -378,7 +390,7 @@
         
 <div class="sidebar-author">
   <img
-    data-src="/avatar/avatar.webp"
+    data-src="/avatar/avatar.png"
     data-sizes="auto"
     alt="Тенеход"
     class="lazyload"
@@ -603,7 +615,7 @@
       
 <div class="sidebar-author">
   <img
-    data-src="/avatar/avatar.webp"
+    data-src="/avatar/avatar.png"
     data-sizes="auto"
     alt="Тенеход"
     class="lazyload"
