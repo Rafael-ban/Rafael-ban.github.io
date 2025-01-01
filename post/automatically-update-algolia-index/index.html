@@ -135,7 +135,7 @@
   />
   <meta property="article:author" content="Тенеход" />
   <meta property="article:published_time" content="2025-01-02T01:08:33&#43;08:00" />
-  <meta property="article:modified_time" content="2025-01-02T01:08:33&#43;08:00" />
+  <meta property="article:modified_time" content="2025-01-02T02:08:33&#43;08:00" />
   
     <meta property="article:tag" content="hugo教程" />
   
@@ -422,7 +422,11 @@
           <div class="sidebar-toc">
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ps如果在账号的-your-plan-and-billing-中发现没有-crawler-的额度说明-algolia-官方的设置出了问题我的方法是重新注册账号选择-build-套餐">PS:如果在账号的 <code>Your plan and billing</code> 中发现没有 <code>CRAWLER</code> 的额度，说明 <code>Algolia</code> 官方的设置出了问题。我的方法是重新注册账号，选择 <code>Build</code> 套餐。</a></li>
+  </ul>
+</nav>
   </div>
 </div>
         </div>
@@ -601,9 +605,8 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <p>首先，注册一个<a href="https://www.algolia.com/">Algolia</a>账号，然后创建 Search一个 应用, 进入左下角的 Data sources 依次点击 Crawler → Domains 绑定域名, 域名验证成功后可能创建一个 Crawler, 不用管, 可以删掉它。</p>
-<p>在 Git 项目的根目录下创建 .github/workflows/algolia.yml 文件, 参考 <a href="https://github.com/marketplace/actions/algolia-crawler-automatic-crawl">官方文档</a>
- 和以下内容:</p>
+        <p>首先，注册一个<a href="https://www.algolia.com/">Algolia</a>账号，然后创建 <code>Search</code>一个 应用, 进入左下角的<code>Data sources</code> 依次点击<code>Crawler</code>→<code>Domains</code>绑定域名, 域名验证成功后可能创建一个<code>Crawler</code>, 不用管, 可以删掉它。</p>
+<p>在 <code>Git</code> 项目的根目录下创建 <code>.github/workflows/algolia.yml</code>文件, 参考 <a href="https://github.com/marketplace/actions/algolia-crawler-automatic-crawl">官方文档</a> 和以下内容:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">name</span><span class="p">:</span> <span class="n">Update</span> <span class="n">Algolia</span> <span class="n">Index</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">on</span><span class="p">:</span>
@@ -642,19 +645,20 @@
 </span></span><span class="line"><span class="cl">          <span class="n">algolia</span><span class="o">-</span><span class="n">api</span><span class="o">-</span><span class="n">key</span><span class="p">:</span> <span class="o">$</span><span class="p">{{</span> <span class="n">secrets</span><span class="o">.</span><span class="n">ALGOLIA_API_KEY</span> <span class="p">}}</span>
 </span></span><span class="line"><span class="cl">          <span class="n">site</span><span class="o">-</span><span class="n">url</span><span class="p">:</span> <span class="s1">&#39;https://senzyo.net/posts/&#39;</span>
 </span></span><span class="line"><span class="cl">          <span class="n">override</span><span class="o">-</span><span class="n">config</span><span class="p">:</span> <span class="bp">true</span>
-</span></span></code></pre></div><p>再次来到 Algolia 的 Data sources → Crawler → Settings 页面,</p>
+</span></span></code></pre></div><p>再次来到 <code>Algolia</code> 的 <code>Data sources</code> → <code>Crawler</code> → <code>Settings</code> 页面,</p>
 <ul>
-<li>复制 Crawler User Id 作为 CRAWLER_USER_ID。</li>
-<li>复制 Crawler API Key 作为 CRAWLER_API_KEY。
-来到 <a href="https://dashboard.algolia.com/account/api-keys?">API Key</a>
- 页面,</li>
-<li>复制 Application ID 作为 ALGOLIA_APP_ID。</li>
-<li>复制 Write API Key 作为 ALGOLIA_API_KEY。<br>
-在GitHub 仓库的Settings → Secrets and variables → Actions中新建 Repository secrets, 填入以上几个 Secrets。<br>
-Push 项目到GitHub后,如果 Action 成功运行, 应该可以看到 Algolia的Data sources → Crawler → Crawlers 页面新增了一个 Crawler。<br>
-PS:如果在账号的 Your plan and billing 中发现没有 CRAWLER 的额度，说明 Algolia 官方的设置出了岔子。我的方法是重新注册账号，选择 Build 套餐。</li>
+<li>复制 <code>Crawler User Id</code> 作为<code>CRAWLER_USER_ID</code>。</li>
+<li>复制 <code>Crawler API Key</code> 作为 <code>CRAWLER_API_KEY</code>。
+来到 <a href="https://dashboard.algolia.com/account/api-keys?">API Key</a> 页面,</li>
+<li>复制 <code>Application ID</code> 作为 <code>ALGOLIA_APP_ID</code>。</li>
+<li>复制 <code>Write API Key</code> 作为 <code>ALGOLIA_API_KEY</code>。    在GitHub仓库的<code>Settings</code>→<code>Secrets and variables</code>→<code>Actions</code>中新建 <code>Repository secrets</code>, 填入以上几个 <code>Secrets</code>。<br>
+Push项目到GitHub后,如果 <code>Action</code> 成功运行, 应该可以看到 <code>Algolia</code>的 <code>Data sources</code> → <code>Crawler</code> → <code>Crawlers</code> 页面新增了一个 <code>Crawler</code>。</li>
 </ul>
-
+<hr>
+<h2 id="ps如果在账号的-your-plan-and-billing-中发现没有-crawler-的额度说明-algolia-官方的设置出了问题我的方法是重新注册账号选择-build-套餐">
+<a class="header-anchor" href="#ps%e5%a6%82%e6%9e%9c%e5%9c%a8%e8%b4%a6%e5%8f%b7%e7%9a%84-your-plan-and-billing-%e4%b8%ad%e5%8f%91%e7%8e%b0%e6%b2%a1%e6%9c%89-crawler-%e7%9a%84%e9%a2%9d%e5%ba%a6%e8%af%b4%e6%98%8e-algolia-%e5%ae%98%e6%96%b9%e7%9a%84%e8%ae%be%e7%bd%ae%e5%87%ba%e4%ba%86%e9%97%ae%e9%a2%98%e6%88%91%e7%9a%84%e6%96%b9%e6%b3%95%e6%98%af%e9%87%8d%e6%96%b0%e6%b3%a8%e5%86%8c%e8%b4%a6%e5%8f%b7%e9%80%89%e6%8b%a9-build-%e5%a5%97%e9%a4%90"></a>
+PS:如果在账号的 <code>Your plan and billing</code> 中发现没有 <code>CRAWLER</code> 的额度，说明 <code>Algolia</code> 官方的设置出了问题。我的方法是重新注册账号，选择 <code>Build</code> 套餐。
+</h2>
       
     </div>
     <footer class="article-footer">
@@ -827,7 +831,7 @@ PS:如果在账号的 Your plan and billing 中发现没有 CRAWLER 的额度，
       <div>
         <span class="icon-brush"
           >&nbsp;
-            610
+            597
           </span
         >
         &nbsp;|&nbsp;
@@ -876,7 +880,11 @@ PS:如果在账号的 Your plan and billing 中发现没有 CRAWLER 的额度，
         <div class="sidebar-toc">
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ps如果在账号的-your-plan-and-billing-中发现没有-crawler-的额度说明-algolia-官方的设置出了问题我的方法是重新注册账号选择-build-套餐">PS:如果在账号的 <code>Your plan and billing</code> 中发现没有 <code>CRAWLER</code> 的额度，说明 <code>Algolia</code> 官方的设置出了问题。我的方法是重新注册账号，选择 <code>Build</code> 套餐。</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       </div>
