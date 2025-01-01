@@ -41,6 +41,10 @@
   window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"clipboard\":{\"copyright\":{\"content\":\"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！\",\"count\":50,\"enable\":true},\"fail\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"success\":\"复制成功(*^▽^*)\"},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_tq6stt6tcg\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":\"本文最后更新于 {time}，请注意文中内容可能已经发生变化。\"}}");
 </script>
 
+<script>
+  window.siteConfig.swPath = '\/sw.js';
+</script>
+
 
 
 
@@ -158,7 +162,7 @@
 
 
   
- <link rel="stylesheet" href="/css/main.min.1d7805d898ce9d3c26c714ad042ac27e0a74ca2a142c1089ee66cc5facb4c87b.css" />
+ <link rel="stylesheet" href="/css/main.min.a8c5057d1ae425d91addcb2dd9a6fe095b31c8279101ff7bb587e36c2797396c.css" />
 
 
 
@@ -276,6 +280,15 @@
 <div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
 </div>
 
+
+  <div class="notification-wrapper">
+    <h1>发现新版本</h1>
+    <p>网站好像有新内容，是否更新(ﾟ⊿ﾟ)ﾂ？</p>
+    <div class="notification-btn">
+      <button id="notification-update-btn">更新</button>
+      <button id="notification-close-btn">取消</button>
+    </div>
+  </div>
 
     <div id="container">
       <div id="wrap">
@@ -1407,15 +1420,28 @@
 
 
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then((registrations) => {
-        for (let registration of registrations) {
-          registration.unregister();
-        }
-      });
-    }
-  </script>
+  
+
+
+
+
+
+  
+       
+         
+      
+
+  
+
+
+
+
+
+  
+      
+      <script src="/js/service_worker.js" integrity="" crossorigin="anonymous" ></script>
+      
+
 
 
 <script>
