@@ -431,15 +431,14 @@
 <li><strong>tags</strong>: 为当前文章打标签，不同文章可以使用相同的标签</li>
 </ul>
 <p>文章内容需要写在元数据的后面：</p>
-<p>+++</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">+++
-</span></span><span class="line"><span class="cl">title: ‘My First Post’ 
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">title: ‘My First Post’ 
 </span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
 </span></span><span class="line"><span class="cl">draft: true
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">hello，word！
-</span></span></code></pre></div><p>+++</p>
-<p>完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。</p>
+</span></span></code></pre></div><p>完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。</p>
 <p>如果我们想在本地查看草稿内容，只需要在启动 <strong>Hugo</strong> 的时候带上参数 <code>-D</code>或则 <code>--buildDrafts</code> ：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server -D
 </span></span></code></pre></div><h2 id="解除文章草稿状态">
@@ -459,12 +458,12 @@
 <li><strong>expiryDate</strong>：过期时间，已过期的内容不会渲染到网页中</li>
 <li><strong>publishDate</strong>：发布时间，未到发布时间不会渲染到网页中</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
 </span></span><span class="line"><span class="cl">title: &#34;你好&#34;
 </span></span><span class="line"><span class="cl">date: 2024-12-26T01:04:52+08:00
 </span></span><span class="line"><span class="cl">expiryDate: 2024-12-26T01:05:52+08:00
 </span></span><span class="line"><span class="cl">description: &#34;我不好&#34;
-</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">+++
 </span></span></code></pre></div><h2 id="发布保留过期文章及未发布文章">
 <a class="header-anchor" href="#%e5%8f%91%e5%b8%83%e4%bf%9d%e7%95%99%e8%bf%87%e6%9c%9f%e6%96%87%e7%ab%a0%e5%8f%8a%e6%9c%aa%e5%8f%91%e5%b8%83%e6%96%87%e7%ab%a0"></a>
 发布保留过期文章及未发布文章
@@ -785,7 +784,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            124
+            121
           </span
         >
         &nbsp;|&nbsp;
