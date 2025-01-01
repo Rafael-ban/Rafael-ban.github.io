@@ -19,7 +19,7 @@
   
 
 <title>
-  用Github仓库免费部署自己的Hugo博客 | Тенеход
+  博客的第一篇文章 | Тенеход
 </title>
 <meta
   name="description"
@@ -107,12 +107,12 @@
 
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="用Github仓库免费部署自己的Hugo博客 | Тенеход" />
+  <meta property="og:title" content="博客的第一篇文章 | Тенеход" />
   <meta
     property="og:description"
     content="少女祈祷中..."
   />
-  <meta property="og:url" content="https://Rafael-ban.github.io/post/how-to-build-a-hugo-blog/" />
+  <meta property="og:url" content="https://Rafael-ban.github.io/post/hello_/" />
   <meta
     property="og:site_name"
     content="Тенеход的小窝"
@@ -122,10 +122,10 @@
     content="/"
   />
   <meta property="article:author" content="Тенеход" />
-  <meta property="article:published_time" content="2025-01-01T19:40:55&#43;08:00" />
-  <meta property="article:modified_time" content="2025-01-01T20:30:00&#43;08:00" />
+  <meta property="article:published_time" content="2024-12-26T01:04:52&#43;08:00" />
+  <meta property="article:modified_time" content="2024-12-26T01:05:20&#43;08:00" />
   
-    <meta property="article:tag" content="hugo教程" />
+    <meta property="article:tag" content="生活日常" />
   
   
   <meta name="twitter:card" content="summary" />
@@ -332,7 +332,7 @@
         <div></div>
         <source media="(min-width: 800px)" srcset="/images/banner.webp">
       
-      <img fetchpriority="high" src="/images/banner.webp" alt="用Github仓库免费部署自己的Hugo博客">
+      <img fetchpriority="high" src="/images/banner.webp" alt="博客的第一篇文章">
     </picture>
   
 
@@ -346,7 +346,7 @@
   
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">用Github仓库免费部署自己的Hugo博客</h1>
+            <h1 data-aos="slide-up">博客的第一篇文章</h1>
           </a>
         
       
@@ -377,15 +377,15 @@
     <div class="article-meta">
       <div class="article-date">
   <a
-    href="https://Rafael-ban.github.io/post/how-to-build-a-hugo-blog/"
+    href="https://Rafael-ban.github.io/post/hello_/"
     class="article-date-link"
     data-aos="zoom-in"
   >
-    <time datetime="2025-01-01 19:40:55 &#43;0800 &#43;0800" itemprop="datePublished"
-      >2025-01-01</time
+    <time datetime="2024-12-26 01:04:52 &#43;0800 &#43;0800" itemprop="datePublished"
+      >2024-12-26</time
     >
     <time style="display: none;" id="post-update-time"
-      >2025-01-01</time
+      >2024-12-26</time
     >
   </a>
 </div>
@@ -400,175 +400,11 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <h1 id="环境准备">
-<a class="header-anchor" href="#%e7%8e%af%e5%a2%83%e5%87%86%e5%a4%87"></a>
-环境准备
-</h1><ol>
-<li>
-<h2 id="git下载">
-<a class="header-anchor" href="#git%e4%b8%8b%e8%bd%bd"></a>
-Git下载
-</h2><ul>
-<li>
-<p>前往【<a href="https://git-scm.com/">Git官网</a>】，下载安装程序</p>
-</li>
-<li>
-<p>一直点下一步，默认安装即可</p>
-</li>
-</ul>
-</li>
-<li>
-<h2 id="hugo下载">
-<a class="header-anchor" href="#hugo%e4%b8%8b%e8%bd%bd"></a>
-Hugo下载
-</h2><ul>
-<li>
-<p>前往【<a href="https://github.com/gohugoio/hugo/tags">Hugo Github Tags</a>】，选择对应版本下载，下载后解压即可</p>
-</li>
-<li>
-<p>Windows下载版本：<strong>hugo_extended_xxxxx_windows_amd64.zip</strong></p>
-</li>
-</ul>
-</li>
-</ol>
-<h1 id="搭建博客">
-<a class="header-anchor" href="#%e6%90%ad%e5%bb%ba%e5%8d%9a%e5%ae%a2"></a>
-搭建博客
-</h1><ol>
-<li>
-<h2 id="创建博客">
-<a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e5%8d%9a%e5%ae%a2"></a>
-创建博客
-</h2><ul>
-<li>（1）在<strong>hugo.exe</strong>所在文件夹的地址栏敲打cmd，然后Enter唤起命令行</li>
-<li>（2）敲打命令<code>hugo new site xxxx</code>创建hugo文件</li>
-<li>（3）敲打命名<code>cd xxxx</code>切换目录，并把<strong>hugo.exe</strong>复制到刚生成的文件夹中</li>
-<li>（4）敲打命令<code>hugo server -D</code>启动服务，访问<a href="http://localhost:1313/">http://localhost:1313</a>，Ctrl+C停止服务 <strong>（hugo默认是没有主题的，需要进行主题配置）</strong></li>
-</ul>
-</li>
-<li>
-<h2 id="配置主题">
-<a class="header-anchor" href="#%e9%85%8d%e7%bd%ae%e4%b8%bb%e9%a2%98"></a>
-配置主题
-</h2><ul>
-<li>（1）前往【<a href="https://themes.gohugo.io/">Hugo Themes</a>】，查找自己喜欢的主题，进行下载</li>
-<li>（2）这边以【<a href="https://github.com/D-Sketon/hugo-theme-reimu">Reimu主题</a>】为例，将下载好的主题解压，放到<code>/themes</code>文件夹中</li>
-<li>（3）<code>config</code> 文件夹下创建 <code>_default</code> 文件夹，然后将主题内的 <code>config/_default/params.yml</code> 复制到 <code>_default</code> 文件夹下</li>
-<li>（4）将主题内的 <code>config/data/</code> 文件夹内的所有文件复制到外层 <code>data</code> 文件夹下，此文件夹内的文件用于配置主题内的数据：</li>
-<li>（5）在hugo目录下创建<code>static</code> 文件夹，然后将主题内的 <code>static</code> 文件夹下的文件复制到外层 <code>static</code> 文件夹下</li>
-<li>（6）修改 <strong>hugo.toml</strong> 中的 <strong>theme</strong>，将他修改为跟主题文件夹同名</li>
-<li>（7）再次启动hugo服务，查看主题。具体主题配置修改可以查看【<a href="https://github.com/D-Sketon/hugo-theme-reimu">Reimu</a>】</li>
-</ul>
-</li>
-</ol>
-<h1 id="github部署">
-<a class="header-anchor" href="#github%e9%83%a8%e7%bd%b2"></a>
-Github部署
-</h1><ol>
-<li>
-<h2 id="常规部署">
-<a class="header-anchor" href="#%e5%b8%b8%e8%a7%84%e9%83%a8%e7%bd%b2"></a>
-常规部署
-</h2><ul>
-<li>
-<p>（1）前往【<a href="https://github.com/">Github官网</a>】，创建仓库 <strong>{github用户名}.github.io</strong></p>
-</li>
-<li>
-<p>（2）前往<code>Setting -&gt; Pages -&gt; Branch</code>选择main分支，然后保存，会自动开启 <strong>https://{github用户名}.github.io</strong> 的地址，这地址也是以后访问博客的地址</p>
-</li>
-<li>
-<p>（3）回到hugo文件中，执行命令<code>hugo -D</code>，会生成 <strong>public</strong> 静态资源文件夹</p>
-</li>
-<li>
-<p>（4）点击hugo中的 <strong>public</strong> 文件夹，在文件夹下执行以下命令上传到github仓库上，第一次上传可能需要输入账号密码</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1.git init
-</span></span><span class="line"><span class="cl">2.git add .
-</span></span><span class="line"><span class="cl">3.git commit -m &#34;first commit&#34;
-</span></span><span class="line"><span class="cl">4.git branch -M main
-</span></span><span class="line"><span class="cl">5.git remote add origin {你的github仓库地址}
-</span></span><span class="line"><span class="cl">6.git push -u origin main
-</span></span></code></pre></div></li>
-<li>
-<p>（5）上传成功后访问 <strong>https://{github用户名}.github.io</strong>，成功搭建属于自己的Hugo博客</p>
-</li>
-</ul>
-</li>
-<li>
-<h2 id="github-action自动部署">
-<a class="header-anchor" href="#github-action%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2"></a>
-Github Action自动部署
-</h2><ul>
-<li>
-<p>（1）Github创建一个新的仓库，用于存放Hugo的主文件</p>
-</li>
-<li>
-<p>（2）前往<code>Setttings -&gt; Developer Settings -&gt; Personal access tokens</code>，创建一个token(classic)</p>
-</li>
-<li>
-<p>（3）token选择永不过期，并勾选 <strong>repo</strong> 和 <strong>workflow</strong> 选项</p>
-</li>
-<li>
-<p>（4）为保证安全，将生成的token，保存的仓库的变量中，前往<code>Settings -&gt; Secrets and variables -&gt; Actions</code>中设置</p>
-</li>
-<li>
-<p>（5）在hugo主文件创建一个<code>.github/workflows/xxxx.yaml</code>文件，将以下内容复制进去，想具体了解更多，可查看【<a href="https://docs.github.com/zh/actions">Github Action文档</a>】</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">name: deploy
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># 代码提交到main分支时触发github action
-</span></span><span class="line"><span class="cl">on:
-</span></span><span class="line"><span class="cl">  push:
-</span></span><span class="line"><span class="cl">    branches:
-</span></span><span class="line"><span class="cl">      - main
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">jobs:
-</span></span><span class="line"><span class="cl">  deploy:
-</span></span><span class="line"><span class="cl">    runs-on: ubuntu-latest
-</span></span><span class="line"><span class="cl">    steps:
-</span></span><span class="line"><span class="cl">        - name: Checkout
-</span></span><span class="line"><span class="cl">          uses: actions/checkout@v4
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              fetch-depth: 0
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        - name: Setup Hugo
-</span></span><span class="line"><span class="cl">          uses: peaceiris/actions-hugo@v3
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              hugo-version: &#34;latest&#34;
-</span></span><span class="line"><span class="cl">              extended: true
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        - name: Build Web
-</span></span><span class="line"><span class="cl">          run: hugo -D
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        - name: Deploy Web
-</span></span><span class="line"><span class="cl">          uses: peaceiris/actions-gh-pages@v4
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              PERSONAL_TOKEN: ${{ secrets.你的token变量名 }}
-</span></span><span class="line"><span class="cl">              EXTERNAL_REPOSITORY: 你的github名/你的仓库名
-</span></span><span class="line"><span class="cl">              PUBLISH_BRANCH: main
-</span></span><span class="line"><span class="cl">              PUBLISH_DIR: ./public
-</span></span><span class="line"><span class="cl">              commit_message: auto deploy
-</span></span></code></pre></div></li>
-<li>
-<p>（6）在hugo主文件创建<code>.gitignore</code>文件，来避免提交不必要的文件</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 自动生成的文件
-</span></span><span class="line"><span class="cl">public
-</span></span><span class="line"><span class="cl">resources
-</span></span><span class="line"><span class="cl">.hugo_build.lock
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># hugo命令
-</span></span><span class="line"><span class="cl">hugo.exe
-</span></span></code></pre></div></li>
-<li>
-<p>（7）将hugo的主文件上传到仓库，上传成功后会触发Github Action，来自动部署你的静态页面</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git init
-</span></span><span class="line"><span class="cl">git add .
-</span></span><span class="line"><span class="cl">git commit -m &#34;first commit&#34;
-</span></span><span class="line"><span class="cl">git branch -M main
-</span></span><span class="line"><span class="cl">git remote add origin {你的github仓库地址}
-</span></span><span class="line"><span class="cl">git push -u origin main
-</span></span></code></pre></div></li>
-</ul>
-</li>
-</ol>
+        <p>大家好，我是Тенеход<br>
+这是我新创建的博客，希望大家可以在这个评论区下多多留言<br>
+后续，我会出一个搭建这个博客还有应用这个主题的教程。<br>
+尽请期待吧 <em>:ஐ٩(๑´ᵕ`)۶ஐ:</em><br>
+ps:后续也会有许多各种各样的教程</p>
 
       
     </div>
@@ -590,12 +426,12 @@ Github Action自动部署
       
         <a
           data-aos="zoom-in"
-          href="https://Rafael-ban.github.io/post/how-to-build-a-hugo-blog/#comments"
+          href="https://Rafael-ban.github.io/post/hello_/#comments"
           class="article-comment-link"
         >
           <span
             class="post-comments-count valine-comment-count"
-            data-xid="https//rafael-ban.github.io/post/how-to-build-a-hugo-blog/"
+            data-xid="https//rafael-ban.github.io/post/hello_/"
             itemprop="commentCount"
           ></span>
           留言
@@ -614,9 +450,9 @@ Github Action自动部署
     <li class="article-tag-list-item" data-aos="zoom-in">
       <a
         class="article-tag-list-link"
-        href="/tags/hugo%e6%95%99%e7%a8%8b"
+        href="/tags/%e7%94%9f%e6%b4%bb%e6%97%a5%e5%b8%b8"
         rel="tag"
-        >HUGO教程</a
+        >生活日常</a
       >
     </li>
   
@@ -631,27 +467,6 @@ Github Action自动部署
     data-aos="fade-up"
   >
     
-      <div class="article-nav-link-wrap article-nav-link-left">
-        
-          
-          
-            <img
-              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
-              data-sizes="auto"
-              alt="怎么在hugo写一篇文章"
-              class="lazyload"
-            />
-          
-        
-        <a href="https://Rafael-ban.github.io/post/how-to-write-a--article/"></a>
-        <div class="article-nav-caption">前一篇</div>
-        <h3 class="article-nav-title">
-          
-            怎么在hugo写一篇文章
-          
-        </h3>
-      </div>
-    
 
     
       <div class="article-nav-link-wrap article-nav-link-right">
@@ -661,16 +476,16 @@ Github Action自动部署
             <img
               data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
               data-sizes="auto"
-              alt="Typora 免费安装教程"
+              alt="用Github仓库免费部署自己的Hugo博客"
               class="lazyload"
             />
           
         
-        <a href="https://Rafael-ban.github.io/post/install-free-typora/"></a>
+        <a href="https://Rafael-ban.github.io/post/how-to-build-a-hugo-blog_/"></a>
         <div class="article-nav-caption">后一篇</div>
         <h3 class="article-nav-title">
           
-            Typora 免费安装教程
+            用Github仓库免费部署自己的Hugo博客
           
         </h3>
       </div>
@@ -709,22 +524,7 @@ Github Action自动部署
           <div class="sidebar-toc">
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#git下载">Git下载</a></li>
-    <li><a href="#hugo下载">Hugo下载</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#创建博客">创建博客</a></li>
-    <li><a href="#配置主题">配置主题</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#常规部署">常规部署</a></li>
-    <li><a href="#github-action自动部署">Github Action自动部署</a></li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
         </div>
@@ -961,22 +761,7 @@ Github Action自动部署
         <div class="sidebar-toc">
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#git下载">Git下载</a></li>
-    <li><a href="#hugo下载">Hugo下载</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#创建博客">创建博客</a></li>
-    <li><a href="#配置主题">配置主题</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#常规部署">常规部署</a></li>
-    <li><a href="#github-action自动部署">Github Action自动部署</a></li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
       </div>

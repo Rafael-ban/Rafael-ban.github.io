@@ -19,7 +19,7 @@
   
 
 <title>
-  Typora 免费安装教程 | Тенеход
+  怎么在hugo写一篇文章 | Тенеход
 </title>
 <meta
   name="description"
@@ -107,12 +107,12 @@
 
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Typora 免费安装教程 | Тенеход" />
+  <meta property="og:title" content="怎么在hugo写一篇文章 | Тенеход" />
   <meta
     property="og:description"
     content="少女祈祷中..."
   />
-  <meta property="og:url" content="https://Rafael-ban.github.io/post/install-free-typora/" />
+  <meta property="og:url" content="https://Rafael-ban.github.io/post/how-to-write-a--article_/" />
   <meta
     property="og:site_name"
     content="Тенеход的小窝"
@@ -122,10 +122,10 @@
     content="/"
   />
   <meta property="article:author" content="Тенеход" />
-  <meta property="article:published_time" content="2025-01-01T20:43:37&#43;08:00" />
-  <meta property="article:modified_time" content="2025-01-01T21:01:37&#43;08:00" />
+  <meta property="article:published_time" content="2025-01-01T19:40:55&#43;08:00" />
+  <meta property="article:modified_time" content="2025-01-01T20:30:00&#43;08:00" />
   
-    <meta property="article:tag" content="实用工具" />
+    <meta property="article:tag" content="hugo教程" />
   
   
   <meta name="twitter:card" content="summary" />
@@ -332,7 +332,7 @@
         <div></div>
         <source media="(min-width: 800px)" srcset="/images/banner.webp">
       
-      <img fetchpriority="high" src="/images/banner.webp" alt="Typora 免费安装教程">
+      <img fetchpriority="high" src="/images/banner.webp" alt="怎么在hugo写一篇文章">
     </picture>
   
 
@@ -346,7 +346,7 @@
   
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">Typora 免费安装教程</h1>
+            <h1 data-aos="slide-up">怎么在hugo写一篇文章</h1>
           </a>
         
       
@@ -377,11 +377,11 @@
     <div class="article-meta">
       <div class="article-date">
   <a
-    href="https://Rafael-ban.github.io/post/install-free-typora/"
+    href="https://Rafael-ban.github.io/post/how-to-write-a--article_/"
     class="article-date-link"
     data-aos="zoom-in"
   >
-    <time datetime="2025-01-01 20:43:37 &#43;0800 &#43;0800" itemprop="datePublished"
+    <time datetime="2025-01-01 19:40:55 &#43;0800 &#43;0800" itemprop="datePublished"
       >2025-01-01</time
     >
     <time style="display: none;" id="post-update-time"
@@ -400,86 +400,81 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <h1 id="文章目录">
-<a class="header-anchor" href="#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95"></a>
-文章目录
-</h1><ol>
-<li>Typora 简介</li>
-<li>安装教程
-<ul>
-<li>下载安装包与工具</li>
-<li>安装与解压</li>
-<li>复制文件至安装目录</li>
-<li>以管理员身份运行 CMD</li>
-<li>运行工具</li>
-<li>输入序列号</li>
-<li>错误处理</li>
-<li>安装完成</li>
+        <h1 id="摘要">
+<a class="header-anchor" href="#%e6%91%98%e8%a6%81"></a>
+摘要
+</h1><ul>
+<li>添加一篇文章</li>
+<li>本地开启草稿箱视图</li>
+<li>解除文章草稿状态</li>
+<li>发布草稿文章</li>
+<li>设置文章过期时间/发布时间</li>
+<li>发布保留过期文章及未发布文章</li>
 </ul>
-</li>
-</ol>
+<h2 id="添加一篇文章">
+<a class="header-anchor" href="#%e6%b7%bb%e5%8a%a0%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0"></a>
+添加一篇文章
+</h2><p>添加文章使用的是 <code>new</code> 子命令，这里我们在 <code>post</code>目录下创建一篇名为 <code>my-first-post</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts/my-first-post.md
+</span></span></code></pre></div><p>创建完成后打开文章可以看到如下内容：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">title: ‘My First Post’ 
+</span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
+</span></span><span class="line"><span class="cl">draft: true
+</span></span><span class="line"><span class="cl">+++
+</span></span></code></pre></div><p>这是一篇 Markdown 格式的文章，文章的开头由前后 <code>+++</code> 包裹了一些信息，这些信息称为文章的元数据，用于说明文章的相关配套信息，其中包括但不限于标题、日期、标签、是否草稿等。</p>
+<p>这里对上述的元数据做解释如下：</p>
 <ul>
-<li>
-<h2 id="typora-简介">
-<a class="header-anchor" href="#typora-%e7%ae%80%e4%bb%8b"></a>
-Typora 简介
-</h2><p>Typora 是一款跨平台的 Markdown 编辑器，因其简洁的界面和流畅的用户体验而受到广泛欢迎。它支持实时预览功能，让您在编辑 Markdown 文档的同时即时查看最终效果，无需切换视图。此外，Typora 还提供自动保存、多种导出格式（如 PDF、HTML、Word 等）、丰富的主题和样式选项，能够满足不同用户的需求。通过直观的操作界面和快捷键支持，您可以轻松进行文本编辑、格式调整和内容管理，极大提升写作、笔记记录和文档编写的效率。无论您是编程开发者、作家还是学生，Typora 都能为您带来出色的 Markdown 编辑体验。</p>
-</li>
-<li>
-<h2 id="安装教程">
-<a class="header-anchor" href="#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b"></a>
-安装教程
-</h2><ol>
-<li>
-<h3 id="下载安装包与工具">
-<a class="header-anchor" href="#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7"></a>
-下载安装包与工具
-</h3><p>Typora 官网地址：https://typora.io
-Typora 中文官网地址：https://typoraio.cn</p>
-<p>工具下载地址：</p>
-</li>
-<li>
-<h3 id="安装与解压">
-<a class="header-anchor" href="#%e5%ae%89%e8%a3%85%e4%b8%8e%e8%a7%a3%e5%8e%8b"></a>
-安装与解压
-</h3><p>Typora 的安装过程我就不演示了，只需按提示点击“下一步”即可。接着，将下载的工具压缩包解压，您会看到两个 <code>exe</code> 文件。</p>
-</li>
-<li>
-<h3 id="复制文件至安装目录">
-<a class="header-anchor" href="#%e5%a4%8d%e5%88%b6%e6%96%87%e4%bb%b6%e8%87%b3%e5%ae%89%e8%a3%85%e7%9b%ae%e5%bd%95"></a>
-复制文件至安装目录
-</h3><p>把解压出来的两个 <code>exe</code> 文件复制到 Typora 的安装目录下，默认路径为：<code>C:\Program Files\Typora</code>，如安装在其他路径，请自行替换。</p>
-</li>
-<li>
-<h3 id="以管理员身份运行-cmd">
-<a class="header-anchor" href="#%e4%bb%a5%e7%ae%a1%e7%90%86%e5%91%98%e8%ba%ab%e4%bb%bd%e8%bf%90%e8%a1%8c-cmd"></a>
-以管理员身份运行 CMD
-</h3><p>点击 Windows 键或在系统搜索框搜索 <code>CMD</code>（即命令提示符），并以管理员身份运行。</p>
-</li>
-<li>
-<h3 id="运行工具">
-<a class="header-anchor" href="#%e8%bf%90%e8%a1%8c%e5%b7%a5%e5%85%b7"></a>
-运行工具
-</h3><p>点击 Windows 键或在系统搜索框搜索 <code>CMD</code>（即命令提示符），并以管理员身份运行。</p>
-<p>​	（1）输入 cd C:\Program Files\Typora 按回车，跳转到 Typora 安装路径。
-​	（2）输入 node_inject.exe 按回车，等待提示“<strong>done!</strong>”。
-​	（3）输入 license-gen.exe 按回车，等待显示序列号。</p>
-</li>
-<li>
-<p>输入序列号</p>
-<p>启动 Typora，随意输入邮箱地址，并将生成的序列号粘贴到激活窗口中，点击按钮。</p>
-</li>
-<li>
-<p>错误处理</p>
-<p>稍等数秒后，若因网络原因出现错误提示，点击确认即可，无需担心。</p>
-</li>
-<li>
-<p>安装完成</p>
-<p>安装完成后请勿更新 Typora，否则可能失效。如果需要更新，请先彻底卸载旧版本，再重新安装新版本。</p>
-</li>
-</ol>
-</li>
+<li><strong>title</strong>: 文章的标题</li>
+<li><strong>date</strong>: 文章的日期</li>
+<li><strong>draft</strong>: 文章是否草稿，草稿内容不会被发布</li>
+<li><strong>tags</strong>: 为当前文章打标签，不同文章可以使用相同的标签</li>
 </ul>
+<p>文章内容需要写在元数据的后面：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">title: ‘My First Post’ 
+</span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
+</span></span><span class="line"><span class="cl">draft: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hello，word！
+</span></span></code></pre></div><p>完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。</p>
+<p>如果我们想在本地查看草稿内容，只需要在启动 <strong>Hugo</strong> 的时候带上参数 <code>-D</code>或则 <code>--buildDrafts</code> ：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server -D
+</span></span></code></pre></div><h2 id="解除文章草稿状态">
+<a class="header-anchor" href="#%e8%a7%a3%e9%99%a4%e6%96%87%e7%ab%a0%e8%8d%89%e7%a8%bf%e7%8a%b6%e6%80%81"></a>
+解除文章草稿状态
+</h2><p>在正式发布文章前我们需要解除当前文章的草稿状态，解除草稿状态只需要把文章开头的 <code>draft</code> 选项去除即可。</p>
+<h2 id="发布草稿文章">
+<a class="header-anchor" href="#%e5%8f%91%e5%b8%83%e8%8d%89%e7%a8%bf%e6%96%87%e7%ab%a0"></a>
+发布草稿文章
+</h2><p>如果需要将草稿内容进行发布，在执行 <code>hugo</code> 生成发布内容时附带 <code>-D</code> 或则 <code>--buildDrafts</code> 即可。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -D
+</span></span></code></pre></div><h2 id="设置文章过期时间发布时间">
+<a class="header-anchor" href="#%e8%ae%be%e7%bd%ae%e6%96%87%e7%ab%a0%e8%bf%87%e6%9c%9f%e6%97%b6%e9%97%b4%e5%8f%91%e5%b8%83%e6%97%b6%e9%97%b4"></a>
+设置文章过期时间/发布时间
+</h2><p><strong>Hugo</strong> 通过以下两个元数据选项提供文章的过期时间及发布时间（已发布的可以通过 URL 间接访问😂）：</p>
+<ul>
+<li><strong>expiryDate</strong>：过期时间，已过期的内容不会渲染到网页中</li>
+<li><strong>publishDate</strong>：发布时间，未到发布时间不会渲染到网页中</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">title: &#34;你好&#34;
+</span></span><span class="line"><span class="cl">date: 2024-12-26T01:04:52+08:00
+</span></span><span class="line"><span class="cl">expiryDate: 2024-12-26T01:05:52+08:00
+</span></span><span class="line"><span class="cl">description: &#34;我不好&#34;
+</span></span><span class="line"><span class="cl">+++
+</span></span></code></pre></div><h2 id="发布保留过期文章及未发布文章">
+<a class="header-anchor" href="#%e5%8f%91%e5%b8%83%e4%bf%9d%e7%95%99%e8%bf%87%e6%9c%9f%e6%96%87%e7%ab%a0%e5%8f%8a%e6%9c%aa%e5%8f%91%e5%b8%83%e6%96%87%e7%ab%a0"></a>
+发布保留过期文章及未发布文章
+</h2><p>直接执行 <code>hugo</code> 生成的发布内容不会携带已过期的文章或者未到发布时间的文章.</p>
+<p>需要发布时携带过期文章需要执行时附带参数 <code>-E</code> 或则 <code>--buildExpired</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -E
+</span></span></code></pre></div><p>需要发布时携带未发布文章需要执行时附带参数 <code>-F</code> 或则 <code>--buildFuture</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -F
+</span></span></code></pre></div><p>当然也可以选择同时附带两个以上的参数：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -DEF
+</span></span></code></pre></div><p>生成发布文件完成后push最新内容到 GitHub 上即可看到最新的文章。</p>
 
       
     </div>
@@ -501,12 +496,12 @@ Typora 中文官网地址：https://typoraio.cn</p>
       
         <a
           data-aos="zoom-in"
-          href="https://Rafael-ban.github.io/post/install-free-typora/#comments"
+          href="https://Rafael-ban.github.io/post/how-to-write-a--article_/#comments"
           class="article-comment-link"
         >
           <span
             class="post-comments-count valine-comment-count"
-            data-xid="https//rafael-ban.github.io/post/install-free-typora/"
+            data-xid="https//rafael-ban.github.io/post/how-to-write-a--article_/"
             itemprop="commentCount"
           ></span>
           留言
@@ -525,9 +520,9 @@ Typora 中文官网地址：https://typoraio.cn</p>
     <li class="article-tag-list-item" data-aos="zoom-in">
       <a
         class="article-tag-list-link"
-        href="/tags/%e5%ae%9e%e7%94%a8%e5%b7%a5%e5%85%b7"
+        href="/tags/hugo%e6%95%99%e7%a8%8b"
         rel="tag"
-        >实用工具</a
+        >HUGO教程</a
       >
     </li>
   
@@ -554,7 +549,7 @@ Typora 中文官网地址：https://typoraio.cn</p>
             />
           
         
-        <a href="https://Rafael-ban.github.io/post/how-to-build-a-hugo-blog/"></a>
+        <a href="https://Rafael-ban.github.io/post/how-to-build-a-hugo-blog_/"></a>
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">
           
@@ -564,6 +559,27 @@ Typora 中文官网地址：https://typoraio.cn</p>
       </div>
     
 
+    
+      <div class="article-nav-link-wrap article-nav-link-right">
+        
+          
+          
+            <img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt="Typora 免费安装教程"
+              class="lazyload"
+            />
+          
+        
+        <a href="https://Rafael-ban.github.io/post/how-to-install-free-typora_/"></a>
+        <div class="article-nav-caption">后一篇</div>
+        <h3 class="article-nav-title">
+          
+            Typora 免费安装教程
+          
+        </h3>
+      </div>
     
   </nav>
 
@@ -601,16 +617,11 @@ Typora 中文官网地址：https://typoraio.cn</p>
   <div class="sidebar-toc-wrapper toc-div-class">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#typora-简介">Typora 简介</a></li>
-    <li><a href="#安装教程">安装教程</a>
-      <ul>
-        <li><a href="#下载安装包与工具">下载安装包与工具</a></li>
-        <li><a href="#安装与解压">安装与解压</a></li>
-        <li><a href="#复制文件至安装目录">复制文件至安装目录</a></li>
-        <li><a href="#以管理员身份运行-cmd">以管理员身份运行 CMD</a></li>
-        <li><a href="#运行工具">运行工具</a></li>
-      </ul>
-    </li>
+    <li><a href="#添加一篇文章">添加一篇文章</a></li>
+    <li><a href="#解除文章草稿状态">解除文章草稿状态</a></li>
+    <li><a href="#发布草稿文章">发布草稿文章</a></li>
+    <li><a href="#设置文章过期时间发布时间">设置文章过期时间/发布时间</a></li>
+    <li><a href="#发布保留过期文章及未发布文章">发布保留过期文章及未发布文章</a></li>
   </ul>
 </nav>
   </div>
@@ -851,16 +862,11 @@ Typora 中文官网地址：https://typoraio.cn</p>
   <div class="sidebar-toc-wrapper toc-div-class">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#typora-简介">Typora 简介</a></li>
-    <li><a href="#安装教程">安装教程</a>
-      <ul>
-        <li><a href="#下载安装包与工具">下载安装包与工具</a></li>
-        <li><a href="#安装与解压">安装与解压</a></li>
-        <li><a href="#复制文件至安装目录">复制文件至安装目录</a></li>
-        <li><a href="#以管理员身份运行-cmd">以管理员身份运行 CMD</a></li>
-        <li><a href="#运行工具">运行工具</a></li>
-      </ul>
-    </li>
+    <li><a href="#添加一篇文章">添加一篇文章</a></li>
+    <li><a href="#解除文章草稿状态">解除文章草稿状态</a></li>
+    <li><a href="#发布草稿文章">发布草稿文章</a></li>
+    <li><a href="#设置文章过期时间发布时间">设置文章过期时间/发布时间</a></li>
+    <li><a href="#发布保留过期文章及未发布文章">发布保留过期文章及未发布文章</a></li>
   </ul>
 </nav>
   </div>
