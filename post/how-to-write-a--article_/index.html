@@ -624,9 +624,9 @@
 <a class="header-anchor" href="#%e6%b7%bb%e5%8a%a0%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0"></a>
 添加一篇文章
 </h2><p>添加文章使用的是 <code>new</code> 子命令，这里我们在 <code>post</code>目录下创建一篇名为 <code>my-first-post</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts/my-first-post.md
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new posts/my-first-post.md
 </span></span></code></pre></div><p>创建完成后打开文章可以看到如下内容：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">+++
 </span></span><span class="line"><span class="cl">title: ‘My First Post’ 
 </span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
 </span></span><span class="line"><span class="cl">draft: true
@@ -640,7 +640,8 @@
 <li><strong>tags</strong>: 为当前文章打标签，不同文章可以使用相同的标签</li>
 </ul>
 <p>文章内容需要写在元数据的后面：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">title: ‘My First Post’ 
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">title: ‘My First Post’ 
 </span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
 </span></span><span class="line"><span class="cl">draft: true
 </span></span><span class="line"><span class="cl">
@@ -649,7 +650,7 @@
 </span></span><span class="line"><span class="cl">hello，word！
 </span></span></code></pre></div><p>完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。</p>
 <p>如果我们想在本地查看草稿内容，只需要在启动 <strong>Hugo</strong> 的时候带上参数 <code>-D</code>或则 <code>--buildDrafts</code> ：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server -D
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo server -D
 </span></span></code></pre></div><h2 id="解除文章草稿状态">
 <a class="header-anchor" href="#%e8%a7%a3%e9%99%a4%e6%96%87%e7%ab%a0%e8%8d%89%e7%a8%bf%e7%8a%b6%e6%80%81"></a>
 解除文章草稿状态
@@ -667,7 +668,7 @@
 <li><strong>expiryDate</strong>：过期时间，已过期的内容不会渲染到网页中</li>
 <li><strong>publishDate</strong>：发布时间，未到发布时间不会渲染到网页中</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">+++
 </span></span><span class="line"><span class="cl">title: &#34;你好&#34;
 </span></span><span class="line"><span class="cl">date: 2024-12-26T01:04:52+08:00
 </span></span><span class="line"><span class="cl">expiryDate: 2024-12-26T01:05:52+08:00
@@ -878,7 +879,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            609
+            610
           </span
         >
         &nbsp;|&nbsp;
