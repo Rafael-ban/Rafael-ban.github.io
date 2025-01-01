@@ -19,7 +19,7 @@
   
 
 <title>
-  ‘自动更新Algolia索引’ | Тенеход
+  自动更新Algolia索引 | Тенеход
 </title>
 <meta
   name="description"
@@ -119,7 +119,7 @@
 
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="‘自动更新Algolia索引’ | Тенеход" />
+  <meta property="og:title" content="自动更新Algolia索引 | Тенеход" />
   <meta
     property="og:description"
     content="少女祈祷中..."
@@ -361,7 +361,7 @@
         <div></div>
         <source media="(min-width: 800px)" srcset="/images/banner.webp">
       
-      <img fetchpriority="high" src="/images/banner.webp" alt="‘自动更新Algolia索引’">
+      <img fetchpriority="high" src="/images/banner.webp" alt="自动更新Algolia索引">
     </picture>
   
 
@@ -375,7 +375,7 @@
   
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">‘自动更新Algolia索引’</h1>
+            <h1 data-aos="slide-up">自动更新Algolia索引</h1>
           </a>
         
       
@@ -601,7 +601,60 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        
+        <p>首先，注册一个<a href="https://www.algolia.com/">Algolia</a>账号，然后创建 Search一个 应用, 进入左下角的 Data sources 依次点击 Crawler → Domains 绑定域名, 域名验证成功后可能创建一个 Crawler, 不用管, 可以删掉它。</p>
+<p>在 Git 项目的根目录下创建 .github/workflows/algolia.yml 文件, 参考 <a href="https://github.com/marketplace/actions/algolia-crawler-automatic-crawl">官方文档</a>
+ 和以下内容:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">name</span><span class="p">:</span> <span class="n">Update</span> <span class="n">Algolia</span> <span class="n">Index</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">on</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">  <span class="n">workflow_dispatch</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">  <span class="n">push</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">branches</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">master</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">jobs</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">  <span class="n">algolia_recrawl</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">name</span><span class="p">:</span> <span class="n">Algolia</span> <span class="n">Recrawl</span>
+</span></span><span class="line"><span class="cl">    <span class="n">runs</span><span class="o">-</span><span class="n">on</span><span class="p">:</span> <span class="n">ubuntu</span><span class="o">-</span><span class="n">latest</span>
+</span></span><span class="line"><span class="cl">    <span class="n">steps</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Checkout</span>
+</span></span><span class="line"><span class="cl">        <span class="n">uses</span><span class="p">:</span> <span class="n">actions</span><span class="o">/</span><span class="n">checkout</span><span class="err">@</span><span class="n">v4</span>
+</span></span><span class="line"><span class="cl">        <span class="n">with</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">          <span class="n">submodules</span><span class="p">:</span> <span class="bp">true</span>
+</span></span><span class="line"><span class="cl">          <span class="n">fetch</span><span class="o">-</span><span class="n">depth</span><span class="p">:</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Setup</span> <span class="n">Hugo</span>
+</span></span><span class="line"><span class="cl">        <span class="n">run</span><span class="p">:</span> <span class="o">|</span>
+</span></span><span class="line"><span class="cl">          <span class="n">version</span><span class="o">=$</span><span class="p">(</span><span class="n">curl</span> <span class="o">-</span><span class="n">s</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">api</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">repos</span><span class="o">/</span><span class="n">gohugoio</span><span class="o">/</span><span class="n">hugo</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span><span class="n">latest</span> <span class="o">|</span> <span class="n">grep</span> <span class="n">tag_name</span> <span class="o">|</span> <span class="n">cut</span> <span class="o">-</span><span class="n">d</span> <span class="s2">&#34;</span><span class="se">\&#34;</span><span class="s2">&#34;</span> <span class="o">-</span><span class="n">f4</span> <span class="o">|</span> <span class="n">sed</span> <span class="s1">&#39;s/v//&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">          <span class="n">curl</span> <span class="o">-</span><span class="n">fsSLo</span> <span class="n">hugo</span><span class="o">.</span><span class="n">deb</span> <span class="s2">&#34;https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_extended_${version}_linux-amd64.deb&#34;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">sudo</span> <span class="n">dpkg</span> <span class="o">-</span><span class="n">i</span> <span class="n">hugo</span><span class="o">.</span><span class="n">deb</span>          
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Build</span>
+</span></span><span class="line"><span class="cl">        <span class="n">run</span><span class="p">:</span> <span class="n">hugo</span> <span class="o">--</span><span class="n">gc</span> <span class="o">--</span><span class="n">minify</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Algolia</span> <span class="n">crawler</span> <span class="n">creation</span> <span class="ow">and</span> <span class="n">recrawl</span>
+</span></span><span class="line"><span class="cl">        <span class="n">uses</span><span class="p">:</span> <span class="n">algolia</span><span class="o">/</span><span class="n">algoliasearch</span><span class="o">-</span><span class="n">crawler</span><span class="o">-</span><span class="n">github</span><span class="o">-</span><span class="n">actions</span><span class="err">@</span><span class="n">v1</span>
+</span></span><span class="line"><span class="cl">        <span class="n">id</span><span class="p">:</span> <span class="n">crawler_push</span>
+</span></span><span class="line"><span class="cl">        <span class="n">with</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">          <span class="n">crawler</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="n">id</span><span class="p">:</span> <span class="o">$</span><span class="p">{{</span> <span class="n">secrets</span><span class="o">.</span><span class="n">CRAWLER_USER_ID</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">          <span class="n">crawler</span><span class="o">-</span><span class="n">api</span><span class="o">-</span><span class="n">key</span><span class="p">:</span> <span class="o">$</span><span class="p">{{</span> <span class="n">secrets</span><span class="o">.</span><span class="n">CRAWLER_API_KEY</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">          <span class="n">algolia</span><span class="o">-</span><span class="n">app</span><span class="o">-</span><span class="n">id</span><span class="p">:</span> <span class="o">$</span><span class="p">{{</span> <span class="n">secrets</span><span class="o">.</span><span class="n">ALGOLIA_APP_ID</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">          <span class="n">algolia</span><span class="o">-</span><span class="n">api</span><span class="o">-</span><span class="n">key</span><span class="p">:</span> <span class="o">$</span><span class="p">{{</span> <span class="n">secrets</span><span class="o">.</span><span class="n">ALGOLIA_API_KEY</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">          <span class="n">site</span><span class="o">-</span><span class="n">url</span><span class="p">:</span> <span class="s1">&#39;https://senzyo.net/posts/&#39;</span>
+</span></span><span class="line"><span class="cl">          <span class="n">override</span><span class="o">-</span><span class="n">config</span><span class="p">:</span> <span class="bp">true</span>
+</span></span></code></pre></div><p>再次来到 Algolia 的 Data sources → Crawler → Settings 页面,</p>
+<ul>
+<li>复制 Crawler User Id 作为 CRAWLER_USER_ID。</li>
+<li>复制 Crawler API Key 作为 CRAWLER_API_KEY。
+来到 <a href="https://dashboard.algolia.com/account/api-keys?">API Key</a>
+ 页面,</li>
+<li>复制 Application ID 作为 ALGOLIA_APP_ID。</li>
+<li>复制 Write API Key 作为 ALGOLIA_API_KEY。<br>
+在GitHub 仓库的 Settings → Secrets and variables → Actions 中新建 Repository secrets, 填入以上几个 Secrets。<br>
+Push 项目到 GitHub 后, 如果 Action 成功运行, 应该可以看到 Algolia 的 Data sources → Crawler → Crawlers 页面新增了一个 Crawler。<br>
+PS:如果在账号的 Your plan and billing 中发现没有 CRAWLER 的额度, 说明 Algolia 官方的设置出了岔子。我的方法是重新注册账号, 选择 Build 套餐。</li>
+</ul>
+
       
     </div>
     <footer class="article-footer">
@@ -774,7 +827,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            417
+            618
           </span
         >
         &nbsp;|&nbsp;
@@ -782,7 +835,7 @@
           
           
 
-          00:05
+          00:06
         </span>
       </div>
     
