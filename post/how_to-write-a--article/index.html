@@ -19,7 +19,7 @@
   
 
 <title>
-  博客的第一篇文章 | Тенеход
+  怎么在hugo写一篇文章 | Тенеход
 </title>
 <meta
   name="description"
@@ -107,12 +107,12 @@
 
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="博客的第一篇文章 | Тенеход" />
+  <meta property="og:title" content="怎么在hugo写一篇文章 | Тенеход" />
   <meta
     property="og:description"
     content="少女祈祷中..."
   />
-  <meta property="og:url" content="https://Rafael-ban.github.io/post/hello/" />
+  <meta property="og:url" content="https://Rafael-ban.github.io/post/how_to-write-a--article/" />
   <meta
     property="og:site_name"
     content="Тенеход的小窝"
@@ -122,8 +122,10 @@
     content="/"
   />
   <meta property="article:author" content="Тенеход" />
-  <meta property="article:published_time" content="2024-12-26T01:04:52&#43;08:00" />
-  <meta property="article:modified_time" content="2024-12-26T01:05:20&#43;08:00" />
+  <meta property="article:published_time" content="2025-01-01T19:10:33&#43;08:00" />
+  <meta property="article:modified_time" content="2025-01-01T19:40:55&#43;08:00" />
+  
+    <meta property="article:tag" content="hugo教程" />
   
   
   <meta name="twitter:card" content="summary" />
@@ -330,7 +332,7 @@
         <div></div>
         <source media="(min-width: 800px)" srcset="/images/banner.webp">
       
-      <img fetchpriority="high" src="/images/banner.webp" alt="博客的第一篇文章">
+      <img fetchpriority="high" src="/images/banner.webp" alt="怎么在hugo写一篇文章">
     </picture>
   
 
@@ -344,7 +346,7 @@
   
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">博客的第一篇文章</h1>
+            <h1 data-aos="slide-up">怎么在hugo写一篇文章</h1>
           </a>
         
       
@@ -375,15 +377,15 @@
     <div class="article-meta">
       <div class="article-date">
   <a
-    href="https://Rafael-ban.github.io/post/hello/"
+    href="https://Rafael-ban.github.io/post/how_to-write-a--article/"
     class="article-date-link"
     data-aos="zoom-in"
   >
-    <time datetime="2024-12-26 01:04:52 &#43;0800 &#43;0800" itemprop="datePublished"
-      >2024-12-26</time
+    <time datetime="2025-01-01 19:10:33 &#43;0800 &#43;0800" itemprop="datePublished"
+      >2025-01-01</time
     >
     <time style="display: none;" id="post-update-time"
-      >2024-12-26</time
+      >2025-01-01</time
     >
   </a>
 </div>
@@ -398,11 +400,81 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <p>大家好，我是Тенеход<br>
-这是我新创建的博客，希望大家可以在这个评论区下多多留言<br>
-后续，我会出一个搭建这个博客还有应用这个主题的教程。<br>
-尽请期待吧 <em>:ஐ٩(๑´ᵕ`)۶ஐ:</em><br>
-ps:后续也会有许多各种各样的教程</p>
+        <h1 id="摘要">
+<a class="header-anchor" href="#%e6%91%98%e8%a6%81"></a>
+摘要
+</h1><ul>
+<li>添加一篇文章</li>
+<li>本地开启草稿箱视图</li>
+<li>解除文章草稿状态</li>
+<li>发布草稿文章</li>
+<li>设置文章过期时间/发布时间</li>
+<li>发布保留过期文章及未发布文章</li>
+</ul>
+<h2 id="添加一篇文章">
+<a class="header-anchor" href="#%e6%b7%bb%e5%8a%a0%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0"></a>
+添加一篇文章
+</h2><p>添加文章使用的是 <code>new</code> 子命令，这里我们在 <code>post</code>目录下创建一篇名为 <code>my-first-post</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts/my-first-post.md
+</span></span></code></pre></div><p>创建完成后打开文章可以看到如下内容：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">title: ‘My First Post’ 
+</span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
+</span></span><span class="line"><span class="cl">draft: true
+</span></span><span class="line"><span class="cl">+++
+</span></span></code></pre></div><p>这是一篇 Markdown 格式的文章，文章的开头由前后 <code>+++</code> 包裹了一些信息，这些信息称为文章的元数据，用于说明文章的相关配套信息，其中包括但不限于标题、日期、标签、是否草稿等。</p>
+<p>这里对上述的元数据做解释如下：</p>
+<ul>
+<li><strong>title</strong>: 文章的标题</li>
+<li><strong>date</strong>: 文章的日期</li>
+<li><strong>draft</strong>: 文章是否草稿，草稿内容不会被发布</li>
+<li><strong>tags</strong>: 为当前文章打标签，不同文章可以使用相同的标签</li>
+</ul>
+<p>文章内容需要写在元数据的后面：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">title: ‘My First Post’ 
+</span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
+</span></span><span class="line"><span class="cl">draft: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hello，word！
+</span></span></code></pre></div><p>完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。</p>
+<p>如果我们想在本地查看草稿内容，只需要在启动 <strong>Hugo</strong> 的时候带上参数 <code>-D</code>或则 <code>--buildDrafts</code> ：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server -D
+</span></span></code></pre></div><h2 id="解除文章草稿状态">
+<a class="header-anchor" href="#%e8%a7%a3%e9%99%a4%e6%96%87%e7%ab%a0%e8%8d%89%e7%a8%bf%e7%8a%b6%e6%80%81"></a>
+解除文章草稿状态
+</h2><p>在正式发布文章前我们需要解除当前文章的草稿状态，解除草稿状态只需要把文章开头的 <code>draft</code> 选项去除即可。</p>
+<h2 id="发布草稿文章">
+<a class="header-anchor" href="#%e5%8f%91%e5%b8%83%e8%8d%89%e7%a8%bf%e6%96%87%e7%ab%a0"></a>
+发布草稿文章
+</h2><p>如果需要将草稿内容进行发布，在执行 <code>hugo</code> 生成发布内容时附带 <code>-D</code> 或则 <code>--buildDrafts</code> 即可。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -D
+</span></span></code></pre></div><h2 id="设置文章过期时间发布时间">
+<a class="header-anchor" href="#%e8%ae%be%e7%bd%ae%e6%96%87%e7%ab%a0%e8%bf%87%e6%9c%9f%e6%97%b6%e9%97%b4%e5%8f%91%e5%b8%83%e6%97%b6%e9%97%b4"></a>
+设置文章过期时间/发布时间
+</h2><p><strong>Hugo</strong> 通过以下两个元数据选项提供文章的过期时间及发布时间（已发布的可以通过 URL 间接访问😂）：</p>
+<ul>
+<li><strong>expiryDate</strong>：过期时间，已过期的内容不会渲染到网页中</li>
+<li><strong>publishDate</strong>：发布时间，未到发布时间不会渲染到网页中</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">title: &#34;你好&#34;
+</span></span><span class="line"><span class="cl">date: 2024-12-26T01:04:52+08:00
+</span></span><span class="line"><span class="cl">expiryDate: 2024-12-26T01:05:52+08:00
+</span></span><span class="line"><span class="cl">description: &#34;我不好&#34;
+</span></span><span class="line"><span class="cl">+++
+</span></span></code></pre></div><h2 id="发布保留过期文章及未发布文章">
+<a class="header-anchor" href="#%e5%8f%91%e5%b8%83%e4%bf%9d%e7%95%99%e8%bf%87%e6%9c%9f%e6%96%87%e7%ab%a0%e5%8f%8a%e6%9c%aa%e5%8f%91%e5%b8%83%e6%96%87%e7%ab%a0"></a>
+发布保留过期文章及未发布文章
+</h2><p>直接执行 <code>hugo</code> 生成的发布内容不会携带已过期的文章或者未到发布时间的文章.</p>
+<p>需要发布时携带过期文章需要执行时附带参数 <code>-E</code> 或则 <code>--buildExpired</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -E
+</span></span></code></pre></div><p>需要发布时携带未发布文章需要执行时附带参数 <code>-F</code> 或则 <code>--buildFuture</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -F
+</span></span></code></pre></div><p>当然也可以选择同时附带两个以上的参数：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -DEF
+</span></span></code></pre></div><p>生成发布文件完成后push最新内容到 GitHub 上即可看到最新的文章。</p>
 
       
     </div>
@@ -424,12 +496,12 @@ ps:后续也会有许多各种各样的教程</p>
       
         <a
           data-aos="zoom-in"
-          href="https://Rafael-ban.github.io/post/hello/#comments"
+          href="https://Rafael-ban.github.io/post/how_to-write-a--article/#comments"
           class="article-comment-link"
         >
           <span
             class="post-comments-count valine-comment-count"
-            data-xid="https//rafael-ban.github.io/post/hello/"
+            data-xid="https//rafael-ban.github.io/post/how_to-write-a--article/"
             itemprop="commentCount"
           ></span>
           留言
@@ -445,6 +517,15 @@ ps:后续也会有许多各种各样的教程</p>
       
       <ul class="article-tag-list" itemprop="keywords">
   
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/hugo%e6%95%99%e7%a8%8b"
+        rel="tag"
+        >HUGO教程</a
+      >
+    </li>
+  
 </ul>
 
     </footer>
@@ -456,6 +537,27 @@ ps:后续也会有许多各种各样的教程</p>
     data-aos="fade-up"
   >
     
+      <div class="article-nav-link-wrap article-nav-link-left">
+        
+          
+          
+            <img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt="博客的第一篇文章"
+              class="lazyload"
+            />
+          
+        
+        <a href="https://Rafael-ban.github.io/post/hello_/"></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">
+          
+            博客的第一篇文章
+          
+        </h3>
+      </div>
+    
 
     
       <div class="article-nav-link-wrap article-nav-link-right">
@@ -465,16 +567,16 @@ ps:后续也会有许多各种各样的教程</p>
             <img
               data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
               data-sizes="auto"
-              alt="怎么在hugo写一篇文章"
+              alt="用Github仓库免费部署自己的Hugo博客"
               class="lazyload"
             />
           
         
-        <a href="https://Rafael-ban.github.io/post/how-to-write-a--article/"></a>
+        <a href="https://Rafael-ban.github.io/post/how_to-build-a-hugo-blog/"></a>
         <div class="article-nav-caption">后一篇</div>
         <h3 class="article-nav-title">
           
-            怎么在hugo写一篇文章
+            用Github仓库免费部署自己的Hugo博客
           
         </h3>
       </div>
@@ -513,7 +615,15 @@ ps:后续也会有许多各种各样的教程</p>
           <div class="sidebar-toc">
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#添加一篇文章">添加一篇文章</a></li>
+    <li><a href="#解除文章草稿状态">解除文章草稿状态</a></li>
+    <li><a href="#发布草稿文章">发布草稿文章</a></li>
+    <li><a href="#设置文章过期时间发布时间">设置文章过期时间/发布时间</a></li>
+    <li><a href="#发布保留过期文章及未发布文章">发布保留过期文章及未发布文章</a></li>
+  </ul>
+</nav>
   </div>
 </div>
         </div>
@@ -747,7 +857,15 @@ ps:后续也会有许多各种各样的教程</p>
         <div class="sidebar-toc">
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#添加一篇文章">添加一篇文章</a></li>
+    <li><a href="#解除文章草稿状态">解除文章草稿状态</a></li>
+    <li><a href="#发布草稿文章">发布草稿文章</a></li>
+    <li><a href="#设置文章过期时间发布时间">设置文章过期时间/发布时间</a></li>
+    <li><a href="#发布保留过期文章及未发布文章">发布保留过期文章及未发布文章</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       </div>

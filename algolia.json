@@ -4,7 +4,7 @@
   
   {
     "objectID": "1735731655",
-    "permalink": "/post/how-to-build-a-hugo-blog/",
+    "permalink": "/post/how_to-build-a-hugo-blog/",
     "title": "用Github仓库免费部署自己的Hugo博客",
     
     "content": " 环境准备 Git下载 前往【Git官网】，下载安装程序\n一直点下一步，默认安装即可\nHugo下载 前往【Hugo Github Tags】，选择对应版本下载，下载后解压即可\nWindows下载版本：hugo_extended_xxxxx_windows_amd64.zip\n搭建博客 创建博客 （1）在hugo.exe所在文件夹的地址栏敲打cmd，然后Enter唤起命令行 （2）敲打命令hugo new site xxxx创建hugo文件 （3）敲打命名cd xxxx切换目录，并把hugo.exe复制到刚生成的文件夹中 （4）敲打命令hugo server -D启动服务，访问http://localhost:1313，Ctrl+C停止服务 （hugo默认是没有主题的，需要进行主题配置） 配置主题 （1）前往【Hugo Themes】，查找自己喜欢的主题，进行下载 （2）这边以【Reimu主题】为例，将下载好的主题解压，放到/themes文件夹中 （3）config 文件夹下创建 _default 文件夹，然后将主题内的 config/_default/params.yml 复制到 _default 文件夹下 （4）将主题内的 config/data/ 文件夹内的所有文件复制到外层 data 文件夹下，此文件夹内的文件用于配置主题内的数据： （5）在hugo目录下创建static 文件夹，然后将主题内的 static 文件夹下的文件复制到外层 static 文件夹下 （6）修改 hugo.toml 中的 theme，将他修改为跟主题文件夹同名 （7）再次启动hugo服务，查看主题。具体主题配置修改可以查看【Reimu】 Github部署 常规部署 （1）前往【Github官网】，创建仓库 {github用户名}.github.io\n（2）前往Setting -\u0026gt; Pages -\u0026gt; Branch选择main分支，然后保存，会自动开启 https://{github用户名}.github.io 的地址，这地址也是以后访问博客的地址\n（3）回到hugo文件中，执行命令hugo -D，会生成 public 静态资源文件夹\n（4）点击hugo中的 public 文件夹，在文件夹下执行以下命令上传到github仓库上，第一次上传可能需要输入账号密码\n1.git init 2.git add . 3.git commit -m \u0026#34;first commit\u0026#34; 4.git branch -M main 5.git remote add origin {你的github仓库地址} 6.git push -u origin main （5）上传成功后访问 https://{github用户名}.github.io，成功搭建属于自己的Hugo博客\nGithub Action自动部署 （1）Github创建一个新的仓库，用于存放Hugo的主文件\n（2）前往Setttings -\u0026gt; Developer Settings -\u0026gt; Personal access tokens，创建一个token(classic)\n（3）token选择永不过期，并勾选 repo 和 workflow 选项\n（4）为保证安全，将生成的token，保存的仓库的变量中，前往Settings -\u0026gt; Secrets and variables -\u0026gt; Actions中设置\n（5）在hugo主文件创建一个.github/workflows/xxxx.yaml文件，将以下内容复制进去，想具体了解更多，可查看【Github Action文档】\nname: deploy # 代码提交到main分支时触发github action on: push: branches: - main jobs: deploy: runs-on: ubuntu-latest steps: - name: Checkout uses: actions/checkout@v4 with: fetch-depth: 0 - name: Setup Hugo uses: peaceiris/actions-hugo@v3 with: hugo-version: \u0026#34;latest\u0026#34; extended: true - name: Build Web run: hugo -D - name: Deploy Web uses: peaceiris/actions-gh-pages@v4 with: PERSONAL_TOKEN: ${{ secrets.你的token变量名 }} EXTERNAL_REPOSITORY: 你的github名/你的仓库名 PUBLISH_BRANCH: main PUBLISH_DIR: ./public commit_message: auto deploy （6）在hugo主文件创建.gitignore文件，来避免提交不必要的文件\n# 自动生成的文件 public resources .hugo_build.lock # hugo命令 hugo.exe （7）将hugo的主文件上传到仓库，上传成功后会触发Github Action，来自动部署你的静态页面\ngit init git add . git commit -m \u0026#34;first commit\u0026#34; git branch -M main git remote add origin {你的github仓库地址} git push -u origin main ",
@@ -16,7 +16,7 @@
   , 
   {
     "objectID": "1735729833",
-    "permalink": "/post/how-to-write-a--article/",
+    "permalink": "/post/how_to-write-a--article/",
     "title": "怎么在hugo写一篇文章",
     
     "content": " 摘要 添加一篇文章 本地开启草稿箱视图 解除文章草稿状态 发布草稿文章 设置文章过期时间/发布时间 发布保留过期文章及未发布文章 添加一篇文章 添加文章使用的是 new 子命令，这里我们在 post目录下创建一篇名为 my-first-post\nhugo new posts/my-first-post.md 创建完成后打开文章可以看到如下内容：\n+++ title: ‘My First Post’ date: \u0026#39;2025-01-01T19:10:33+08:00\u0026#39; draft: true +++ 这是一篇 Markdown 格式的文章，文章的开头由前后 +++ 包裹了一些信息，这些信息称为文章的元数据，用于说明文章的相关配套信息，其中包括但不限于标题、日期、标签、是否草稿等。\n这里对上述的元数据做解释如下：\ntitle: 文章的标题 date: 文章的日期 draft: 文章是否草稿，草稿内容不会被发布 tags: 为当前文章打标签，不同文章可以使用相同的标签 文章内容需要写在元数据的后面：\ntitle: ‘My First Post’ date: \u0026#39;2025-01-01T19:10:33+08:00\u0026#39; draft: true +++ hello，word！ 完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。\n如果我们想在本地查看草稿内容，只需要在启动 Hugo 的时候带上参数 -D或则 --buildDrafts ：\nhugo server -D 解除文章草稿状态 在正式发布文章前我们需要解除当前文章的草稿状态，解除草稿状态只需要把文章开头的 draft 选项去除即可。\n发布草稿文章 如果需要将草稿内容进行发布，在执行 hugo 生成发布内容时附带 -D 或则 --buildDrafts 即可。\nhugo -D 设置文章过期时间/发布时间 Hugo 通过以下两个元数据选项提供文章的过期时间及发布时间（已发布的可以通过 URL 间接访问😂）：\nexpiryDate：过期时间，已过期的内容不会渲染到网页中 publishDate：发布时间，未到发布时间不会渲染到网页中 +++ title: \u0026#34;你好\u0026#34; date: 2024-12-26T01:04:52+08:00 expiryDate: 2024-12-26T01:05:52+08:00 description: \u0026#34;我不好\u0026#34; +++ 发布保留过期文章及未发布文章 直接执行 hugo 生成的发布内容不会携带已过期的文章或者未到发布时间的文章.\n需要发布时携带过期文章需要执行时附带参数 -E 或则 --buildExpired：\nhugo -E 需要发布时携带未发布文章需要执行时附带参数 -F 或则 --buildFuture：\nhugo -F 当然也可以选择同时附带两个以上的参数：\nhugo -DEF 生成发布文件完成后push最新内容到 GitHub 上即可看到最新的文章。\n",
@@ -28,7 +28,7 @@
   , 
   {
     "objectID": "1735146292",
-    "permalink": "/post/hello/",
+    "permalink": "/post/hello_/",
     "title": "博客的第一篇文章",
     
     "content": "大家好，我是Тенеход\n这是我新创建的博客，希望大家可以在这个评论区下多多留言\n后续，我会出一个搭建这个博客还有应用这个主题的教程。\n尽请期待吧 :ஐ٩(๑´ᵕ`)۶ஐ:\nps:后续也会有许多各种各样的教程\n",
