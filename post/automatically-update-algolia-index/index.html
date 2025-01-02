@@ -609,56 +609,34 @@
       
       
         <p>首先，注册一个<a href="https://www.algolia.com/">Algolia</a>账号，然后创建 <code>Search</code>一个 应用, 进入左下角的<code>Data sources</code> 依次点击<code>Crawler</code>→<code>Domains</code>绑定域名, 域名验证成功后可能创建一个<code>Crawler</code>, 不用管, 可以删掉它。</p>
-<p>在 <code>Git</code> 项目的根目录下创建 <code>.github/workflows/algolia.yaml</code>文件, 参考 <a href="https://github.com/marketplace/actions/algolia-crawler-automatic-crawl">官方文档</a> 和以下内容:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">name: Update Algolia Index
-</span></span><span class="line"><span class="cl">
+<p>在 <code>Git</code> 项目的根目录下创建 <code>.github/workflows/algolia.yaml</code>文件, 参考 <a href="https://github.com/caibingcheng/hugo-algolia2">文档</a> 和以下内容:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">name: deploy
 </span></span><span class="line"><span class="cl">on:
-</span></span><span class="line"><span class="cl">  workflow_dispatch:
 </span></span><span class="line"><span class="cl">  push:
-</span></span><span class="line"><span class="cl">    branches:
-</span></span><span class="line"><span class="cl">      - master
+</span></span><span class="line"><span class="cl">  workflow_dispatch:
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">jobs:
-</span></span><span class="line"><span class="cl">  algolia_recrawl:
-</span></span><span class="line"><span class="cl">    name: Algolia Recrawl
+</span></span><span class="line"><span class="cl">  generate-algolia:
 </span></span><span class="line"><span class="cl">    runs-on: ubuntu-latest
 </span></span><span class="line"><span class="cl">    steps:
-</span></span><span class="line"><span class="cl">      - name: Checkout
+</span></span><span class="line"><span class="cl">      - uses: actions/checkout@v2
+</span></span><span class="line"><span class="cl">      - uses: caibingcheng/hugo-algolia2@v1
 </span></span><span class="line"><span class="cl">        with:
-</span></span><span class="line"><span class="cl">          submodules: true
-</span></span><span class="line"><span class="cl">          fetch-depth: 0
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      - name: Setup Hugo
-</span></span><span class="line"><span class="cl">        uses: peaceiris/actions-hugo@v3
-</span></span><span class="line"><span class="cl">        with:
-</span></span><span class="line"><span class="cl">            hugo-version: &#34;latest&#34;
-</span></span><span class="line"><span class="cl">            extended: true
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      - name: Build Web
-</span></span><span class="line"><span class="cl">        run: hugo -D            
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      - name: Algolia crawler creation and crawl
-</span></span><span class="line"><span class="cl">        uses: algolia/algoliasearch-crawler-github-actions@v1.0.10
-</span></span><span class="line"><span class="cl">        id: algolia_crawler
-</span></span><span class="line"><span class="cl">        with: # mandatory parameters
-</span></span><span class="line"><span class="cl">          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
-</span></span><span class="line"><span class="cl">          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
-</span></span><span class="line"><span class="cl">          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
-</span></span><span class="line"><span class="cl">          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-</span></span><span class="line"><span class="cl">          site-url: &#39;https://example.com&#39;
-</span></span><span class="line"><span class="cl">          override-config: true
-</span></span></code></pre></div><p>来到 <code>Algolia</code> 的 <code>Data sources</code> → <code>Crawler</code> → <code>Settings</code> 页面,</p>
-<ul>
-<li>复制 <code>Crawler User Id</code> 作为<code>CRAWLER_USER_ID</code>。</li>
-<li>复制 <code>Crawler API Key</code> 作为<code>CRAWLER_API_KEY</code>。</li>
-</ul>
-<p>来到 <a href="https://dashboard.algolia.com/account/api-keys?">API Key</a> 页面,</p>
+</span></span><span class="line"><span class="cl">          input: &#34;./posts/**&#34;
+</span></span><span class="line"><span class="cl">          output: &#34;./algolia.json&#34;
+</span></span><span class="line"><span class="cl">          index: ${{ secrets.ALGOLIA_INDEX_NAME }}
+</span></span><span class="line"><span class="cl">          apikey: ${{ secrets.ALGOLIA_API_KEY }}
+</span></span><span class="line"><span class="cl">          appid: ${{ secrets.ALGOLIA_APP_ID }}
+</span></span></code></pre></div><p>来到 <a href="https://dashboard.algolia.com/account/api-keys?">API Key</a> 页面,</p>
 <ul>
 <li>复制 <code>Application ID</code> 作为 <code>ALGOLIA_APP_ID</code>。</li>
 <li>复制 <code>Write API Key</code> 作为 <code>ALGOLIA_API_KEY</code>。</li>
 </ul>
-<p>在GitHub仓库的 <code>Settings</code> → <code>Secrets and variables</code> → <code>Actions</code> 中新建 <code>Repository secrets</code> ,填入以上几个 <code>Secrets</code>。<br>
-Push项目到GitHub后,如果 <code>Action</code> 成功运行, 应该可以看到 <code>Algolia</code>的 <code>Data sources</code> → <code>Crawler</code> → <code>Crawlers</code> 页面新增了一个 <code>Crawler</code>。</p>
+<p>再来到 <code>Search</code> → <code>CONFIGURE</code> → <code>index</code></p>
+<ul>
+<li>复制 <code>index</code> 下面的名字作为 <code>ALGOLIA_INDEX_NAME</code>。</li>
+</ul>
+<p>在GitHub仓库的 <code>Settings</code> → <code>Secrets and variables</code> → <code>Actions</code> 中新建 <code>Repository secrets</code> ,填入以上几个 <code>Secrets</code>。</p>
 <p>PS:如果在账号的 <code>Your plan and billing</code> 中发现没有 <code>CRAWLER</code> 的额度，说明 <code>Algolia</code> 官方的设置出了问题。我的方法是重新注册账号，选择 <code>Build</code> 套餐。</p>
 
       
@@ -833,7 +811,7 @@ Push项目到GitHub后,如果 <code>Action</code> 成功运行, 应该可以看�
       <div>
         <span class="icon-brush"
           >&nbsp;
-            586
+            517
           </span
         >
         &nbsp;|&nbsp;
