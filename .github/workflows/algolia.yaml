@@ -8,10 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: caibingcheng/hugo-algolia2@v1
-        with:
-          input: "./posts/**"
-          output: "./algolia.json"
-          index: ${{ secrets.ALGOLIA_INDEX_NAME }}
-          apikey: ${{ secrets.ALGOLIA_API_KEY }}
-          appid: ${{ secrets.ALGOLIA_APP_ID }}
+      - uses: iChochy/Algolia-Upload-Records@main
+        env:
+         APPLICATION_ID: ${{ secrets.ALGOLIA_APP_ID }}
+         ADMIN_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+         INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+         FILE_PATH: "./algolia.json"
