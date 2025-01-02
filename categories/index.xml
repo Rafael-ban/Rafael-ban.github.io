@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Тенеход的小窝</title>
-    <link>https://Rafael-ban.github.io/categories/</link>
+    <link>http://rafael.xiqoqiu.in/categories/</link>
     <description>Recent content in Categories on Тенеход的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 02 Jan 2025 15:02:33 +0800</lastBuildDate>
-    <atom:link href="https://Rafael-ban.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rafael.xiqoqiu.in/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo教程</title>
-      <link>https://Rafael-ban.github.io/categories/hugo%E6%95%99%E7%A8%8B/</link>
+      <link>http://rafael.xiqoqiu.in/categories/hugo%E6%95%99%E7%A8%8B/</link>
       <pubDate>Thu, 02 Jan 2025 14:59:33 +0800</pubDate>
-      <guid>https://Rafael-ban.github.io/categories/hugo%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://rafael.xiqoqiu.in/categories/hugo%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>实用工具</title>
-      <link>https://Rafael-ban.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
+      <link>http://rafael.xiqoqiu.in/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Wed, 01 Jan 2025 20:43:37 +0800</pubDate>
-      <guid>https://Rafael-ban.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
+      <guid>http://rafael.xiqoqiu.in/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
     </item>
   </channel>
