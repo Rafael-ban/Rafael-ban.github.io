@@ -135,7 +135,7 @@
   />
   <meta property="article:author" content="Тенеход" />
   <meta property="article:published_time" content="2025-01-02T01:08:33&#43;08:00" />
-  <meta property="article:modified_time" content="2025-01-02T02:08:33&#43;08:00" />
+  <meta property="article:modified_time" content="2025-01-02T13:38:33&#43;08:00" />
   
     <meta property="article:tag" content="hugo教程" />
   
@@ -609,15 +609,15 @@
       
       
         <p>首先，注册一个<a href="https://www.algolia.com/">Algolia</a>账号，然后创建 <code>Search</code>一个 应用, 进入左下角的<code>Data sources</code> 依次点击<code>Crawler</code>→<code>Domains</code>绑定域名, 域名验证成功后可能创建一个<code>Crawler</code>, 不用管, 可以删掉它。</p>
-<p>在 <code>Git</code> 项目的根目录下创建 <code>.github/workflows/algolia.yml</code>文件, 参考 <a href="https://github.com/marketplace/actions/algolia-crawler-automatic-crawl">官方文档</a> 和以下内容:</p>
+<p>在 <code>Git</code> 项目的根目录下创建 <code>.github/workflows/algolia.yaml</code>文件, 参考 <a href="https://github.com/marketplace/actions/algolia-crawler-automatic-crawl">官方文档</a> 和以下内容:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">name: Update Algolia Index
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># 代码提交到main分支时触发github action
 </span></span><span class="line"><span class="cl">on:
+</span></span><span class="line"><span class="cl">  workflow_dispatch:
 </span></span><span class="line"><span class="cl">  push:
 </span></span><span class="line"><span class="cl">    branches:
-</span></span><span class="line"><span class="cl">      - main
-</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">      - master
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">jobs:
 </span></span><span class="line"><span class="cl">  algolia_recrawl:
 </span></span><span class="line"><span class="cl">    name: Algolia Recrawl
@@ -625,7 +625,8 @@
 </span></span><span class="line"><span class="cl">    steps:
 </span></span><span class="line"><span class="cl">      - name: Checkout
 </span></span><span class="line"><span class="cl">        with:
-</span></span><span class="line"><span class="cl">            fetch-depth: 0
+</span></span><span class="line"><span class="cl">          submodules: true
+</span></span><span class="line"><span class="cl">          fetch-depth: 0
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">      - name: Setup Hugo
 </span></span><span class="line"><span class="cl">        uses: peaceiris/actions-hugo@v3
@@ -633,15 +634,18 @@
 </span></span><span class="line"><span class="cl">            hugo-version: &#34;latest&#34;
 </span></span><span class="line"><span class="cl">            extended: true
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      - name: Algolia crawler creation and recrawl
-</span></span><span class="line"><span class="cl">        uses: algolia/algoliasearch-crawler-github-actions@v1
-</span></span><span class="line"><span class="cl">        id: crawler_push
-</span></span><span class="line"><span class="cl">        with:
+</span></span><span class="line"><span class="cl">      - name: Build Web
+</span></span><span class="line"><span class="cl">        run: hugo -D            
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      - name: Algolia crawler creation and crawl
+</span></span><span class="line"><span class="cl">        uses: algolia/algoliasearch-crawler-github-actions@v1.0.10
+</span></span><span class="line"><span class="cl">        id: algolia_crawler
+</span></span><span class="line"><span class="cl">        with: # mandatory parameters
 </span></span><span class="line"><span class="cl">          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
 </span></span><span class="line"><span class="cl">          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
 </span></span><span class="line"><span class="cl">          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
 </span></span><span class="line"><span class="cl">          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-</span></span><span class="line"><span class="cl">          site-url: &#39;https://rafael-ban.github.io/post/&#39;
+</span></span><span class="line"><span class="cl">          site-url: &#39;https://example.com&#39;
 </span></span><span class="line"><span class="cl">          override-config: true
 </span></span></code></pre></div><p>来到 <code>Algolia</code> 的 <code>Data sources</code> → <code>Crawler</code> → <code>Settings</code> 页面,</p>
 <ul>
@@ -829,7 +833,7 @@ Push项目到GitHub后,如果 <code>Action</code> 成功运行, 应该可以看�
       <div>
         <span class="icon-brush"
           >&nbsp;
-            576
+            586
           </span
         >
         &nbsp;|&nbsp;
