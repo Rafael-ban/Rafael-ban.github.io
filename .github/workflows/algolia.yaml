@@ -7,7 +7,7 @@ jobs:
   generate-algolia:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: caibingcheng/hugo-algolia2@v1
         with:
           input: "./posts/**"
