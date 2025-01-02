@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://rafael.xiqoqiu.in/post/test/</loc>
+    <lastmod>2025-01-02T20:03:15+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiqoqiu.in/</loc>
+    <lastmod>2025-01-02T20:03:15+08:00</lastmod>
+  </url><url>
     <loc>http://rafael.xiqoqiu.in/categories/</loc>
     <lastmod>2025-01-02T15:02:33+08:00</lastmod>
   </url><url>
@@ -15,9 +21,6 @@
     <lastmod>2025-01-02T15:02:33+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiqoqiu.in/tags/</loc>
-    <lastmod>2025-01-02T15:02:33+08:00</lastmod>
-  </url><url>
-    <loc>http://rafael.xiqoqiu.in/</loc>
     <lastmod>2025-01-02T15:02:33+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiqoqiu.in/post/how-to-install-free-typora_/</loc>

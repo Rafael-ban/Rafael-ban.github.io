@@ -3,6 +3,18 @@
   
   
   {
+    "objectID": "1735819395",
+    "permalink": "/post/test/",
+    "title": "Test",
+    
+    "content": "评论区测试\n",
+    
+    "date": "2025-01-02 20:03:15",
+    "updated": "2025-01-02 20:03:15"
+  }
+  
+  , 
+  {
     "objectID": "1735801173",
     "permalink": "/post/automatically-update-algolia-index/",
     "title": "Github Actions + Hugo 自动更新 Algolia 索引",
