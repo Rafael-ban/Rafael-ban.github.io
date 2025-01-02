@@ -752,7 +752,7 @@
         >
         <span
           ><span class="icon-pencil"></span
-          >149 字</span
+          >158 字</span
         >
         <span
           ><span class="icon-clock"></span
@@ -764,7 +764,7 @@
         
           首先，注册一个Algolia账号，然后创建 Search一个 应用, 进入左下角的Data sources 依次点击Crawler→Domains绑定域名, 域名验证成功后可能创建一个Crawler, 不用管, 可以删掉它。
 在 Git 项目的根目录下创建 .github/workflows/algolia.yml文件, 参考 官方文档 和以下内容:
-name: Update Algolia Index on: workflow_dispatch: push: branches: - master jobs: algolia_recrawl: name: Algolia Recrawl …
+name: Update Algolia Index # 代码提交到main分支时触发github action on: push: branches: - main jobs: algolia_recrawl: name: Algolia …
         
       </article>
     </div>
@@ -1119,7 +1119,7 @@ ps:后续也会有许多各种各样的教程
       <div>
         <span class="icon-brush"
           >&nbsp;
-            567
+            576
           </span
         >
         &nbsp;|&nbsp;

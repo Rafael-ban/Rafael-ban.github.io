@@ -612,22 +612,26 @@
 <p>在 <code>Git</code> 项目的根目录下创建 <code>.github/workflows/algolia.yml</code>文件, 参考 <a href="https://github.com/marketplace/actions/algolia-crawler-automatic-crawl">官方文档</a> 和以下内容:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">name: Update Algolia Index
 </span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 代码提交到main分支时触发github action
 </span></span><span class="line"><span class="cl">on:
-</span></span><span class="line"><span class="cl">  workflow_dispatch:
 </span></span><span class="line"><span class="cl">  push:
 </span></span><span class="line"><span class="cl">    branches:
-</span></span><span class="line"><span class="cl">      - master
-</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      - main
+</span></span><span class="line"><span class="cl">      
 </span></span><span class="line"><span class="cl">jobs:
 </span></span><span class="line"><span class="cl">  algolia_recrawl:
 </span></span><span class="line"><span class="cl">    name: Algolia Recrawl
 </span></span><span class="line"><span class="cl">    runs-on: ubuntu-latest
 </span></span><span class="line"><span class="cl">    steps:
 </span></span><span class="line"><span class="cl">      - name: Checkout
-</span></span><span class="line"><span class="cl">        uses: actions/checkout@v4
 </span></span><span class="line"><span class="cl">        with:
-</span></span><span class="line"><span class="cl">          submodules: true
-</span></span><span class="line"><span class="cl">          fetch-depth: 0
+</span></span><span class="line"><span class="cl">            fetch-depth: 0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      - name: Setup Hugo
+</span></span><span class="line"><span class="cl">        uses: peaceiris/actions-hugo@v3
+</span></span><span class="line"><span class="cl">        with:
+</span></span><span class="line"><span class="cl">            hugo-version: &#34;latest&#34;
+</span></span><span class="line"><span class="cl">            extended: true
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">      - name: Algolia crawler creation and recrawl
 </span></span><span class="line"><span class="cl">        uses: algolia/algoliasearch-crawler-github-actions@v1
@@ -637,7 +641,7 @@
 </span></span><span class="line"><span class="cl">          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
 </span></span><span class="line"><span class="cl">          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
 </span></span><span class="line"><span class="cl">          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-</span></span><span class="line"><span class="cl">          site-url: &#39;https://senzyo.net/posts/&#39;
+</span></span><span class="line"><span class="cl">          site-url: &#39;https://rafael-ban.github.io/post/&#39;
 </span></span><span class="line"><span class="cl">          override-config: true
 </span></span></code></pre></div><p>来到 <code>Algolia</code> 的 <code>Data sources</code> → <code>Crawler</code> → <code>Settings</code> 页面,</p>
 <ul>
@@ -825,7 +829,7 @@ Push项目到GitHub后,如果 <code>Action</code> 成功运行, 应该可以看�
       <div>
         <span class="icon-brush"
           >&nbsp;
-            567
+            576
           </span
         >
         &nbsp;|&nbsp;
