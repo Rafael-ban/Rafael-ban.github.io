@@ -704,9 +704,9 @@ Github部署
 </li>
 <li>
 <p>（4）点击hugo中的 <strong>public</strong> 文件夹，在文件夹下执行以下命令上传到github仓库上，第一次上传可能需要输入账号密码</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1.git init
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">1.git init
 </span></span><span class="line"><span class="cl">2.git add .
-</span></span><span class="line"><span class="cl">3.git commit -m &#34;first commit&#34;
+</span></span><span class="line"><span class="cl">3.git commit -m <span class="s2">&#34;first commit&#34;</span>
 </span></span><span class="line"><span class="cl">4.git branch -M main
 </span></span><span class="line"><span class="cl">5.git remote add origin {你的github仓库地址}
 </span></span><span class="line"><span class="cl">6.git push -u origin main
@@ -735,41 +735,41 @@ Github Action自动部署
 </li>
 <li>
 <p>（5）在hugo主文件创建一个<code>.github/workflows/xxxx.yaml</code>文件，将以下内容复制进去，想具体了解更多，可查看【<a href="https://docs.github.com/zh/actions">Github Action文档</a>】</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">name: deploy
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># 代码提交到main分支时触发github action
-</span></span><span class="line"><span class="cl">on:
-</span></span><span class="line"><span class="cl">  push:
-</span></span><span class="line"><span class="cl">    branches:
-</span></span><span class="line"><span class="cl">      - main
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">jobs:
-</span></span><span class="line"><span class="cl">  deploy:
-</span></span><span class="line"><span class="cl">    runs-on: ubuntu-latest
-</span></span><span class="line"><span class="cl">    steps:
-</span></span><span class="line"><span class="cl">        - name: Checkout
-</span></span><span class="line"><span class="cl">          uses: actions/checkout@v4
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              fetch-depth: 0
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        - name: Setup Hugo
-</span></span><span class="line"><span class="cl">          uses: peaceiris/actions-hugo@v3
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              hugo-version: &#34;latest&#34;
-</span></span><span class="line"><span class="cl">              extended: true
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        - name: Build Web
-</span></span><span class="line"><span class="cl">          run: hugo -D
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        - name: Deploy Web
-</span></span><span class="line"><span class="cl">          uses: peaceiris/actions-gh-pages@v4
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              PERSONAL_TOKEN: ${{ secrets.你的token变量名 }}
-</span></span><span class="line"><span class="cl">              EXTERNAL_REPOSITORY: 你的github名/你的仓库名
-</span></span><span class="line"><span class="cl">              PUBLISH_BRANCH: main
-</span></span><span class="line"><span class="cl">              PUBLISH_DIR: ./public
-</span></span><span class="line"><span class="cl">              commit_message: auto deploy
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># 代码提交到main分支时触发github action</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">extended</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo -D</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PERSONAL_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.你的token变量名 }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">EXTERNAL_REPOSITORY</span><span class="p">:</span><span class="w"> </span><span class="l">你的github名/你的仓库名</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">auto deploy</span><span class="w">
+</span></span></span></code></pre></div></li>
 <li>
 <p>（6）在hugo主文件创建<code>.gitignore</code>文件，来避免提交不必要的文件</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 自动生成的文件
@@ -782,9 +782,9 @@ Github Action自动部署
 </span></span></code></pre></div></li>
 <li>
 <p>（7）将hugo的主文件上传到仓库，上传成功后会触发Github Action，来自动部署你的静态页面</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git init
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">git init
 </span></span><span class="line"><span class="cl">git add .
-</span></span><span class="line"><span class="cl">git commit -m &#34;first commit&#34;
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span>
 </span></span><span class="line"><span class="cl">git branch -M main
 </span></span><span class="line"><span class="cl">git remote add origin {你的github仓库地址}
 </span></span><span class="line"><span class="cl">git push -u origin main

@@ -631,9 +631,9 @@
 <a class="header-anchor" href="#%e6%b7%bb%e5%8a%a0%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0"></a>
 添加一篇文章
 </h2><p>添加文章使用的是 <code>new</code> 子命令，这里我们在 <code>post</code>目录下创建一篇名为 <code>my-first-post</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new posts/my-first-post.md
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">hugo new posts/my-first-post.md
 </span></span></code></pre></div><p>创建完成后打开文章可以看到如下内容：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">+++
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
 </span></span><span class="line"><span class="cl">title: ‘My First Post’ 
 </span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
 </span></span><span class="line"><span class="cl">draft: true
@@ -647,7 +647,7 @@
 <li><strong>tags</strong>: 为当前文章打标签，不同文章可以使用相同的标签</li>
 </ul>
 <p>文章内容需要写在元数据的后面：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">+++
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
 </span></span><span class="line"><span class="cl">title: ‘My First Post’ 
 </span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
 </span></span><span class="line"><span class="cl">draft: true
@@ -657,7 +657,7 @@
 </span></span><span class="line"><span class="cl">hello，word！
 </span></span></code></pre></div><p>完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。</p>
 <p>如果我们想在本地查看草稿内容，只需要在启动 <strong>Hugo</strong> 的时候带上参数 <code>-D</code>或则 <code>--buildDrafts</code> ：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo server -D
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">hugo server -D
 </span></span></code></pre></div><h2 id="解除文章草稿状态">
 <a class="header-anchor" href="#%e8%a7%a3%e9%99%a4%e6%96%87%e7%ab%a0%e8%8d%89%e7%a8%bf%e7%8a%b6%e6%80%81"></a>
 解除文章草稿状态
@@ -666,7 +666,7 @@
 <a class="header-anchor" href="#%e5%8f%91%e5%b8%83%e8%8d%89%e7%a8%bf%e6%96%87%e7%ab%a0"></a>
 发布草稿文章
 </h2><p>如果需要将草稿内容进行发布，在执行 <code>hugo</code> 生成发布内容时附带 <code>-D</code> 或则 <code>--buildDrafts</code> 即可。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -D
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">hugo -D
 </span></span></code></pre></div><h2 id="设置文章过期时间发布时间">
 <a class="header-anchor" href="#%e8%ae%be%e7%bd%ae%e6%96%87%e7%ab%a0%e8%bf%87%e6%9c%9f%e6%97%b6%e9%97%b4%e5%8f%91%e5%b8%83%e6%97%b6%e9%97%b4"></a>
 设置文章过期时间/发布时间
@@ -675,7 +675,7 @@
 <li><strong>expiryDate</strong>：过期时间，已过期的内容不会渲染到网页中</li>
 <li><strong>publishDate</strong>：发布时间，未到发布时间不会渲染到网页中</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">+++
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
 </span></span><span class="line"><span class="cl">title: &#34;你好&#34;
 </span></span><span class="line"><span class="cl">date: 2024-12-26T01:04:52+08:00
 </span></span><span class="line"><span class="cl">expiryDate: 2024-12-26T01:05:52+08:00
@@ -686,11 +686,11 @@
 发布保留过期文章及未发布文章
 </h2><p>直接执行 <code>hugo</code> 生成的发布内容不会携带已过期的文章或者未到发布时间的文章.</p>
 <p>需要发布时携带过期文章需要执行时附带参数 <code>-E</code> 或则 <code>--buildExpired</code>：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -E
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">hugo -E
 </span></span></code></pre></div><p>需要发布时携带未发布文章需要执行时附带参数 <code>-F</code> 或则 <code>--buildFuture</code>：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -F
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">hugo -F
 </span></span></code></pre></div><p>当然也可以选择同时附带两个以上的参数：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo -DEF
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">hugo -DEF
 </span></span></code></pre></div><p>生成发布文件完成后push最新内容到 GitHub 上即可看到最新的文章。</p>
 
       

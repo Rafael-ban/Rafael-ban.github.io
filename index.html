@@ -769,8 +769,8 @@
       <article class="post-article">
         
           首先，注册一个Algolia账号，然后创建 Search一个 应用, 进入左下角的Data sources 依次点击Crawler→Domains绑定域名, 域名验证成功后可能创建一个Crawler, 不用管, 可以删掉它。
-在 Git 项目的根目录下创建 .github/workflows/algolia.yaml文件, 参考 文档 和以下内容:
-name: deploy on: push: workflow_dispatch: jobs: generate-algolia: runs-on: ubuntu-latest steps: - uses: actions/checkout@v2 …
+在输出静态页面的 Git 项目的根目录下创建 .github/workflows/algolia.yaml文件, 参考 文档 和以下内容:
+name: deploy on: push: workflow_dispatch: jobs: generate-algolia: runs-on: ubuntu-latest steps: - uses: …
         
       </article>
     </div>
