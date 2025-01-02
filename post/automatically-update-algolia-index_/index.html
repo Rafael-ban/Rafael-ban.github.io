@@ -135,7 +135,7 @@
   />
   <meta property="article:author" content="Тенеход" />
   <meta property="article:published_time" content="2025-01-02T14:59:33&#43;08:00" />
-  <meta property="article:modified_time" content="2025-01-03T01:29:33&#43;08:00" />
+  <meta property="article:modified_time" content="2025-01-03T02:49:33&#43;08:00" />
   
     <meta property="article:tag" content="hugo教程" />
   
@@ -620,23 +620,14 @@
       
       
         <p>首先，注册一个<a href="https://www.algolia.com/">Algolia</a>账号，然后创建 <code>Search</code>一个 应用, 进入左下角的<code>Data sources</code> 依次点击<code>Crawler</code>→<code>Domains</code>绑定域名, 域名验证成功后可能创建一个<code>Crawler</code>, 不用管, 可以删掉它。</p>
-<p>在输出静态页面的 <code>Git</code> 项目的根目录下创建 <code>.github/workflows/algolia.yaml</code>文件, 参考 <a href="https://github.com/caibingcheng/hugo-algolia2">文档</a> 和以下内容:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">workflow_dispatch</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">generate-algolia</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v4</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">iChochy/Algolia-Upload-Records@main</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">         </span><span class="nt">APPLICATION_ID</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_APP_ID }}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">         </span><span class="nt">ADMIN_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_API_KEY }}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">         </span><span class="nt">INDEX_NAME</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_INDEX_NAME }}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">         </span><span class="nt">FILE_PATH</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;./algolia.json&#34;</span><span class="w">
+<p>在 <code>hugo</code> 项目的根目录下的 <code>.github/workflows/updata.yaml</code>文件中添加以下内容:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Upload algolia</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">iChochy/Algolia-Upload-Records@main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">APPLICATION_ID</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_APP_ID }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">ADMIN_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_API_KEY }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">INDEX_NAME</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_INDEX_NAME }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">FILE_PATH</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;./public/algolia.json&#34;</span><span class="w">
 </span></span></span></code></pre></div><p>来到 <a href="https://dashboard.algolia.com/account/api-keys?">API Key</a> 页面,</p>
 <ul>
 <li>复制 <code>Application ID</code> 作为 <code>ALGOLIA_APP_ID</code>。</li>
@@ -646,7 +637,7 @@
 <ul>
 <li>复制 <code>index</code> 下面的名字作为 <code>ALGOLIA_INDEX_NAME</code>。</li>
 </ul>
-<p>在输出静态页面的GitHub仓库的 <code>Settings</code> → <code>Secrets and variables</code> → <code>Actions</code> 中新建 <code>Repository secrets</code> ,填入以上几个 <code>Secrets</code>。</p>
+<p>在存放主文件的GitHub仓库的 <code>Settings</code> → <code>Secrets and variables</code> → <code>Actions</code> 中新建 <code>Repository secrets</code> ,填入以上几个 <code>Secrets</code>。</p>
 <p>PS:如果在账号的 <code>Your plan and billing</code> 中发现没有 <code>CRAWLER</code> 的额度，说明 <code>Algolia</code> 官方的设置出了问题。我的方法是重新注册账号，选择 <code>Build</code> 套餐。</p>
 
       
@@ -857,7 +848,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            516
+            503
           </span
         >
         &nbsp;|&nbsp;
