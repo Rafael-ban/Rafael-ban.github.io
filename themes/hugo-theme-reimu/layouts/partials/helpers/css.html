@@ -1,7 +1,0 @@
-{{ $items := . }}
-{{ if not (reflect.IsSlice $items) }}
-  {{ $items = slice $items }}
-{{ end }}
-{{ range $items }}
-  <link rel="stylesheet" href="{{ . }}" />
-{{ end }}
