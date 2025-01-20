@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://rafael.xiaoqiu.in/post/test/</loc>
-    <lastmod>2025-01-02T20:03:15+08:00</lastmod>
+    <loc>http://rafael.xiaoqiu.in/categories/</loc>
+    <lastmod>2025-01-20T14:15:50+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/tags/</loc>
+    <lastmod>2025-01-20T14:15:50+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiaoqiu.in/</loc>
-    <lastmod>2025-01-03T02:49:33+08:00</lastmod>
+    <lastmod>2025-01-20T14:15:50+08:00</lastmod>
   </url><url>
-    <loc>http://rafael.xiaoqiu.in/categories/</loc>
-    <lastmod>2025-01-03T02:49:33+08:00</lastmod>
+    <loc>http://rafael.xiaoqiu.in/post/the-basics-of-introductory-photography_/</loc>
+    <lastmod>2025-01-20T14:15:50+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/categories/%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-01-20T14:15:50+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/tags/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-01-20T14:15:50+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/post/test/</loc>
+    <lastmod>2025-01-02T20:03:15+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiaoqiu.in/post/automatically-update-algolia-index_/</loc>
     <lastmod>2025-01-03T02:49:33+08:00</lastmod>
@@ -18,9 +30,6 @@
     <lastmod>2025-01-03T02:49:33+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiaoqiu.in/categories/hugo%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-01-03T02:49:33+08:00</lastmod>
-  </url><url>
-    <loc>http://rafael.xiaoqiu.in/tags/</loc>
     <lastmod>2025-01-03T02:49:33+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiaoqiu.in/post/how-to-install-free-typora_/</loc>
