@@ -4,7 +4,7 @@
   
 >
   <head>
-	<meta name="generator" content="Hugo 0.142.0">
+	<meta name="generator" content="Hugo 0.143.1">
     <meta charset="utf-8" />
 <meta
   name="viewport"
@@ -135,8 +135,8 @@
     content="/"
   />
   <meta property="article:author" content="Тенеход" />
-  <meta property="article:published_time" content="2025-01-20T14:15:50&#43;08:00" />
-  <meta property="article:modified_time" content="2025-01-20T14:15:50&#43;08:00" />
+  <meta property="article:published_time" content="2025-02-04T21:32:32&#43;08:00" />
+  <meta property="article:modified_time" content="2025-02-04T21:32:32&#43;08:00" />
   
   
   <meta name="twitter:card" content="summary" />
@@ -445,17 +445,17 @@
   <div class="sidebar-state-article">
     <div>文章</div>
     
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">8</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
     <div class="sidebar-state-number">
-      3
+      4
     </div>
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">4</div>
+    <div class="sidebar-state-number">5</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -575,6 +575,12 @@
             </li>
           
             <li class="category-list-item">
+              <a class="category-list-link" href="/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/"
+                >PVE安装虚拟机</a
+              >
+            </li>
+          
+            <li class="category-list-item">
               <a class="category-list-link" href="/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
                 >实用工具</a
               >
@@ -610,6 +616,16 @@
                 aria-label="标签: Hugo教程"
               >
                 Hugo教程
+              </a>
+            </li>
+          
+            <li class="tag-item">
+              <a
+                class="tag-link"
+                href="/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
+                aria-label="标签: PVE使用教程"
+              >
+                PVE使用教程
               </a>
             </li>
           
@@ -671,6 +687,14 @@
       
         <a
           style="font-size:10px"
+          href="/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
+          aria-label="标签: PVE使用教程"
+          >PVE使用教程</a
+        >
+      
+      
+        <a
+          style="font-size:10px"
           href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
           aria-label="标签: 实用工具"
           >实用工具</a
@@ -709,6 +733,10 @@
         <ul>
           
             <li>
+              <a href="http://rafael.xiaoqiu.in/post/pve-install-ubuntu/">使用PVE安装Ubuntu系统</a>
+            </li>
+          
+            <li>
               <a href="http://rafael.xiaoqiu.in/post/the-basics-of-introductory-photography_/">关于入门摄影的基础知识</a>
             </li>
           
@@ -722,10 +750,6 @@
           
             <li>
               <a href="http://rafael.xiaoqiu.in/post/how-to-install-free-typora_/">Typora 免费安装教程</a>
-            </li>
-          
-            <li>
-              <a href="http://rafael.xiaoqiu.in/post/how-to-write-a-article_/">怎么在hugo写一篇文章</a>
             </li>
           
         </ul>
@@ -758,8 +782,8 @@
     
       <a
         class="post-link"
-        href="http://rafael.xiaoqiu.in/post/the-basics-of-introductory-photography_/"
-        aria-label="关于入门摄影的基础知识"
+        href="http://rafael.xiaoqiu.in/post/pve-install-ubuntu/"
+        aria-label="使用PVE安装Ubuntu系统"
       >
       </a>
     
@@ -773,7 +797,73 @@
         
         
           <img
-            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003270.54xu7p6k1z.jpg"
+            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003269.70af0bizpt.jpg"
+            data-sizes="auto"
+            alt="使用PVE安装Ubuntu系统"
+            class="lazyload"
+          />
+        
+      
+    </div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span
+          ><span class="icon-calendar"></span
+          >2025-02-04</span
+        >
+        <span
+          ><span class="icon-pencil"></span
+          >37 字</span
+        >
+        <span
+          ><span class="icon-clock"></span
+          >1 分钟</span
+        >
+      </div>
+      <h2 class="post-title">使用PVE安装Ubuntu系统</h2>
+      <article class="post-article">
+        
+           一、准备工作 Proxmox VE(PVE)环境 Linux镜像 首先我们需要准备好一台安装好PVE的机器以及Linux镜像，我这里使用的是PVE7.3-6以及Ubuntu Server 24.04.1 LTS ，大家可以自行前往官网或者各大镜像站下载自己想要的版本。
+接着将下载好的Ubuntu镜像上传至PVE，可以将镜像名称修改为简短一点的，我这里就不修改了：
+二、创建虚拟机 点击右上角“创建虚拟机”按钮，并勾选弹出框底部的“高级”勾选框，系统会自动分配一个VM ID，可以根据自己的需求修改。给这个虚拟机命名，并根据需要选择是否开机自启，点击“下一步” 点击下一步，选择“使用CD/DVD光 …
+        
+      </article>
+    </div>
+  </div>
+</div>
+
+  
+    
+
+
+
+
+<div class="post-wrapper">
+  <div
+    class="
+      post-wrap-right
+    "
+    data-aos="fade-up"
+  >
+    
+      <a
+        class="post-link"
+        href="http://rafael.xiaoqiu.in/post/the-basics-of-introductory-photography_/"
+        aria-label="关于入门摄影的基础知识"
+      >
+      </a>
+    
+    
+    <div
+      class="
+        post-cover-right
+      "
+    >
+      
+        
+        
+          <img
+            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003269.70af0bizpt.jpg"
             data-sizes="auto"
             alt="关于入门摄影的基础知识"
             class="lazyload"
@@ -823,7 +913,7 @@
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-right
+      post-wrap-left
     "
     data-aos="fade-up"
   >
@@ -838,14 +928,14 @@
     
     <div
       class="
-        post-cover-right
+        post-cover-left
       "
     >
       
         
         
           <img
-            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003268.4ub0ejrbxz.jpg"
+            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003271.3rbb3nvi1u.jpg"
             data-sizes="auto"
             alt="Test"
             class="lazyload"
@@ -888,7 +978,7 @@
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap-right
     "
     data-aos="fade-up"
   >
@@ -903,14 +993,14 @@
     
     <div
       class="
-        post-cover-left
+        post-cover-right
       "
     >
       
         
         
           <img
-            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003268.4ub0ejrbxz.jpg"
+            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003269.70af0bizpt.jpg"
             data-sizes="auto"
             alt="Github Actions &#43; Hugo 自动更新 Algolia 索引"
             class="lazyload"
@@ -954,7 +1044,7 @@
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-right
+      post-wrap-left
     "
     data-aos="fade-up"
   >
@@ -969,14 +1059,14 @@
     
     <div
       class="
-        post-cover-right
+        post-cover-left
       "
     >
       
         
         
           <img
-            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003269.70af0bizpt.jpg"
+            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003270.54xu7p6k1z.jpg"
             data-sizes="auto"
             alt="Typora 免费安装教程"
             class="lazyload"
@@ -1018,7 +1108,7 @@
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap-right
     "
     data-aos="fade-up"
   >
@@ -1033,14 +1123,14 @@
     
     <div
       class="
-        post-cover-left
+        post-cover-right
       "
     >
       
         
         
           <img
-            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003268.4ub0ejrbxz.jpg"
+            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003269.70af0bizpt.jpg"
             data-sizes="auto"
             alt="怎么在hugo写一篇文章"
             class="lazyload"
@@ -1084,7 +1174,7 @@ hugo new posts/my-first-post.md 创建完成后打开文章可以看到如下内
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-right
+      post-wrap-left
     "
     data-aos="fade-up"
   >
@@ -1099,14 +1189,14 @@ hugo new posts/my-first-post.md 创建完成后打开文章可以看到如下内
     
     <div
       class="
-        post-cover-right
+        post-cover-left
       "
     >
       
         
         
           <img
-            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003270.54xu7p6k1z.jpg"
+            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003269.70af0bizpt.jpg"
             data-sizes="auto"
             alt="用Github仓库免费部署自己的Hugo博客"
             class="lazyload"
@@ -1152,7 +1242,7 @@ Windows下载版本：hugo_extended_xxxxx_windows_amd64.zip
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap-right
     "
     data-aos="fade-up"
   >
@@ -1167,14 +1257,14 @@ Windows下载版本：hugo_extended_xxxxx_windows_amd64.zip
     
     <div
       class="
-        post-cover-left
+        post-cover-right
       "
     >
       
         
         
           <img
-            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003271.3rbb3nvi1u.jpg"
+            data-src="https://Rafael-ban.github.io/picx-images-hosting/images/1000003270.54xu7p6k1z.jpg"
             data-sizes="auto"
             alt="博客的第一篇文章"
             class="lazyload"
@@ -1268,6 +1358,9 @@ ps:后续也会有许多各种各样的教程
   
   
 
+  
+  
+
 
 
 <footer id="footer">
@@ -1299,7 +1392,7 @@ ps:后续也会有许多各种各样的教程
       <div>
         <span class="icon-brush"
           >&nbsp;
-            577
+            614
           </span
         >
         &nbsp;|&nbsp;
@@ -1307,7 +1400,7 @@ ps:后续也会有许多各种各样的教程
           
           
 
-          00:08
+          00:09
         </span>
       </div>
     
@@ -1359,17 +1452,17 @@ ps:后续也会有许多各种各样的教程
   <div class="sidebar-state-article">
     <div>文章</div>
     
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">8</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
     <div class="sidebar-state-number">
-      3
+      4
     </div>
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">4</div>
+    <div class="sidebar-state-number">5</div>
   </div>
 </div>
 <div class="sidebar-social">
