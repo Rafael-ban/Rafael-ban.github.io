@@ -52,7 +52,7 @@
   , 
   {
     "objectID": "1735735417",
-    "permalink": "/post/how-to-install-free-typora_/",
+    "permalink": "/post/install-free-typora_/",
     "title": "Typora 免费安装教程",
     
     "content": " 文章目录 Typora 简介 安装教程 下载安装包与工具 安装与解压 复制文件至安装目录 以管理员身份运行 CMD 运行工具 输入序列号 错误处理 安装完成 Typora 简介 Typora 是一款跨平台的 Markdown 编辑器，因其简洁的界面和流畅的用户体验而受到广泛欢迎。它支持实时预览功能，让您在编辑 Markdown 文档的同时即时查看最终效果，无需切换视图。此外，Typora 还提供自动保存、多种导出格式（如 PDF、HTML、Word 等）、丰富的主题和样式选项，能够满足不同用户的需求。通过直观的操作界面和快捷键支持，您可以轻松进行文本编辑、格式调整和内容管理，极大提升写作、笔记记录和文档编写的效率。无论您是编程开发者、作家还是学生，Typora 都能为您带来出色的 Markdown 编辑体验。\n安装教程 下载安装包与工具 Typora 官网地址：https://typora.io Typora 中文官网地址：https://typoraio.cn\n工具下载地址：Typora工具包\n安装与解压 Typora 的安装过程我就不演示了，只需按提示点击“下一步”即可。接着，将下载的工具压缩包解压，您会看到两个 exe 文件。\n复制文件至安装目录 把解压出来的两个 exe 文件复制到 Typora 的安装目录下，默认路径为：C:\\Program Files\\Typora，如安装在其他路径，请自行替换。\n以管理员身份运行 CMD 点击 Windows 键或在系统搜索框搜索 CMD（即命令提示符），并以管理员身份运行。\n运行工具 点击 Windows 键或在系统搜索框搜索 CMD（即命令提示符），并以管理员身份运行。\n​\t（1）输入\ncd C:\\Program Files\\Typora 按回车，跳转到 Typora 安装路径。\n​\t（2）输入\nnode_inject.exe 按回车，等待提示“done!”。\n​\t（3）输入\nlicense-gen.exe 按回车，等待显示序列号。\n输入序列号\n启动 Typora，随意输入邮箱地址，并将生成的序列号粘贴到激活窗口中，点击按钮。\n错误处理\n稍等数秒后，若因网络原因出现错误提示，点击确认即可，无需担心。\n安装完成\n安装完成后请勿更新 Typora，否则可能失效。如果需要更新，请先彻底卸载旧版本，再重新安装新版本。\n",
