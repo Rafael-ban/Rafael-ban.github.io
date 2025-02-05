@@ -40,7 +40,7 @@
   , 
   {
     "objectID": "1735801173",
-    "permalink": "/post/automatically-update-algolia-index_/",
+    "permalink": "/post/autoupdate-algolia-index_/",
     "title": "Github Actions + Hugo 自动更新 Algolia 索引",
     
     "content": "首先，注册一个Algolia账号，然后创建 Search一个 应用, 进入左下角的Data sources 依次点击Crawler→Domains绑定域名, 域名验证成功后可能创建一个Crawler, 不用管, 可以删掉它。\n在 hugo 项目的根目录下的 .github/workflows/updata.yaml文件中添加以下内容:\n- name: Upload algolia uses: iChochy/Algolia-Upload-Records@main env: APPLICATION_ID: ${{ secrets.ALGOLIA_APP_ID }} ADMIN_API_KEY: ${{ secrets.ALGOLIA_API_KEY }} INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }} FILE_PATH: \u0026#34;./public/algolia.json\u0026#34; 来到 API Key 页面,\n复制 Application ID 作为 ALGOLIA_APP_ID。 复制 Write API Key 作为 ALGOLIA_API_KEY。 再来到 Search → CONFIGURE → index\n复制 index 下面的名字作为 ALGOLIA_INDEX_NAME。 在存放主文件的GitHub仓库的 Settings → Secrets and variables → Actions 中新建 Repository secrets ,填入以上几个 Secrets。\nPS:如果在账号的 Your plan and billing 中发现没有 CRAWLER 的额度，说明 Algolia 官方的设置出了问题。我的方法是重新注册账号，选择 Build 套餐。\n",
