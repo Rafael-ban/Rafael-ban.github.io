@@ -1,9 +1,12 @@
 <!doctype html>
 <html
-  lang="zh-cn"
+  lang="zh-cn" 
+  
+    data-theme-mode="auto"
   
 >
   <head>
+    
     <meta charset="utf-8" />
 <meta
   name="viewport"
@@ -38,11 +41,7 @@
 
 
 <script>
-  window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"clipboard\":{\"copyright\":{\"content\":\"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！\",\"count\":50,\"enable\":true},\"fail\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"success\":\"复制成功(*^▽^*)\"},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_tq6stt6tcg\",\"outdate\":{\"daysago\":180,\"enable\":true,\"message\":\"本文最后更新于 {time}，请注意文中内容可能已经发生变化。\"}}");
-</script>
-
-<script>
-  window.siteConfig.swPath = '\/sw.js';
+  window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"clipboard\":{\"copyright\":{\"content\":\"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！\",\"count\":50,\"enable\":false},\"fail\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"success\":\"复制成功(*^▽^*)\"},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_0khxww3tj3q9\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":\"本文最后更新于 {time}，请注意文中内容可能已经发生变化。\"}}");
 </script>
 
 
@@ -68,25 +67,17 @@
   
 
   
-  
-  
     
-  
-
-  
-  
-  
-
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
   rel="preload"
   as="style"
-  href="https://fonts.googleapis.com/css?family=MiSans:400,400italic,700,700italic%7cMulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7cUbuntu%20Mono:400,400italic,700,700italic&amp;display=swap"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
 />
 <link
   rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=MiSans:400,400italic,700,700italic%7cMulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7cUbuntu%20Mono:400,400italic,700,700italic&amp;display=swap"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
   media="print"
   onload="this.media='all'"
 />
@@ -98,7 +89,7 @@
 
   <link
     rel="preload"
-    href="//at.alicdn.com/t/c/font_4552607_tq6stt6tcg.woff2"
+    href="//at.alicdn.com/t/c/font_4552607_0khxww3tj3q9.woff2"
     as="font"
     type="font/woff2"
     crossorigin="anonymous"
@@ -162,7 +153,7 @@
 
 
   
- <link rel="stylesheet" href="/css/main.min.a8c5057d1ae425d91addcb2dd9a6fe095b31c8279101ff7bb587e36c2797396c.css" />
+ <link rel="stylesheet" href="/css/main.min.38af240b182ac78a84114d426e679929856c70ebcf7320f00d6b1ecaf78cac5f.css" />
 
 
 
@@ -238,8 +229,10 @@
 
 
 
+    
   </head>
   <body>
+    
     
   <div id='loader'>
     <div class="loading-left-bg loading-bg"></div>
@@ -287,15 +280,6 @@
 <div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
 </div>
 
-
-  <div class="notification-wrapper">
-    <h1>发现新版本</h1>
-    <p>网站好像有新内容，是否更新(ﾟ⊿ﾟ)ﾂ？</p>
-    <div class="notification-btn">
-      <button id="notification-update-btn">更新</button>
-      <button id="notification-close-btn">取消</button>
-    </div>
-  </div>
 
     <div id="container">
       <div id="wrap">
@@ -359,19 +343,23 @@
 </div>
 <header id="header">
   
-    <picture>
+    
+      <picture>
+        
+          
+            <source media="(max-width: 479px)" srcset="/images/watermelon-600w.png">
+          
+            <source media="(max-width: 799px)" srcset="/images/watermelon-800w.webp">
+          
+            <source media="(min-width: 800px)" srcset="/images/watermelon.webp">
+          
+          <img fetchpriority="high" src="/images/watermelon.webp" alt="摄影教程">
+        
+      </picture>
       
-        <div></div>
-        <source media="(max-width: 479px)" srcset="/images/watermelon-600w.png">
+        <img src="" alt="摄影教程" style="visibility: hidden;">
       
-        <div></div>
-        <source media="(max-width: 799px)" srcset="/images/watermelon-800w.webp">
-      
-        <div></div>
-        <source media="(min-width: 800px)" srcset="/images/watermelon.webp">
-      
-      <img fetchpriority="high" src="/images/watermelon.webp" alt="摄影教程">
-    </picture>
+    
   
 
   <div id="header-outer">
@@ -403,27 +391,14 @@
     </div>
   </div>
 </header>
-        <main id="content">
-          
-            <aside id="sidebar">
+        <div id="content"
+          class="sidebar-left"
+            >
+          <aside id="sidebar">
   
   
-    <meting-js
-      theme="var(--color-link)"
-      id="13080694246"
-      server="netease"
-      type="playlist"
-      
-      fixed="false"
-      
-      
-      order="list"
-      preload="auto"
-      volume="0.5"
-      
-      list-folded="true"
-      >
-    </meting-js>
+    <div id="aplayer" theme="var(--color-link)" data-aos="fade-up"></div>
+  
   
   <div class="sidebar-wrapper ">
     <div
@@ -446,7 +421,7 @@
   <div class="sidebar-state-article">
     <div>文章</div>
     
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">8</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -565,33 +540,49 @@
       class="widget-wrap"
       data-aos="fade-up"
     >
-      <h3 class="widget-title">分类</h3>
+      <div style="display: flex; justify-content: space-between;">
+        <h3 class="widget-title">分类</h3>
+        
+      </div>
       <div class="widget">
         <ul class="category-list">
           
-            <li class="category-list-item">
-              <a class="category-list-link" href="/categories/hugo%E6%95%99%E7%A8%8B/"
-                >Hugo教程</a
-              >
-            </li>
           
-            <li class="category-list-item">
-              <a class="category-list-link" href="/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/"
-                >PVE安装虚拟机</a
-              >
-            </li>
+            
+              <li class="category-list-item">
+                <a class="category-list-link" href="/categories/hugo%E6%95%99%E7%A8%8B/"
+                  >Hugo教程</a
+                >
+              </li>
+              
+            
           
-            <li class="category-list-item">
-              <a class="category-list-link" href="/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
-                >实用工具</a
-              >
-            </li>
+            
+              <li class="category-list-item">
+                <a class="category-list-link" href="/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/"
+                  >PVE安装虚拟机</a
+                >
+              </li>
+              
+            
           
-            <li class="category-list-item">
-              <a class="category-list-link" href="/categories/%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
-                >摄影教程</a
-              >
-            </li>
+            
+              <li class="category-list-item">
+                <a class="category-list-link" href="/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
+                  >实用工具</a
+                >
+              </li>
+              
+            
+          
+            
+              <li class="category-list-item">
+                <a class="category-list-link" href="/categories/%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
+                  >摄影教程</a
+                >
+              </li>
+              
+            
           
         </ul>
       </div>
@@ -606,59 +597,78 @@
       class="widget-wrap"
       data-aos="fade-up"
     >
-      <h3 class="widget-title">标签</h3>
+      <div style="display: flex; justify-content: space-between;">
+        <h3 class="widget-title">标签</h3>
+        
+      </div>
       <div class="widget">
         <ul class="tag-list" itemprop="keywords">
           
-            <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/hugo%E6%95%99%E7%A8%8B/"
-                aria-label="标签: Hugo教程"
-              >
-                Hugo教程
-              </a>
-            </li>
           
+            
             <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
-                aria-label="标签: PVE使用教程"
-              >
-                PVE使用教程
-              </a>
-            </li>
+                <a
+                  class="tag-link"
+                  href="/tags/hugo%E6%95%99%E7%A8%8B/"
+                  aria-label="标签: Hugo教程"
+                >
+                  Hugo教程
+                </a>
+              </li>
+              
+            
           
+            
             <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
-                aria-label="标签: 实用工具"
-              >
-                实用工具
-              </a>
-            </li>
+                <a
+                  class="tag-link"
+                  href="/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
+                  aria-label="标签: PVE使用教程"
+                >
+                  PVE使用教程
+                </a>
+              </li>
+              
+            
           
+            
             <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"
-                aria-label="标签: 生活日常"
-              >
-                生活日常
-              </a>
-            </li>
+                <a
+                  class="tag-link"
+                  href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
+                  aria-label="标签: 实用工具"
+                >
+                  实用工具
+                </a>
+              </li>
+              
+            
           
+            
             <li class="tag-item">
-              <a
-                class="tag-link"
-                href="/tags/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
-                aria-label="标签: 相机摄影教程"
-              >
-                相机摄影教程
-              </a>
-            </li>
+                <a
+                  class="tag-link"
+                  href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"
+                  aria-label="标签: 生活日常"
+                >
+                  生活日常
+                </a>
+              </li>
+              
+            
+          
+            
+            <li class="tag-item">
+                <a
+                  class="tag-link"
+                  href="/tags/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
+                  aria-label="标签: 相机摄影教程"
+                >
+                  相机摄影教程
+                </a>
+              </li>
+              
+            
           
         </ul>
       </div>
@@ -678,44 +688,60 @@
     <div class="widget tagcloud">
       
       
-        <a
-          style="font-size:10px"
-          href="/tags/hugo%E6%95%99%E7%A8%8B/"
-          aria-label="标签: Hugo教程"
-          >Hugo教程</a
-        >
+        
+          
+          <a
+            style="font-size:10px"
+            href="/tags/hugo%E6%95%99%E7%A8%8B/"
+            aria-label="标签: Hugo教程"
+            >Hugo教程</a
+          >
+          
+        
       
+        
+          
+          <a
+            style="font-size:10px"
+            href="/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
+            aria-label="标签: PVE使用教程"
+            >PVE使用教程</a
+          >
+          
+        
       
-        <a
-          style="font-size:10px"
-          href="/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
-          aria-label="标签: PVE使用教程"
-          >PVE使用教程</a
-        >
+        
+          
+          <a
+            style="font-size:10px"
+            href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
+            aria-label="标签: 实用工具"
+            >实用工具</a
+          >
+          
+        
       
+        
+          
+          <a
+            style="font-size:10px"
+            href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"
+            aria-label="标签: 生活日常"
+            >生活日常</a
+          >
+          
+        
       
-        <a
-          style="font-size:10px"
-          href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
-          aria-label="标签: 实用工具"
-          >实用工具</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"
-          aria-label="标签: 生活日常"
-          >生活日常</a
-        >
-      
-      
-        <a
-          style="font-size:10px"
-          href="/tags/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
-          aria-label="标签: 相机摄影教程"
-          >相机摄影教程</a
-        >
+        
+          
+          <a
+            style="font-size:10px"
+            href="/tags/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
+            aria-label="标签: 相机摄影教程"
+            >相机摄影教程</a
+          >
+          
+        
       
     </div>
   </div>
@@ -734,6 +760,10 @@
         <ul>
           
             <li>
+              <a href="http://rafael.xiaoqiu.in/post/tutorial-not-so-intelligent-smart/">一个不那么智能的智能点名系统的教程</a>
+            </li>
+          
+            <li>
               <a href="http://rafael.xiaoqiu.in/post/pve-install-ubuntu/">使用PVE安装Ubuntu系统</a>
             </li>
           
@@ -749,10 +779,6 @@
               <a href="http://rafael.xiaoqiu.in/post/install-free-typora_/">Typora 免费安装教程</a>
             </li>
           
-            <li>
-              <a href="http://rafael.xiaoqiu.in/post/write-a-article_/">怎么在hugo写一篇文章</a>
-            </li>
-          
         </ul>
       </div>
     </div>
@@ -762,101 +788,103 @@
       
     
   </div>
+  
 </aside>
 
-          
           <section id="main">
   <div
     class="archives-outer-wrap"
     data-aos="fade-up"
   >
-    <div class="tag-wrap">
-      
-        <div
-          class="archives-tag-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-tag-list-link" href="/tags/hugo%E6%95%99%E7%A8%8B/"
-            >Hugo教程</a
-          >
-        </div>
-      
-        <div
-          class="archives-tag-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-tag-list-link" href="/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
-            >PVE使用教程</a
-          >
-        </div>
-      
-        <div
-          class="archives-tag-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-tag-list-link" href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
-            >实用工具</a
-          >
-        </div>
-      
-        <div
-          class="archives-tag-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"
-            >生活日常</a
-          >
-        </div>
-      
-        <div
-          class="archives-tag-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-tag-list-link" href="/tags/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
-            >相机摄影教程</a
-          >
-        </div>
-      
+    
+      <div class="tag-wrap">
+  
+    <div
+      class="archives-tag-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-tag-list-link" href="/tags/hugo%E6%95%99%E7%A8%8B/"
+        >Hugo教程</a
+      >
     </div>
-    <div class="category-wrap">
-      
-        <div
-          class="archives-category-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-category-list-link" href="/categories/hugo%E6%95%99%E7%A8%8B/"
-            >Hugo教程</a
-          >
-        </div>
-      
-        <div
-          class="archives-category-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-category-list-link" href="/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/"
-            >PVE安装虚拟机</a
-          >
-        </div>
-      
-        <div
-          class="archives-category-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-category-list-link" href="/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
-            >实用工具</a
-          >
-        </div>
-      
-        <div
-          class="archives-category-list-item"
-          data-aos="zoom-in"
-        >
-          <a class="archives-category-list-link" href="/categories/%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
-            >摄影教程</a
-          >
-        </div>
-      
+  
+    <div
+      class="archives-tag-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-tag-list-link" href="/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"
+        >PVE使用教程</a
+      >
     </div>
+  
+    <div
+      class="archives-tag-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-tag-list-link" href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
+        >实用工具</a
+      >
+    </div>
+  
+    <div
+      class="archives-tag-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"
+        >生活日常</a
+      >
+    </div>
+  
+    <div
+      class="archives-tag-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-tag-list-link" href="/tags/%E7%9B%B8%E6%9C%BA%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
+        >相机摄影教程</a
+      >
+    </div>
+  
+</div>
+<div class="category-wrap">
+  
+    <div
+      class="archives-category-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-category-list-link" href="/categories/hugo%E6%95%99%E7%A8%8B/"
+        >Hugo教程</a
+      >
+    </div>
+  
+    <div
+      class="archives-category-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-category-list-link" href="/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/"
+        >PVE安装虚拟机</a
+      >
+    </div>
+  
+    <div
+      class="archives-category-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-category-list-link" href="/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"
+        >实用工具</a
+      >
+    </div>
+  
+    <div
+      class="archives-category-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-category-list-link" href="/categories/%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B/"
+        >摄影教程</a
+      >
+    </div>
+  
+</div>
+    
     
 
 
@@ -869,14 +897,14 @@
       
         <li class="archive-article">
           <div class="archive-article-date-wrap">
-            <a href="http://rafael.xiaoqiu.in/post/basics-of-introductory-photography_/">
+            <span>
               <time
                 class="dt-published"
                 datetime="2025-01-20 14:15:50 &#43;0800 &#43;0800"
                 itemprop="datePublished"
                 >2025-01</time
               >
-            </a>
+            </span>
           </div>
           
             <a class="archive-article-title" href="http://rafael.xiaoqiu.in/post/basics-of-introductory-photography_/"
@@ -918,11 +946,15 @@
 </nav>
 
 </section>
-          
-        </main>
+        </div>
+        
+        
         
 
 
+
+  
+  
 
   
   
@@ -952,6 +984,7 @@
     <div class="footer-line"></div>
   </div>
   <div id="footer-info">
+    
     <div>
       <span class="icon-copyright"></span>
       2021 -
@@ -976,7 +1009,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            613
+            626
           </span
         >
         &nbsp;|&nbsp;
@@ -984,7 +1017,7 @@
           
           
 
-          00:08
+          00:09
         </span>
       </div>
     
@@ -1036,7 +1069,7 @@
   <div class="sidebar-state-article">
     <div>文章</div>
     
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">8</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -1336,12 +1369,12 @@
   
   
   <script
-    src="https://npm.webcache.cn/mouse-firework@0.0.6/dist/index.umd.js"
+    src="https://npm.webcache.cn/mouse-firework@0.1.0/dist/index.umd.js"
     
     
     
     
-    integrity="sha384-vkGvf25gm1C1PbcoD5dNfc137HzNL/hr1RKA5HniJOaawtvUmH5lTVFgFAruE9Ge" crossorigin="anonymous"
+    integrity="sha384-KM6i7tu43nYd6e0beIljxHMC5tZc58XBDu7pPA58w50h18Jsx7gLdimfS09RXlKv" crossorigin="anonymous"
   ></script>
 
 
@@ -1378,57 +1411,62 @@
     function loadScripts(scripts, index) {
       if (index < scripts.length) {
         const script = scripts[index];
-        const src = script.getAttribute("src");
+        const src = script.getAttribute('src');
 
         const loadScript = (scriptContent) => {
-          const scriptElement = document.createElement('script');
-          if (script.type) {
-            scriptElement.type = script.type;
-          }
-          scriptElement.text = scriptContent;
-          document.head.appendChild(scriptElement);
-          loadScripts(scripts, index + 1);
+          return new Promise((resolve, reject) => {
+            const scriptElement = document.createElement('script');
+            if (script.type) {
+              scriptElement.type = script.type;
+            }
+            if (script.src) {
+              scriptElement.src = script.src;
+              scriptElement.onload = resolve;
+              scriptElement.onerror = reject;
+            }
+            if (scriptContent) {
+              scriptElement.text = scriptContent;
+            }
+            document.head.appendChild(scriptElement);
+            if (!script.src) {
+              resolve();
+            }
+          })
+          
         }
 
-        if (src) {
-          fetch(src)
-            .then((response) => {
-              if (!response.ok) {
-                throw new Error(
-                  "Network response was not ok " + response.statusText,
-                );
-              }
-              return response.text();
-            })
-            .then((scriptContent) => {
-              loadScript(scriptContent);
-            })
-            .catch((error) => {
-              console.error("Failed to load script:", src, error);
-            });
-        } else {
-          loadScript(script.text);
-        }
+        ;(src ? loadScript() : loadScript(script.text))
+          .then(() => loadScripts(scripts, index + 1))
+          .catch(error => {
+            console.error(`Failed to load script: ${src || 'inline script'}`, error);
+            loadScripts(scripts, index + 1);
+          });
       }
     }
     window.Pjax &&
       new window.Pjax({
         selectors: [
-          "#header img",
-          "#header picture",
+          "#header>img",
+          "#header>picture",
           "head title",
           "#header-title",
           "#subtitle-wrap",
           "#main",
+          "#content",
           ".sidebar-widget",
           ".sidebar-wrapper",
           "#mobile-nav",
           "#lazy-script",
         ],
         switches: {
+          "#content": function(oldEl, newEl) {
+            
+            oldEl.className = newEl.className;
+            this.onSwitch();
+          },
           "#header-title": Pjax.switches.outerHTML,
           "#subtitle-wrap": Pjax.switches.outerHTML,
-          "#content": function (oldEl, newEl) {
+          "#main": function (oldEl, newEl) {
             const scripts = [...newEl.querySelectorAll("script")];
             loadScripts(scripts, 0);
             oldEl.outerHTML = newEl.outerHTML;
@@ -1469,7 +1507,7 @@
   
   <script
     src="https://npm.webcache.cn/live2d-widgets@0.9.0/autoload.js"
-    
+    defer
     
     
     
@@ -1509,6 +1547,21 @@
 
 <div id="lazy-script">
   <div>
+    
+      
+      
+        
+      
+      <script data-pjax>
+        window.REIMU_POST = {
+          author: "Тенеход",
+          title: "摄影教程",
+          url: "http:\/\/rafael.xiaoqiu.in\/categories\/%E6%91%84%E5%BD%B1%E6%95%99%E7%A8%8B\/",
+          description: "",
+          cover: "http:\/\/rafael.xiaoqiu.in\/images\/watermelon.webp",
+        };
+      </script>
+    
     
     
       
@@ -1560,7 +1613,7 @@
 
 
 
-<script data-pjax  type="module">
+<script data-pjax type="module">
   const { init } = await safeImport('https:\/\/npm.webcache.cn\/@waline\/client@2.15.8\/dist\/waline.mjs', 'sha384-9sbqJjrfGjbkI6\/PI4nU\/MvBfEmkkPC4YK9I4zBeMIf1CVCZdCMH\/KinBEAZII\/5');
   if(_$('.wcomment')) {
     window.walineInstance = init({
@@ -1576,7 +1629,7 @@
       pageSize:  10 ,
       dark: 'html[data-theme="dark"]',
       pageview:  true ,
-  });
+    });
   }
 </script>
 
@@ -1586,31 +1639,12 @@
 
 
 
+      
     
     
   </div>
 </div>
 
-
-  <script data-pjax>
-    var updateTime = _$('#post-update-time')?.innerHTML;
-
-    if (updateTime) {
-      const update = new Date(updateTime);
-      const now = new Date();
-      const diff = now - update;
-      const days = diff / 86400000;
-      const { daysago: daysAgo, message: template } = window.siteConfig.outdate;
-      if (days >= daysAgo) {
-        const message = template.replace(/{time}/, updateTime);
-        const blockquote = _$('#outdate-blockquote');
-        if (blockquote) {
-          blockquote.querySelector('p').innerText = message;
-          blockquote.style.display = 'block';
-        }
-      }
-    }
-  </script>
 
 
 
@@ -1635,28 +1669,15 @@
 
 
 
-  
-
-
-
-
-
-  
-       
-         
-      
-
-  
-
-
-
-
-
-  
-      
-      <script src="/js/service_worker.js" integrity="" crossorigin="anonymous" ></script>
-      
-
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script>
 
 
 <script>
@@ -1696,28 +1717,28 @@
 
 
   
+    <script>
+      const ap = new APlayer({
+          theme: "var(--color-link)",
+          container: document.getElementById('aplayer'),
+          audio: JSON.parse("[]") || [],
+          fixed:  false  || false,
+          autoplay:  null  || false,
+          loop: '' || 'all',
+          order: 'list' || 'list',
+          preload: 'auto' || 'auto',
+          volume:  0.5  || 0.7,
+          mutex:  null  || true,
+          listFolded:  true  || false,
+          lrcType:  null  || 0,
+      });
+    </script>
+  
+
 
 
 
-  
 
-  
-  
-  
-  
-  
-  
-  <script
-    src="https://npm.webcache.cn/meting@2.0.1/dist/Meting.min.js"
     
-    
-    
-    
-    integrity="sha384-ASVlpKF80A22OXTK3tfEjZm1EL6uFMKIC4p8&#43;0maanw1S/IyB&#43;Y4JG&#43;ZDU7GpKE8" crossorigin="anonymous"
-  ></script>
-
-
-  
-
   </body>
 </html>

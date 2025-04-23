@@ -3,18 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://rafael.xiaoqiu.in/categories/</loc>
-    <lastmod>2025-02-04T21:32:32+08:00</lastmod>
+    <lastmod>2025-04-23T23:08:37+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/tags/</loc>
+    <lastmod>2025-04-23T23:08:37+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/</loc>
+    <lastmod>2025-04-23T23:08:37+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2025-04-23T23:08:37+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2025-04-23T23:08:37+08:00</lastmod>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/post/tutorial-not-so-intelligent-smart/</loc>
+    <lastmod>2025-04-23T23:08:37+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiaoqiu.in/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
     <lastmod>2025-02-04T21:32:32+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiaoqiu.in/tags/pve%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-02-04T21:32:32+08:00</lastmod>
-  </url><url>
-    <loc>http://rafael.xiaoqiu.in/tags/</loc>
-    <lastmod>2025-02-04T21:32:32+08:00</lastmod>
-  </url><url>
-    <loc>http://rafael.xiaoqiu.in/</loc>
     <lastmod>2025-02-04T21:32:32+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiaoqiu.in/post/pve-install-ubuntu/</loc>
@@ -32,19 +41,13 @@
     <loc>http://rafael.xiaoqiu.in/post/autoupdate-algolia-index_/</loc>
     <lastmod>2025-01-03T02:49:33+08:00</lastmod>
   </url><url>
-    <loc>http://rafael.xiaoqiu.in/categories/hugo%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-01-03T02:49:33+08:00</lastmod>
-  </url><url>
     <loc>http://rafael.xiaoqiu.in/tags/hugo%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-01-03T02:49:33+08:00</lastmod>
   </url><url>
+    <loc>http://rafael.xiaoqiu.in/categories/hugo%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-01-03T02:49:33+08:00</lastmod>
+  </url><url>
     <loc>http://rafael.xiaoqiu.in/post/install-free-typora_/</loc>
-    <lastmod>2025-01-02T00:12:37+08:00</lastmod>
-  </url><url>
-    <loc>http://rafael.xiaoqiu.in/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2025-01-02T00:12:37+08:00</lastmod>
-  </url><url>
-    <loc>http://rafael.xiaoqiu.in/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-01-02T00:12:37+08:00</lastmod>
   </url><url>
     <loc>http://rafael.xiaoqiu.in/post/write-a-article_/</loc>
