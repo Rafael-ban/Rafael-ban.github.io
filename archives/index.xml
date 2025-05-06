@@ -3,10 +3,21 @@
   <channel>
     <title>Тенеход的小窝</title>
     <link>http://rafael.xiaoqiu.in/archives/</link>
-    <description>Recent content on Тенеход的小窝</description>
+    <description>Recent content from Тенеход的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (Тенеход)</managingEditor>
+    <webMaster>xxx@example.com (Тенеход)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://rafael.xiaoqiu.in/archives/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <atom:link href="http://rafael.xiaoqiu.in/archives/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
   </channel>
 </rss>

@@ -3,31 +3,222 @@
   <channel>
     <title>实用工具 on Тенеход的小窝</title>
     <link>http://rafael.xiaoqiu.in/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
-    <description>Recent content in 实用工具 on Тенеход的小窝</description>
+    <description>Recent content from Тенеход的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 06 May 2025 15:57:37 +0800</lastBuildDate>
-    <atom:link href="http://rafael.xiaoqiu.in/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+    <managingEditor>xxx@example.com (Тенеход)</managingEditor>
+    <webMaster>xxx@example.com (Тенеход)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Tue, 06 May 2025 15:57:40 +0800</lastBuildDate>
+    
+    
+    <atom:link href="http://rafael.xiaoqiu.in/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
     <item>
       <title>Adobe全家桶免费安装教程</title>
       <link>http://rafael.xiaoqiu.in/post/install-free-adobe/</link>
-      <pubDate>Tue, 06 May 2025 12:33:37 +0800</pubDate>
+      <pubDate>Tue, 06 May 2025 12:33:37 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/install-free-adobe/</guid>
-      <description>&lt;h1 id=&#34;文章目录&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95&#34;&gt;&lt;/a&gt;&#xA;文章目录&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;Adobe 简介&lt;/li&gt;&#xA;&lt;li&gt;安装教程&#xA;&lt;ul&gt;&#xA;&lt;li&gt;下载安装包与工具&lt;/li&gt;&#xA;&lt;li&gt;安装与解压&lt;/li&gt;&#xA;&lt;li&gt;安装完成&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;adobe-简介&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#adobe-%e7%ae%80%e4%bb%8b&#34;&gt;&lt;/a&gt;&#xA;Adobe 简介&#xA;&lt;/h2&gt;&lt;p&gt;​       &lt;a href=&#34;https://www.adobe.com/cn/index.html&#34;&gt;Adobe&lt;/a&gt;公司创建于1982年，是世界领先的数字媒体和在线营销解决方案供应商。公司总部位于美国&lt;a href=&#34;https://baike.baidu.com/item/%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E/40442&#34;&gt;加利福尼亚州圣何塞&lt;/a&gt;。Adobe 的客户包括世界各地的企业、知识工作者、创意人士和设计者、&lt;a href=&#34;https://baike.baidu.com/item/OEM&#34;&gt;OEM&lt;/a&gt;合作伙伴，以及开发人员。 公司在数码成像、设计和文档技术方面的创新成果，在这些领域树立了杰出的典范，使数以百万计的人们体会到视觉信息交流的强大魅力。更详细的资料可以了解这边 &lt;a href=&#34;https://baike.baidu.com/item/Adobe%E8%BD%AF%E4%BB%B6%E5%88%97%E8%A1%A8/6803488?fr=aladdin&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;安装教程&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b&#34;&gt;&lt;/a&gt;&#xA;安装教程&#xA;&lt;/h2&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;下载安装包与工具&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7&#34;&gt;&lt;/a&gt;&#xA;下载安装包与工具&#xA;&lt;/h3&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Adobe Creative Cloud官网下载地址：&lt;a href=&#34;https://www.adobe.com/creativecloud/desktop-app.html&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Adobe Creative Cloud中文官网下载地址：&lt;a href=&#34;https://www.adobe.com/cn/creativecloud/roc/business.html&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;工具下载地址：&lt;a href=&#34;https://pan.xiaoqiu.in/s/nY4sd&#34;&gt;Adobe工具包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;安装&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%ae%89%e8%a3%85&#34;&gt;&lt;/a&gt;&#xA;安装&#xA;&lt;/h3&gt;&lt;p&gt;①.安装Adobe Creative Cloud（双击安装，语言选择不了中文，可以先英文，安装后默认中文或者到首选项修改，此步骤必须安装否则破解失败）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019103432687-1798891643.70aju02e97.jpg&#34; alt=&#34;先去官网下载&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;②.注册Adobe账号（有则登录，此步骤省略）&lt;/p&gt;&#xA;&lt;p&gt;③.更改Adobe Creative Cloud下载Adobe软件安装地址&lt;/p&gt;&#xA;&lt;p&gt;（&lt;strong&gt;如果不改默认安装在c盘，本次测试软件ps高达9g，切记修改&lt;/strong&gt;）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019103940788-1842983243.9rjm22oib0.jpg&#34; alt=&#34;步骤一&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104044651-307388759.8dx2y1dga5.jpg&#34; alt=&#34;步骤二&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;④.在所有应用程序-可尝试的应用程序中选择自己要下载的软件，点击试用安装&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104431925-1765704616.wirrjzpv3.jpg&#34; alt=&#34;试用安装&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;⑤.使用AdobeGenP工具（选择的安装目录就是刚刚设置的总体目录下的软件目录，以ps为例，D:\Adobe\Adobe Photoshop 2024，这里填自己的安装路径，图片仅供参考）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104754281-361244580.39le8rdj1m.jpg&#34; alt=&#34;大功告成！！！！&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>
+        <![CDATA[<h1>Adobe全家桶免费安装教程</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="文章目录">
+<a class="header-anchor" href="#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95"></a>
+文章目录
+</h1><ol>
+<li>Adobe 简介</li>
+<li>安装教程
+<ul>
+<li>下载安装包与工具</li>
+<li>安装与解压</li>
+<li>安装完成</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>
+<h2 id="adobe-简介">
+<a class="header-anchor" href="#adobe-%e7%ae%80%e4%bb%8b"></a>
+Adobe 简介
+</h2><p>​       <a href="https://www.adobe.com/cn/index.html">Adobe</a>公司创建于1982年，是世界领先的数字媒体和在线营销解决方案供应商。公司总部位于美国<a href="https://baike.baidu.com/item/%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E/40442">加利福尼亚州圣何塞</a>。Adobe 的客户包括世界各地的企业、知识工作者、创意人士和设计者、<a href="https://baike.baidu.com/item/OEM">OEM</a>合作伙伴，以及开发人员。 公司在数码成像、设计和文档技术方面的创新成果，在这些领域树立了杰出的典范，使数以百万计的人们体会到视觉信息交流的强大魅力。更详细的资料可以了解这边 <a href="https://baike.baidu.com/item/Adobe%E8%BD%AF%E4%BB%B6%E5%88%97%E8%A1%A8/6803488?fr=aladdin">传送门</a></p>
+</li>
+<li>
+<h2 id="安装教程">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b"></a>
+安装教程
+</h2><ol>
+<li>
+<h3 id="下载安装包与工具">
+<a class="header-anchor" href="#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7"></a>
+下载安装包与工具
+</h3></li>
+</ol>
+<p>Adobe Creative Cloud官网下载地址：<a href="https://www.adobe.com/creativecloud/desktop-app.html">传送门</a></p>
+<p>Adobe Creative Cloud中文官网下载地址：<a href="https://www.adobe.com/cn/creativecloud/roc/business.html">传送门</a></p>
+<p>工具下载地址：<a href="https://pan.xiaoqiu.in/s/nY4sd">Adobe工具包</a></p>
+</li>
+</ul>
+<ol start="2">
+<li>
+<h3 id="安装">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85"></a>
+安装
+</h3><p>①.安装Adobe Creative Cloud（双击安装，语言选择不了中文，可以先英文，安装后默认中文或者到首选项修改，此步骤必须安装否则破解失败）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019103432687-1798891643.70aju02e97.jpg" alt="先去官网下载"></p>
+<p>②.注册Adobe账号（有则登录，此步骤省略）</p>
+<p>③.更改Adobe Creative Cloud下载Adobe软件安装地址</p>
+<p>（<strong>如果不改默认安装在c盘，本次测试软件ps高达9g，切记修改</strong>）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019103940788-1842983243.9rjm22oib0.jpg" alt="步骤一"></p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104044651-307388759.8dx2y1dga5.jpg" alt="步骤二"></p>
+<p>④.在所有应用程序-可尝试的应用程序中选择自己要下载的软件，点击试用安装</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104431925-1765704616.wirrjzpv3.jpg" alt="试用安装"></p>
+<p>⑤.使用AdobeGenP工具（选择的安装目录就是刚刚设置的总体目录下的软件目录，以ps为例，D:\Adobe\Adobe Photoshop 2024，这里填自己的安装路径，图片仅供参考）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104754281-361244580.39le8rdj1m.jpg" alt="大功告成！！！！"></p>
+</li>
+</ol>
+        
+        <hr><p>本文2025-05-06首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-05-06</p>]]>
+      </description>
+      
+        <category>实用工具</category>
+      
     </item>
+    
+    
+
     <item>
       <title>一个不那么智能的智能点名系统的教程</title>
       <link>http://rafael.xiaoqiu.in/post/tutorial-not-so-intelligent-smart/</link>
-      <pubDate>Wed, 23 Apr 2025 23:08:37 +0800</pubDate>
+      <pubDate>Wed, 23 Apr 2025 23:08:37 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/tutorial-not-so-intelligent-smart/</guid>
-      <description>&lt;h1 id=&#34;hello这里是一个不那么智能的智能点名系统的教程&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#hello%e8%bf%99%e9%87%8c%e6%98%af%e4%b8%80%e4%b8%aa%e4%b8%8d%e9%82%a3%e4%b9%88%e6%99%ba%e8%83%bd%e7%9a%84%e6%99%ba%e8%83%bd%e7%82%b9%e5%90%8d%e7%b3%bb%e7%bb%9f%e7%9a%84%e6%95%99%e7%a8%8b&#34;&gt;&lt;/a&gt;&#xA;Hello，这里是一个不那么智能的智能点名系统的教程。&#xA;&lt;/h1&gt;&lt;h3 id=&#34;快速进入工具httpsrafaelxiaoqiuinroll-call&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%bf%ab%e9%80%9f%e8%bf%9b%e5%85%a5%e5%b7%a5%e5%85%b7httpsrafaelxiaoqiuinroll-call&#34;&gt;&lt;/a&gt;&#xA;&lt;strong&gt;&lt;a href=&#34;https://rafael.xiaoqiu.in/Roll-call/&#34;&gt;快速进入工具&lt;/a&gt;&lt;/strong&gt;&#xA;&lt;/h3&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;快速叠甲，本工具的各种数据处理皆为本地处理，请放心使用&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;如你所见，这是一个基于HTML制作的一个静态网页&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/home.1sf8p0bf9c.jpg&#34; alt=&#34;工具主页&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;第一步，肯定是创建一个总体名单。&lt;/p&gt;&#xA;&lt;p&gt;我来给个例子&lt;/p&gt;&#xA;&lt;p&gt;首先创建一个新的TXT格式的文件，并改名为“总体人员名单”（主要还是方便记忆，这个看自己）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_232526_603.2ks46qs0zl.jpg&#34; alt=&#34;例一（ps：图片中的文件名有误）&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;然后打开它，把总体人员的名字输入进去&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_232944_452.361rt1mhaa.jpg&#34; alt=&#34;输入名字ing&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;（ps：按照自己的习惯或者啥的输入就好，本网页工具有自动排序同时保持原本顺序的功能，所以不用专门手动列成一列（省事，好耶！！））&lt;/p&gt;&#xA;&lt;p&gt;最后就是将总体人员的文件拖入到总名单的位置（手机则是要在对应的文件夹创建txt文件，然后找到TXT文件并上传）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233242_295.9kgdon4dtv.jpg&#34; alt=&#34;拖入ing&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;最后点击加载名单，就可以自动显示总体名单了&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233541_780.5q7m5omfwk.jpg&#34; alt=&#34;哒哒，名单出现&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;ps：如果有请假的名单，也可以拖入请假名单的位置，然后也会自动显示&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233855_349.4g4ozd4gli.jpg&#34; alt=&#34;哒哒，也显示出来了&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;如果需要导出记录，直接点击保存出勤记录，则会自动下载好带有时间的出勤记录的TXT文件，直接打开就会有对应请假，旷课等的人数和名字了&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_234113_718.45hv67p8g7.jpg&#34; alt=&#34;哒哒，也出来了&#34;&gt;&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>一个不那么智能的智能点名系统的教程</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="hello这里是一个不那么智能的智能点名系统的教程">
+<a class="header-anchor" href="#hello%e8%bf%99%e9%87%8c%e6%98%af%e4%b8%80%e4%b8%aa%e4%b8%8d%e9%82%a3%e4%b9%88%e6%99%ba%e8%83%bd%e7%9a%84%e6%99%ba%e8%83%bd%e7%82%b9%e5%90%8d%e7%b3%bb%e7%bb%9f%e7%9a%84%e6%95%99%e7%a8%8b"></a>
+Hello，这里是一个不那么智能的智能点名系统的教程。
+</h1><h3 id="快速进入工具">
+<a class="header-anchor" href="#%e5%bf%ab%e9%80%9f%e8%bf%9b%e5%85%a5%e5%b7%a5%e5%85%b7"></a>
+<strong><a href="https://rafael.xiaoqiu.in/Roll-call/">快速进入工具</a></strong>
+</h3><blockquote>
+<p><strong>快速叠甲，本工具的各种数据处理皆为本地处理，请放心使用</strong></p></blockquote>
+<p>如你所见，这是一个基于HTML制作的一个静态网页</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/home.1sf8p0bf9c.jpg" alt="工具主页"></p>
+<p>第一步，肯定是创建一个总体名单。</p>
+<p>我来给个例子</p>
+<p>首先创建一个新的TXT格式的文件，并改名为“总体人员名单”（主要还是方便记忆，这个看自己）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_232526_603.2ks46qs0zl.jpg" alt="例一（ps：图片中的文件名有误）"></p>
+<p>然后打开它，把总体人员的名字输入进去</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_232944_452.361rt1mhaa.jpg" alt="输入名字ing"></p>
+<p>（ps：按照自己的习惯或者啥的输入就好，本网页工具有自动排序同时保持原本顺序的功能，所以不用专门手动列成一列（省事，好耶！！））</p>
+<p>最后就是将总体人员的文件拖入到总名单的位置（手机则是要在对应的文件夹创建txt文件，然后找到TXT文件并上传）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233242_295.9kgdon4dtv.jpg" alt="拖入ing"></p>
+<p>最后点击加载名单，就可以自动显示总体名单了</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233541_780.5q7m5omfwk.jpg" alt="哒哒，名单出现"></p>
+<p>ps：如果有请假的名单，也可以拖入请假名单的位置，然后也会自动显示</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233855_349.4g4ozd4gli.jpg" alt="哒哒，也显示出来了"></p>
+<p>如果需要导出记录，直接点击保存出勤记录，则会自动下载好带有时间的出勤记录的TXT文件，直接打开就会有对应请假，旷课等的人数和名字了</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_234113_718.45hv67p8g7.jpg" alt="哒哒，也出来了"></p>
+        
+        <hr><p>本文2025-04-23首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-04-23</p>]]>
+      </description>
+      
+        <category>实用工具</category>
+      
     </item>
+    
+    
+
     <item>
       <title>Typora 免费安装教程</title>
       <link>http://rafael.xiaoqiu.in/post/install-free-typora_/</link>
-      <pubDate>Wed, 01 Jan 2025 20:43:37 +0800</pubDate>
+      <pubDate>Wed, 01 Jan 2025 20:43:37 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/install-free-typora_/</guid>
-      <description>&lt;h1 id=&#34;文章目录&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95&#34;&gt;&lt;/a&gt;&#xA;文章目录&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;Typora 简介&lt;/li&gt;&#xA;&lt;li&gt;安装教程&#xA;&lt;ul&gt;&#xA;&lt;li&gt;下载安装包与工具&lt;/li&gt;&#xA;&lt;li&gt;安装与解压&lt;/li&gt;&#xA;&lt;li&gt;复制文件至安装目录&lt;/li&gt;&#xA;&lt;li&gt;以管理员身份运行 CMD&lt;/li&gt;&#xA;&lt;li&gt;运行工具&lt;/li&gt;&#xA;&lt;li&gt;输入序列号&lt;/li&gt;&#xA;&lt;li&gt;错误处理&lt;/li&gt;&#xA;&lt;li&gt;安装完成&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;typora-简介&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#typora-%e7%ae%80%e4%bb%8b&#34;&gt;&lt;/a&gt;&#xA;Typora 简介&#xA;&lt;/h2&gt;&lt;p&gt;Typora 是一款跨平台的 Markdown 编辑器，因其简洁的界面和流畅的用户体验而受到广泛欢迎。它支持实时预览功能，让您在编辑 Markdown 文档的同时即时查看最终效果，无需切换视图。此外，Typora 还提供自动保存、多种导出格式（如 PDF、HTML、Word 等）、丰富的主题和样式选项，能够满足不同用户的需求。通过直观的操作界面和快捷键支持，您可以轻松进行文本编辑、格式调整和内容管理，极大提升写作、笔记记录和文档编写的效率。无论您是编程开发者、作家还是学生，Typora 都能为您带来出色的 Markdown 编辑体验。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;安装教程&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b&#34;&gt;&lt;/a&gt;&#xA;安装教程&#xA;&lt;/h2&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;下载安装包与工具&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7&#34;&gt;&lt;/a&gt;&#xA;下载安装包与工具&#xA;&lt;/h3&gt;&lt;p&gt;Typora 官网地址：https://typora.io&#xA;Typora 中文官网地址：https://typoraio.cn&lt;/p&gt;&#xA;&lt;p&gt;工具下载地址：&lt;a href=&#34;https://pan.xiaoqiu.in/s/zKYuE&#34;&gt;Typora工具包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;安装与解压&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%ae%89%e8%a3%85%e4%b8%8e%e8%a7%a3%e5%8e%8b&#34;&gt;&lt;/a&gt;&#xA;安装与解压&#xA;&lt;/h3&gt;&lt;p&gt;Typora 的安装过程我就不演示了，只需按提示点击“下一步”即可。接着，将下载的工具压缩包解压，您会看到两个 &lt;code&gt;exe&lt;/code&gt; 文件。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;复制文件至安装目录&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%a4%8d%e5%88%b6%e6%96%87%e4%bb%b6%e8%87%b3%e5%ae%89%e8%a3%85%e7%9b%ae%e5%bd%95&#34;&gt;&lt;/a&gt;&#xA;复制文件至安装目录&#xA;&lt;/h3&gt;&lt;p&gt;把解压出来的两个 &lt;code&gt;exe&lt;/code&gt; 文件复制到 Typora 的安装目录下，默认路径为：&lt;code&gt;C:\Program Files\Typora&lt;/code&gt;，如安装在其他路径，请自行替换。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;以管理员身份运行-cmd&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%bb%a5%e7%ae%a1%e7%90%86%e5%91%98%e8%ba%ab%e4%bb%bd%e8%bf%90%e8%a1%8c-cmd&#34;&gt;&lt;/a&gt;&#xA;以管理员身份运行 CMD&#xA;&lt;/h3&gt;&lt;p&gt;点击 Windows 键或在系统搜索框搜索 &lt;code&gt;CMD&lt;/code&gt;（即命令提示符），并以管理员身份运行。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;运行工具&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e8%bf%90%e8%a1%8c%e5%b7%a5%e5%85%b7&#34;&gt;&lt;/a&gt;&#xA;运行工具&#xA;&lt;/h3&gt;&lt;p&gt;点击 Windows 键或在系统搜索框搜索 &lt;code&gt;CMD&lt;/code&gt;（即命令提示符），并以管理员身份运行。&lt;/p&gt;&#xA;&lt;p&gt;​&#x9;（1）输入&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;cd&lt;/span&gt; C:\Program Files\Typora&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;按回车，跳转到 Typora 安装路径。&lt;br&gt;&#xA;​&#x9;（2）输入&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>Typora 免费安装教程</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="文章目录">
+<a class="header-anchor" href="#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95"></a>
+文章目录
+</h1><ol>
+<li>Typora 简介</li>
+<li>安装教程
+<ul>
+<li>下载安装包与工具</li>
+<li>安装与解压</li>
+<li>复制文件至安装目录</li>
+<li>以管理员身份运行 CMD</li>
+<li>运行工具</li>
+<li>输入序列号</li>
+<li>错误处理</li>
+<li>安装完成</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>
+<h2 id="typora-简介">
+<a class="header-anchor" href="#typora-%e7%ae%80%e4%bb%8b"></a>
+Typora 简介
+</h2><p>Typora 是一款跨平台的 Markdown 编辑器，因其简洁的界面和流畅的用户体验而受到广泛欢迎。它支持实时预览功能，让您在编辑 Markdown 文档的同时即时查看最终效果，无需切换视图。此外，Typora 还提供自动保存、多种导出格式（如 PDF、HTML、Word 等）、丰富的主题和样式选项，能够满足不同用户的需求。通过直观的操作界面和快捷键支持，您可以轻松进行文本编辑、格式调整和内容管理，极大提升写作、笔记记录和文档编写的效率。无论您是编程开发者、作家还是学生，Typora 都能为您带来出色的 Markdown 编辑体验。</p>
+</li>
+<li>
+<h2 id="安装教程">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b"></a>
+安装教程
+</h2><ol>
+<li>
+<h3 id="下载安装包与工具">
+<a class="header-anchor" href="#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7"></a>
+下载安装包与工具
+</h3><p>Typora 官网地址：https://typora.io
+Typora 中文官网地址：https://typoraio.cn</p>
+<p>工具下载地址：<a href="https://pan.xiaoqiu.in/s/zKYuE">Typora工具包</a></p>
+</li>
+<li>
+<h3 id="安装与解压">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85%e4%b8%8e%e8%a7%a3%e5%8e%8b"></a>
+安装与解压
+</h3><p>Typora 的安装过程我就不演示了，只需按提示点击“下一步”即可。接着，将下载的工具压缩包解压，您会看到两个 <code>exe</code> 文件。</p>
+</li>
+<li>
+<h3 id="复制文件至安装目录">
+<a class="header-anchor" href="#%e5%a4%8d%e5%88%b6%e6%96%87%e4%bb%b6%e8%87%b3%e5%ae%89%e8%a3%85%e7%9b%ae%e5%bd%95"></a>
+复制文件至安装目录
+</h3><p>把解压出来的两个 <code>exe</code> 文件复制到 Typora 的安装目录下，默认路径为：<code>C:\Program Files\Typora</code>，如安装在其他路径，请自行替换。</p>
+</li>
+<li>
+<h3 id="以管理员身份运行-cmd">
+<a class="header-anchor" href="#%e4%bb%a5%e7%ae%a1%e7%90%86%e5%91%98%e8%ba%ab%e4%bb%bd%e8%bf%90%e8%a1%8c-cmd"></a>
+以管理员身份运行 CMD
+</h3><p>点击 Windows 键或在系统搜索框搜索 <code>CMD</code>（即命令提示符），并以管理员身份运行。</p>
+</li>
+<li>
+<h3 id="运行工具">
+<a class="header-anchor" href="#%e8%bf%90%e8%a1%8c%e5%b7%a5%e5%85%b7"></a>
+运行工具
+</h3><p>点击 Windows 键或在系统搜索框搜索 <code>CMD</code>（即命令提示符），并以管理员身份运行。</p>
+<p>​	（1）输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl"><span class="k">cd</span> C:\Program Files\Typora
+</span></span></code></pre></div><p>按回车，跳转到 Typora 安装路径。<br>
+​	（2）输入</p>
+        
+        <hr><p>本文2025-01-01首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-01-02</p>]]>
+      </description>
+      
+        <category>实用工具</category>
+      
     </item>
+    
   </channel>
 </rss>

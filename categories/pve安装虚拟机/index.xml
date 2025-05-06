@@ -3,17 +3,133 @@
   <channel>
     <title>PVE安装虚拟机 on Тенеход的小窝</title>
     <link>http://rafael.xiaoqiu.in/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
-    <description>Recent content in PVE安装虚拟机 on Тенеход的小窝</description>
+    <description>Recent content from Тенеход的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (Тенеход)</managingEditor>
+    <webMaster>xxx@example.com (Тенеход)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
     <lastBuildDate>Tue, 04 Feb 2025 21:32:32 +0800</lastBuildDate>
-    <atom:link href="http://rafael.xiaoqiu.in/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <atom:link href="http://rafael.xiaoqiu.in/categories/pve%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
     <item>
       <title>使用PVE安装Ubuntu系统</title>
       <link>http://rafael.xiaoqiu.in/post/pve-install-ubuntu/</link>
-      <pubDate>Tue, 04 Feb 2025 21:32:32 +0800</pubDate>
+      <pubDate>Tue, 04 Feb 2025 21:32:32 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/pve-install-ubuntu/</guid>
-      <description>&lt;h1 id=&#34;一准备工作&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%b8%80%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c&#34;&gt;&lt;/a&gt;&#xA;一、准备工作&#xA;&lt;/h1&gt;&lt;ul&gt;&#xA;&lt;li&gt;Proxmox VE(PVE)环境&lt;/li&gt;&#xA;&lt;li&gt;Linux镜像&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;首先我们需要准备好一台安装好PVE的机器以及Linux镜像，我这里使用的是&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/proxmox/iso/&#34;&gt;PVE8.3.0&lt;/a&gt;以及&lt;a href=&#34;https://cn.ubuntu.com/download/server/step1&#34;&gt;Ubuntu Server 24.04.1 LTS&lt;/a&gt; ，大家可以自行前往官网或者各大镜像站下载自己想要的版本。&lt;/p&gt;&#xA;&lt;p&gt;接着将下载好的Ubuntu镜像上传至PVE，可以将镜像名称修改为简短一点的，我这里就不修改了：&lt;/p&gt;&#xA;&lt;h1 id=&#34;二创建虚拟机&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%ba%8c%e5%88%9b%e5%bb%ba%e8%99%9a%e6%8b%9f%e6%9c%ba&#34;&gt;&lt;/a&gt;&#xA;二、创建虚拟机&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;点击右上角“创建虚拟机”按钮，并勾选弹出框底部的“高级”勾选框，系统会自动分配一个VM ID，可以根据自己的需求修改。给这个虚拟机命名，并根据需要选择是否开机自启，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;点击下一步，选择“使用CD/DVD光盘镜像文件(ISO)”，存储选择local并选择刚才上传的ISO镜像，其他保持默认即可，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;系统设置保持默认即可，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;磁盘设置保持默认即可，大小可以根据自己的情况修改，我这里大小分配20G，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;CPU设置根据物理机使用的CPU情况设置，如果系统做简单使用可以分配1插槽2核心，我这里分配1插槽4核心，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;内存同样根据实际硬件情况和需求修改，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;网络保持默认即可，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;检查好所有配置是否正确，点击“完成”&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;三系统安装&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%b8%89%e7%b3%bb%e7%bb%9f%e5%ae%89%e8%a3%85&#34;&gt;&lt;/a&gt;&#xA;三、系统安装&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;语言选择English&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002055.5q7j3pslsp.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;选择继续且不更新&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002517.7penkkdp6.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;键盘保持默认的英文布局&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002552.6m40j62a8q.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;系统类型保持默认，如果希望安装精简版可以选择下方的“minized”版本&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002615.491e1yoh23.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;网络没有特别需求则保持默认，会自动分配ip&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002634.6wqucbhie3.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;如果需要配置代理服务器则填写相关信息，没有特殊要求则保持为空&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002657.231zg6wtb0.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;由于国内网络原因，需要更换一下镜像源以保证软件能够快速更新下载，我这里使用的是&lt;a href=&#34;https://mirrors.ustc.edu.cn/ubuntu/&#34;&gt;中科大镜像源&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002706.4g4lxeamhp.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;存储配置保持默认即可，如果理解各个分区的作用可以自定义&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002721.4ckzzohjrx.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;上一个如果你都默认了，这一步也默认啦&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002733.sz29vetzy.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;全部信息确认完毕后进行安装，选择“Continue”即可&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002744.5j4b8a6gdb.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;11&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;对个人档案进行配置，设置自己的昵称、服务器名、用户名、用户密码，全部配置完毕后选择“Done”&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002817.9gwooyhh0f.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;接着会有一个选择是否安装&amp;rsquo;PRO&amp;rsquo;版本的，选择第二个&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002827.83a5kx6ezk.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;接着我们选择安装OpenSSH以保证能够远程安全地连接服务器&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002835.13lw30u25d.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;这一步选择需要安装的工具包，我就不选额外的工具包了，这一步完成后就会进行安装程序&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002849.3k84hy0y1u.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;安装完毕后，下方会出现“取消更新并重启”的提示，选择该命令并等待重启，如果等待几分钟发现一直卡在重启界面就在PVE控制台直接强制关机再开机&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002857.pfgc5lra0.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;等待跑完各种命令后，就可以登录了，到此为止，整个安装的流程就结束了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-004144.8ojt78879q.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>
+        <![CDATA[<h1>使用PVE安装Ubuntu系统</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="一准备工作">
+<a class="header-anchor" href="#%e4%b8%80%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c"></a>
+一、准备工作
+</h1><ul>
+<li>Proxmox VE(PVE)环境</li>
+<li>Linux镜像</li>
+</ul>
+<p>首先我们需要准备好一台安装好PVE的机器以及Linux镜像，我这里使用的是<a href="https://mirrors.tuna.tsinghua.edu.cn/proxmox/iso/">PVE8.3.0</a>以及<a href="https://cn.ubuntu.com/download/server/step1">Ubuntu Server 24.04.1 LTS</a> ，大家可以自行前往官网或者各大镜像站下载自己想要的版本。</p>
+<p>接着将下载好的Ubuntu镜像上传至PVE，可以将镜像名称修改为简短一点的，我这里就不修改了：</p>
+<h1 id="二创建虚拟机">
+<a class="header-anchor" href="#%e4%ba%8c%e5%88%9b%e5%bb%ba%e8%99%9a%e6%8b%9f%e6%9c%ba"></a>
+二、创建虚拟机
+</h1><ol>
+<li>点击右上角“创建虚拟机”按钮，并勾选弹出框底部的“高级”勾选框，系统会自动分配一个VM ID，可以根据自己的需求修改。给这个虚拟机命名，并根据需要选择是否开机自启，点击“下一步”</li>
+<li>点击下一步，选择“使用CD/DVD光盘镜像文件(ISO)”，存储选择local并选择刚才上传的ISO镜像，其他保持默认即可，点击“下一步”</li>
+<li>系统设置保持默认即可，点击“下一步”</li>
+<li>磁盘设置保持默认即可，大小可以根据自己的情况修改，我这里大小分配20G，点击“下一步”</li>
+<li>CPU设置根据物理机使用的CPU情况设置，如果系统做简单使用可以分配1插槽2核心，我这里分配1插槽4核心，点击“下一步”</li>
+<li>内存同样根据实际硬件情况和需求修改，点击“下一步”</li>
+<li>网络保持默认即可，点击“下一步”</li>
+<li>检查好所有配置是否正确，点击“完成”</li>
+</ol>
+<h1 id="三系统安装">
+<a class="header-anchor" href="#%e4%b8%89%e7%b3%bb%e7%bb%9f%e5%ae%89%e8%a3%85"></a>
+三、系统安装
+</h1><ol>
+<li>
+<p>语言选择English</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002055.5q7j3pslsp.webp" alt=""></p>
+</li>
+<li>
+<p>选择继续且不更新</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002517.7penkkdp6.webp" alt=""></p>
+</li>
+<li>
+<p>键盘保持默认的英文布局</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002552.6m40j62a8q.webp" alt=""></p>
+</li>
+<li>
+<p>系统类型保持默认，如果希望安装精简版可以选择下方的“minized”版本</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002615.491e1yoh23.webp" alt=""></p>
+</li>
+<li>
+<p>网络没有特别需求则保持默认，会自动分配ip</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002634.6wqucbhie3.webp" alt=""></p>
+</li>
+<li>
+<p>如果需要配置代理服务器则填写相关信息，没有特殊要求则保持为空</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002657.231zg6wtb0.webp" alt=""></p>
+</li>
+<li>
+<p>由于国内网络原因，需要更换一下镜像源以保证软件能够快速更新下载，我这里使用的是<a href="https://mirrors.ustc.edu.cn/ubuntu/">中科大镜像源</a></p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002706.4g4lxeamhp.webp" alt=""></p>
+</li>
+<li>
+<p>存储配置保持默认即可，如果理解各个分区的作用可以自定义</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002721.4ckzzohjrx.webp" alt=""></p>
+</li>
+<li>
+<p>上一个如果你都默认了，这一步也默认啦</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002733.sz29vetzy.webp" alt=""></p>
+</li>
+<li>
+<p>全部信息确认完毕后进行安装，选择“Continue”即可</p>
+</li>
+</ol>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002744.5j4b8a6gdb.webp" alt=""></p>
+<ol start="11">
+<li>
+<p>对个人档案进行配置，设置自己的昵称、服务器名、用户名、用户密码，全部配置完毕后选择“Done”</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002817.9gwooyhh0f.webp" alt=""></p>
+</li>
+<li>
+<p>接着会有一个选择是否安装&rsquo;PRO&rsquo;版本的，选择第二个</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002827.83a5kx6ezk.webp" alt=""></p>
+</li>
+<li>
+<p>接着我们选择安装OpenSSH以保证能够远程安全地连接服务器</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002835.13lw30u25d.webp" alt=""></p>
+</li>
+<li>
+<p>这一步选择需要安装的工具包，我就不选额外的工具包了，这一步完成后就会进行安装程序</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002849.3k84hy0y1u.webp" alt=""></p>
+</li>
+<li>
+<p>安装完毕后，下方会出现“取消更新并重启”的提示，选择该命令并等待重启，如果等待几分钟发现一直卡在重启界面就在PVE控制台直接强制关机再开机</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002857.pfgc5lra0.webp" alt=""></p>
+</li>
+<li>
+<p>等待跑完各种命令后，就可以登录了，到此为止，整个安装的流程就结束了。</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-004144.8ojt78879q.webp" alt=""></p>
+</li>
+</ol>
+        
+        <hr><p>本文2025-02-04首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-02-04</p>]]>
+      </description>
+      
+        <category>PVE安装虚拟机</category>
+      
     </item>
+    
   </channel>
 </rss>

@@ -3,87 +3,652 @@
   <channel>
     <title>Тенеход的小窝</title>
     <link>http://rafael.xiaoqiu.in/algolia.json</link>
-    <description>Recent content on Тенеход的小窝</description>
+    <description>Recent content from Тенеход的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 06 May 2025 15:57:37 +0800</lastBuildDate>
-    <atom:link href="http://rafael.xiaoqiu.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    <managingEditor>xxx@example.com (Тенеход)</managingEditor>
+    <webMaster>xxx@example.com (Тенеход)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Tue, 06 May 2025 15:57:40 +0800</lastBuildDate>
+    
+    
+    <atom:link href="http://rafael.xiaoqiu.in/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
     <item>
       <title>Adobe全家桶免费安装教程</title>
       <link>http://rafael.xiaoqiu.in/post/install-free-adobe/</link>
-      <pubDate>Tue, 06 May 2025 12:33:37 +0800</pubDate>
+      <pubDate>Tue, 06 May 2025 12:33:37 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/install-free-adobe/</guid>
-      <description>&lt;h1 id=&#34;文章目录&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95&#34;&gt;&lt;/a&gt;&#xA;文章目录&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;Adobe 简介&lt;/li&gt;&#xA;&lt;li&gt;安装教程&#xA;&lt;ul&gt;&#xA;&lt;li&gt;下载安装包与工具&lt;/li&gt;&#xA;&lt;li&gt;安装与解压&lt;/li&gt;&#xA;&lt;li&gt;安装完成&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;adobe-简介&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#adobe-%e7%ae%80%e4%bb%8b&#34;&gt;&lt;/a&gt;&#xA;Adobe 简介&#xA;&lt;/h2&gt;&lt;p&gt;​       &lt;a href=&#34;https://www.adobe.com/cn/index.html&#34;&gt;Adobe&lt;/a&gt;公司创建于1982年，是世界领先的数字媒体和在线营销解决方案供应商。公司总部位于美国&lt;a href=&#34;https://baike.baidu.com/item/%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E/40442&#34;&gt;加利福尼亚州圣何塞&lt;/a&gt;。Adobe 的客户包括世界各地的企业、知识工作者、创意人士和设计者、&lt;a href=&#34;https://baike.baidu.com/item/OEM&#34;&gt;OEM&lt;/a&gt;合作伙伴，以及开发人员。 公司在数码成像、设计和文档技术方面的创新成果，在这些领域树立了杰出的典范，使数以百万计的人们体会到视觉信息交流的强大魅力。更详细的资料可以了解这边 &lt;a href=&#34;https://baike.baidu.com/item/Adobe%E8%BD%AF%E4%BB%B6%E5%88%97%E8%A1%A8/6803488?fr=aladdin&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;安装教程&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b&#34;&gt;&lt;/a&gt;&#xA;安装教程&#xA;&lt;/h2&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;下载安装包与工具&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7&#34;&gt;&lt;/a&gt;&#xA;下载安装包与工具&#xA;&lt;/h3&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Adobe Creative Cloud官网下载地址：&lt;a href=&#34;https://www.adobe.com/creativecloud/desktop-app.html&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Adobe Creative Cloud中文官网下载地址：&lt;a href=&#34;https://www.adobe.com/cn/creativecloud/roc/business.html&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;工具下载地址：&lt;a href=&#34;https://pan.xiaoqiu.in/s/nY4sd&#34;&gt;Adobe工具包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;安装&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%ae%89%e8%a3%85&#34;&gt;&lt;/a&gt;&#xA;安装&#xA;&lt;/h3&gt;&lt;p&gt;①.安装Adobe Creative Cloud（双击安装，语言选择不了中文，可以先英文，安装后默认中文或者到首选项修改，此步骤必须安装否则破解失败）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019103432687-1798891643.70aju02e97.jpg&#34; alt=&#34;先去官网下载&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;②.注册Adobe账号（有则登录，此步骤省略）&lt;/p&gt;&#xA;&lt;p&gt;③.更改Adobe Creative Cloud下载Adobe软件安装地址&lt;/p&gt;&#xA;&lt;p&gt;（&lt;strong&gt;如果不改默认安装在c盘，本次测试软件ps高达9g，切记修改&lt;/strong&gt;）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019103940788-1842983243.9rjm22oib0.jpg&#34; alt=&#34;步骤一&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104044651-307388759.8dx2y1dga5.jpg&#34; alt=&#34;步骤二&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;④.在所有应用程序-可尝试的应用程序中选择自己要下载的软件，点击试用安装&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104431925-1765704616.wirrjzpv3.jpg&#34; alt=&#34;试用安装&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;⑤.使用AdobeGenP工具（选择的安装目录就是刚刚设置的总体目录下的软件目录，以ps为例，D:\Adobe\Adobe Photoshop 2024，这里填自己的安装路径，图片仅供参考）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104754281-361244580.39le8rdj1m.jpg&#34; alt=&#34;大功告成！！！！&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>
+        <![CDATA[<h1>Adobe全家桶免费安装教程</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="文章目录">
+<a class="header-anchor" href="#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95"></a>
+文章目录
+</h1><ol>
+<li>Adobe 简介</li>
+<li>安装教程
+<ul>
+<li>下载安装包与工具</li>
+<li>安装与解压</li>
+<li>安装完成</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>
+<h2 id="adobe-简介">
+<a class="header-anchor" href="#adobe-%e7%ae%80%e4%bb%8b"></a>
+Adobe 简介
+</h2><p>​       <a href="https://www.adobe.com/cn/index.html">Adobe</a>公司创建于1982年，是世界领先的数字媒体和在线营销解决方案供应商。公司总部位于美国<a href="https://baike.baidu.com/item/%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E/40442">加利福尼亚州圣何塞</a>。Adobe 的客户包括世界各地的企业、知识工作者、创意人士和设计者、<a href="https://baike.baidu.com/item/OEM">OEM</a>合作伙伴，以及开发人员。 公司在数码成像、设计和文档技术方面的创新成果，在这些领域树立了杰出的典范，使数以百万计的人们体会到视觉信息交流的强大魅力。更详细的资料可以了解这边 <a href="https://baike.baidu.com/item/Adobe%E8%BD%AF%E4%BB%B6%E5%88%97%E8%A1%A8/6803488?fr=aladdin">传送门</a></p>
+</li>
+<li>
+<h2 id="安装教程">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b"></a>
+安装教程
+</h2><ol>
+<li>
+<h3 id="下载安装包与工具">
+<a class="header-anchor" href="#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7"></a>
+下载安装包与工具
+</h3></li>
+</ol>
+<p>Adobe Creative Cloud官网下载地址：<a href="https://www.adobe.com/creativecloud/desktop-app.html">传送门</a></p>
+<p>Adobe Creative Cloud中文官网下载地址：<a href="https://www.adobe.com/cn/creativecloud/roc/business.html">传送门</a></p>
+<p>工具下载地址：<a href="https://pan.xiaoqiu.in/s/nY4sd">Adobe工具包</a></p>
+</li>
+</ul>
+<ol start="2">
+<li>
+<h3 id="安装">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85"></a>
+安装
+</h3><p>①.安装Adobe Creative Cloud（双击安装，语言选择不了中文，可以先英文，安装后默认中文或者到首选项修改，此步骤必须安装否则破解失败）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019103432687-1798891643.70aju02e97.jpg" alt="先去官网下载"></p>
+<p>②.注册Adobe账号（有则登录，此步骤省略）</p>
+<p>③.更改Adobe Creative Cloud下载Adobe软件安装地址</p>
+<p>（<strong>如果不改默认安装在c盘，本次测试软件ps高达9g，切记修改</strong>）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019103940788-1842983243.9rjm22oib0.jpg" alt="步骤一"></p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104044651-307388759.8dx2y1dga5.jpg" alt="步骤二"></p>
+<p>④.在所有应用程序-可尝试的应用程序中选择自己要下载的软件，点击试用安装</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104431925-1765704616.wirrjzpv3.jpg" alt="试用安装"></p>
+<p>⑤.使用AdobeGenP工具（选择的安装目录就是刚刚设置的总体目录下的软件目录，以ps为例，D:\Adobe\Adobe Photoshop 2024，这里填自己的安装路径，图片仅供参考）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/1913844-20231019104754281-361244580.39le8rdj1m.jpg" alt="大功告成！！！！"></p>
+</li>
+</ol>
+        
+        <hr><p>本文2025-05-06首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-05-06</p>]]>
+      </description>
+      
+        <category>实用工具</category>
+      
     </item>
+    
+    
+
     <item>
       <title>一个不那么智能的智能点名系统的教程</title>
       <link>http://rafael.xiaoqiu.in/post/tutorial-not-so-intelligent-smart/</link>
-      <pubDate>Wed, 23 Apr 2025 23:08:37 +0800</pubDate>
+      <pubDate>Wed, 23 Apr 2025 23:08:37 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/tutorial-not-so-intelligent-smart/</guid>
-      <description>&lt;h1 id=&#34;hello这里是一个不那么智能的智能点名系统的教程&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#hello%e8%bf%99%e9%87%8c%e6%98%af%e4%b8%80%e4%b8%aa%e4%b8%8d%e9%82%a3%e4%b9%88%e6%99%ba%e8%83%bd%e7%9a%84%e6%99%ba%e8%83%bd%e7%82%b9%e5%90%8d%e7%b3%bb%e7%bb%9f%e7%9a%84%e6%95%99%e7%a8%8b&#34;&gt;&lt;/a&gt;&#xA;Hello，这里是一个不那么智能的智能点名系统的教程。&#xA;&lt;/h1&gt;&lt;h3 id=&#34;快速进入工具httpsrafaelxiaoqiuinroll-call&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%bf%ab%e9%80%9f%e8%bf%9b%e5%85%a5%e5%b7%a5%e5%85%b7httpsrafaelxiaoqiuinroll-call&#34;&gt;&lt;/a&gt;&#xA;&lt;strong&gt;&lt;a href=&#34;https://rafael.xiaoqiu.in/Roll-call/&#34;&gt;快速进入工具&lt;/a&gt;&lt;/strong&gt;&#xA;&lt;/h3&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;快速叠甲，本工具的各种数据处理皆为本地处理，请放心使用&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;如你所见，这是一个基于HTML制作的一个静态网页&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/home.1sf8p0bf9c.jpg&#34; alt=&#34;工具主页&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;第一步，肯定是创建一个总体名单。&lt;/p&gt;&#xA;&lt;p&gt;我来给个例子&lt;/p&gt;&#xA;&lt;p&gt;首先创建一个新的TXT格式的文件，并改名为“总体人员名单”（主要还是方便记忆，这个看自己）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_232526_603.2ks46qs0zl.jpg&#34; alt=&#34;例一（ps：图片中的文件名有误）&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;然后打开它，把总体人员的名字输入进去&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_232944_452.361rt1mhaa.jpg&#34; alt=&#34;输入名字ing&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;（ps：按照自己的习惯或者啥的输入就好，本网页工具有自动排序同时保持原本顺序的功能，所以不用专门手动列成一列（省事，好耶！！））&lt;/p&gt;&#xA;&lt;p&gt;最后就是将总体人员的文件拖入到总名单的位置（手机则是要在对应的文件夹创建txt文件，然后找到TXT文件并上传）&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233242_295.9kgdon4dtv.jpg&#34; alt=&#34;拖入ing&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;最后点击加载名单，就可以自动显示总体名单了&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233541_780.5q7m5omfwk.jpg&#34; alt=&#34;哒哒，名单出现&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;ps：如果有请假的名单，也可以拖入请假名单的位置，然后也会自动显示&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233855_349.4g4ozd4gli.jpg&#34; alt=&#34;哒哒，也显示出来了&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;如果需要导出记录，直接点击保存出勤记录，则会自动下载好带有时间的出勤记录的TXT文件，直接打开就会有对应请假，旷课等的人数和名字了&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_234113_718.45hv67p8g7.jpg&#34; alt=&#34;哒哒，也出来了&#34;&gt;&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>一个不那么智能的智能点名系统的教程</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="hello这里是一个不那么智能的智能点名系统的教程">
+<a class="header-anchor" href="#hello%e8%bf%99%e9%87%8c%e6%98%af%e4%b8%80%e4%b8%aa%e4%b8%8d%e9%82%a3%e4%b9%88%e6%99%ba%e8%83%bd%e7%9a%84%e6%99%ba%e8%83%bd%e7%82%b9%e5%90%8d%e7%b3%bb%e7%bb%9f%e7%9a%84%e6%95%99%e7%a8%8b"></a>
+Hello，这里是一个不那么智能的智能点名系统的教程。
+</h1><h3 id="快速进入工具">
+<a class="header-anchor" href="#%e5%bf%ab%e9%80%9f%e8%bf%9b%e5%85%a5%e5%b7%a5%e5%85%b7"></a>
+<strong><a href="https://rafael.xiaoqiu.in/Roll-call/">快速进入工具</a></strong>
+</h3><blockquote>
+<p><strong>快速叠甲，本工具的各种数据处理皆为本地处理，请放心使用</strong></p></blockquote>
+<p>如你所见，这是一个基于HTML制作的一个静态网页</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/home.1sf8p0bf9c.jpg" alt="工具主页"></p>
+<p>第一步，肯定是创建一个总体名单。</p>
+<p>我来给个例子</p>
+<p>首先创建一个新的TXT格式的文件，并改名为“总体人员名单”（主要还是方便记忆，这个看自己）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_232526_603.2ks46qs0zl.jpg" alt="例一（ps：图片中的文件名有误）"></p>
+<p>然后打开它，把总体人员的名字输入进去</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_232944_452.361rt1mhaa.jpg" alt="输入名字ing"></p>
+<p>（ps：按照自己的习惯或者啥的输入就好，本网页工具有自动排序同时保持原本顺序的功能，所以不用专门手动列成一列（省事，好耶！！））</p>
+<p>最后就是将总体人员的文件拖入到总名单的位置（手机则是要在对应的文件夹创建txt文件，然后找到TXT文件并上传）</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233242_295.9kgdon4dtv.jpg" alt="拖入ing"></p>
+<p>最后点击加载名单，就可以自动显示总体名单了</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233541_780.5q7m5omfwk.jpg" alt="哒哒，名单出现"></p>
+<p>ps：如果有请假的名单，也可以拖入请假名单的位置，然后也会自动显示</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_233855_349.4g4ozd4gli.jpg" alt="哒哒，也显示出来了"></p>
+<p>如果需要导出记录，直接点击保存出勤记录，则会自动下载好带有时间的出勤记录的TXT文件，直接打开就会有对应请假，旷课等的人数和名字了</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/wechat_2025-04-23_234113_718.45hv67p8g7.jpg" alt="哒哒，也出来了"></p>
+        
+        <hr><p>本文2025-04-23首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-04-23</p>]]>
+      </description>
+      
+        <category>实用工具</category>
+      
     </item>
+    
+    
+
     <item>
       <title>使用PVE安装Ubuntu系统</title>
       <link>http://rafael.xiaoqiu.in/post/pve-install-ubuntu/</link>
-      <pubDate>Tue, 04 Feb 2025 21:32:32 +0800</pubDate>
+      <pubDate>Tue, 04 Feb 2025 21:32:32 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/pve-install-ubuntu/</guid>
-      <description>&lt;h1 id=&#34;一准备工作&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%b8%80%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c&#34;&gt;&lt;/a&gt;&#xA;一、准备工作&#xA;&lt;/h1&gt;&lt;ul&gt;&#xA;&lt;li&gt;Proxmox VE(PVE)环境&lt;/li&gt;&#xA;&lt;li&gt;Linux镜像&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;首先我们需要准备好一台安装好PVE的机器以及Linux镜像，我这里使用的是&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/proxmox/iso/&#34;&gt;PVE8.3.0&lt;/a&gt;以及&lt;a href=&#34;https://cn.ubuntu.com/download/server/step1&#34;&gt;Ubuntu Server 24.04.1 LTS&lt;/a&gt; ，大家可以自行前往官网或者各大镜像站下载自己想要的版本。&lt;/p&gt;&#xA;&lt;p&gt;接着将下载好的Ubuntu镜像上传至PVE，可以将镜像名称修改为简短一点的，我这里就不修改了：&lt;/p&gt;&#xA;&lt;h1 id=&#34;二创建虚拟机&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%ba%8c%e5%88%9b%e5%bb%ba%e8%99%9a%e6%8b%9f%e6%9c%ba&#34;&gt;&lt;/a&gt;&#xA;二、创建虚拟机&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;点击右上角“创建虚拟机”按钮，并勾选弹出框底部的“高级”勾选框，系统会自动分配一个VM ID，可以根据自己的需求修改。给这个虚拟机命名，并根据需要选择是否开机自启，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;点击下一步，选择“使用CD/DVD光盘镜像文件(ISO)”，存储选择local并选择刚才上传的ISO镜像，其他保持默认即可，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;系统设置保持默认即可，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;磁盘设置保持默认即可，大小可以根据自己的情况修改，我这里大小分配20G，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;CPU设置根据物理机使用的CPU情况设置，如果系统做简单使用可以分配1插槽2核心，我这里分配1插槽4核心，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;内存同样根据实际硬件情况和需求修改，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;网络保持默认即可，点击“下一步”&lt;/li&gt;&#xA;&lt;li&gt;检查好所有配置是否正确，点击“完成”&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;三系统安装&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%b8%89%e7%b3%bb%e7%bb%9f%e5%ae%89%e8%a3%85&#34;&gt;&lt;/a&gt;&#xA;三、系统安装&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;语言选择English&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002055.5q7j3pslsp.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;选择继续且不更新&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002517.7penkkdp6.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;键盘保持默认的英文布局&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002552.6m40j62a8q.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;系统类型保持默认，如果希望安装精简版可以选择下方的“minized”版本&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002615.491e1yoh23.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;网络没有特别需求则保持默认，会自动分配ip&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002634.6wqucbhie3.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;如果需要配置代理服务器则填写相关信息，没有特殊要求则保持为空&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002657.231zg6wtb0.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;由于国内网络原因，需要更换一下镜像源以保证软件能够快速更新下载，我这里使用的是&lt;a href=&#34;https://mirrors.ustc.edu.cn/ubuntu/&#34;&gt;中科大镜像源&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002706.4g4lxeamhp.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;存储配置保持默认即可，如果理解各个分区的作用可以自定义&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002721.4ckzzohjrx.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;上一个如果你都默认了，这一步也默认啦&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002733.sz29vetzy.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;全部信息确认完毕后进行安装，选择“Continue”即可&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002744.5j4b8a6gdb.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;ol start=&#34;11&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;对个人档案进行配置，设置自己的昵称、服务器名、用户名、用户密码，全部配置完毕后选择“Done”&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002817.9gwooyhh0f.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;接着会有一个选择是否安装&amp;rsquo;PRO&amp;rsquo;版本的，选择第二个&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002827.83a5kx6ezk.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;接着我们选择安装OpenSSH以保证能够远程安全地连接服务器&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002835.13lw30u25d.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;这一步选择需要安装的工具包，我就不选额外的工具包了，这一步完成后就会进行安装程序&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002849.3k84hy0y1u.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;安装完毕后，下方会出现“取消更新并重启”的提示，选择该命令并等待重启，如果等待几分钟发现一直卡在重启界面就在PVE控制台直接强制关机再开机&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002857.pfgc5lra0.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;等待跑完各种命令后，就可以登录了，到此为止，整个安装的流程就结束了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-004144.8ojt78879q.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>
+        <![CDATA[<h1>使用PVE安装Ubuntu系统</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="一准备工作">
+<a class="header-anchor" href="#%e4%b8%80%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c"></a>
+一、准备工作
+</h1><ul>
+<li>Proxmox VE(PVE)环境</li>
+<li>Linux镜像</li>
+</ul>
+<p>首先我们需要准备好一台安装好PVE的机器以及Linux镜像，我这里使用的是<a href="https://mirrors.tuna.tsinghua.edu.cn/proxmox/iso/">PVE8.3.0</a>以及<a href="https://cn.ubuntu.com/download/server/step1">Ubuntu Server 24.04.1 LTS</a> ，大家可以自行前往官网或者各大镜像站下载自己想要的版本。</p>
+<p>接着将下载好的Ubuntu镜像上传至PVE，可以将镜像名称修改为简短一点的，我这里就不修改了：</p>
+<h1 id="二创建虚拟机">
+<a class="header-anchor" href="#%e4%ba%8c%e5%88%9b%e5%bb%ba%e8%99%9a%e6%8b%9f%e6%9c%ba"></a>
+二、创建虚拟机
+</h1><ol>
+<li>点击右上角“创建虚拟机”按钮，并勾选弹出框底部的“高级”勾选框，系统会自动分配一个VM ID，可以根据自己的需求修改。给这个虚拟机命名，并根据需要选择是否开机自启，点击“下一步”</li>
+<li>点击下一步，选择“使用CD/DVD光盘镜像文件(ISO)”，存储选择local并选择刚才上传的ISO镜像，其他保持默认即可，点击“下一步”</li>
+<li>系统设置保持默认即可，点击“下一步”</li>
+<li>磁盘设置保持默认即可，大小可以根据自己的情况修改，我这里大小分配20G，点击“下一步”</li>
+<li>CPU设置根据物理机使用的CPU情况设置，如果系统做简单使用可以分配1插槽2核心，我这里分配1插槽4核心，点击“下一步”</li>
+<li>内存同样根据实际硬件情况和需求修改，点击“下一步”</li>
+<li>网络保持默认即可，点击“下一步”</li>
+<li>检查好所有配置是否正确，点击“完成”</li>
+</ol>
+<h1 id="三系统安装">
+<a class="header-anchor" href="#%e4%b8%89%e7%b3%bb%e7%bb%9f%e5%ae%89%e8%a3%85"></a>
+三、系统安装
+</h1><ol>
+<li>
+<p>语言选择English</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002055.5q7j3pslsp.webp" alt=""></p>
+</li>
+<li>
+<p>选择继续且不更新</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002517.7penkkdp6.webp" alt=""></p>
+</li>
+<li>
+<p>键盘保持默认的英文布局</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002552.6m40j62a8q.webp" alt=""></p>
+</li>
+<li>
+<p>系统类型保持默认，如果希望安装精简版可以选择下方的“minized”版本</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002615.491e1yoh23.webp" alt=""></p>
+</li>
+<li>
+<p>网络没有特别需求则保持默认，会自动分配ip</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002634.6wqucbhie3.webp" alt=""></p>
+</li>
+<li>
+<p>如果需要配置代理服务器则填写相关信息，没有特殊要求则保持为空</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002657.231zg6wtb0.webp" alt=""></p>
+</li>
+<li>
+<p>由于国内网络原因，需要更换一下镜像源以保证软件能够快速更新下载，我这里使用的是<a href="https://mirrors.ustc.edu.cn/ubuntu/">中科大镜像源</a></p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002706.4g4lxeamhp.webp" alt=""></p>
+</li>
+<li>
+<p>存储配置保持默认即可，如果理解各个分区的作用可以自定义</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002721.4ckzzohjrx.webp" alt=""></p>
+</li>
+<li>
+<p>上一个如果你都默认了，这一步也默认啦</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002733.sz29vetzy.webp" alt=""></p>
+</li>
+<li>
+<p>全部信息确认完毕后进行安装，选择“Continue”即可</p>
+</li>
+</ol>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002744.5j4b8a6gdb.webp" alt=""></p>
+<ol start="11">
+<li>
+<p>对个人档案进行配置，设置自己的昵称、服务器名、用户名、用户密码，全部配置完毕后选择“Done”</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002817.9gwooyhh0f.webp" alt=""></p>
+</li>
+<li>
+<p>接着会有一个选择是否安装&rsquo;PRO&rsquo;版本的，选择第二个</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002827.83a5kx6ezk.webp" alt=""></p>
+</li>
+<li>
+<p>接着我们选择安装OpenSSH以保证能够远程安全地连接服务器</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002835.13lw30u25d.webp" alt=""></p>
+</li>
+<li>
+<p>这一步选择需要安装的工具包，我就不选额外的工具包了，这一步完成后就会进行安装程序</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002849.3k84hy0y1u.webp" alt=""></p>
+</li>
+<li>
+<p>安装完毕后，下方会出现“取消更新并重启”的提示，选择该命令并等待重启，如果等待几分钟发现一直卡在重启界面就在PVE控制台直接强制关机再开机</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-002857.pfgc5lra0.webp" alt=""></p>
+</li>
+<li>
+<p>等待跑完各种命令后，就可以登录了，到此为止，整个安装的流程就结束了。</p>
+<p><img src="https://Rafael-ban.github.io/picx-images-hosting/images/Screenshot-2025-02-06-004144.8ojt78879q.webp" alt=""></p>
+</li>
+</ol>
+        
+        <hr><p>本文2025-02-04首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-02-04</p>]]>
+      </description>
+      
+        <category>PVE安装虚拟机</category>
+      
     </item>
+    
+    
+
     <item>
       <title>关于入门摄影的基础知识</title>
       <link>http://rafael.xiaoqiu.in/post/basics-of-introductory-photography_/</link>
-      <pubDate>Mon, 20 Jan 2025 14:15:50 +0800</pubDate>
+      <pubDate>Mon, 20 Jan 2025 14:15:50 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/basics-of-introductory-photography_/</guid>
-      <description>&lt;h1 id=&#34;基础参数知识&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%9f%ba%e7%a1%80%e5%8f%82%e6%95%b0%e7%9f%a5%e8%af%86&#34;&gt;&lt;/a&gt;&#xA;基础参数知识&#xA;&lt;/h1&gt;&lt;h2 id=&#34;1快门&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#1%e5%bf%ab%e9%97%a8&#34;&gt;&lt;/a&gt;&#xA;1.快门&#xA;&lt;/h2&gt;&lt;p&gt;快门速度越快，进光量越少&lt;/p&gt;&#xA;&lt;p&gt;但是越容易清晰的拍摄到运动的物体&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;抓拍行人(快门速度要比1/125s更快)&lt;/li&gt;&#xA;&lt;li&gt;抓拍鸟类(快门速度要比1/1600s更快)&lt;/li&gt;&#xA;&lt;li&gt;抓拍飞机(快门速度要比1/2000s更快)&lt;/li&gt;&#xA;&lt;li&gt;高铁上拍风景(快门速度要比1/1600s更快)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;快门速度很快我们称为“高速快门”&lt;/p&gt;&#xA;&lt;p&gt;相反快门速度越慢，进光量越多越难清晰的拍摄到运动的物体&lt;/p&gt;&#xA;&lt;p&gt;快门速度慢的一两秒时甚至能拍摄物体运动轨迹&lt;/p&gt;&#xA;&lt;p&gt;快门速度慢我们称为“慢速快门”&lt;/p&gt;&#xA;&lt;p&gt;慢速快门很适合拍溪流，烟花，瀑布，以及车流!&lt;/p&gt;&#xA;&lt;p&gt;慢速快门配合“甩拍”能拍出背景前景模糊但主体清晰的效果!&lt;/p&gt;&#xA;&lt;p&gt;原理就是我们拍摄的方向速度和人的运动是一致的，人对相机来说是相对静止的，所以人拍出来效果是清晰的，由于背景或者前景不动，不是相对静止所以就模糊了。&lt;/p&gt;&#xA;&lt;p&gt;拍视频的话快门速度不能随便乱调&lt;/p&gt;&#xA;&lt;p&gt;拍视频的快门速度一般是设置为帧速率的两倍分之一，比如你是用的帧速率是25帧，那快门速度就得设置为1/50s,如果你的帧速率是50帧，那快门速度就得设置为1/100s,如果你的帧速率是60帧，那快门速度就得设置为1/120s,因为相机没有1/120s,所以你就得设置为1/125s。&lt;/p&gt;&#xA;&lt;p&gt;当然你也可以慢速快门(1/8s)能模拟出王家卫的拍摄风格(慢门抽帧)&lt;/p&gt;&#xA;&lt;p&gt;安全快门=1/焦距一般情况下，拍照的快门速度要高于安全快门&lt;/p&gt;&#xA;&lt;p&gt;这样拍出来的照片会更清晰&lt;/p&gt;&#xA;&lt;p&gt;例如你使用的50焦段镜头安全快门就是1/50&lt;/p&gt;&#xA;&lt;p&gt;Ps:但是拍照时快门速度最好是比1/50s更快&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;人物: 1/125-1/250s&lt;/li&gt;&#xA;&lt;li&gt;宠物: 1/500s&lt;/li&gt;&#xA;&lt;li&gt;宝宝: 1/400s&lt;/li&gt;&#xA;&lt;li&gt;车辆: 1/1000s&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2感光度&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#2%e6%84%9f%e5%85%89%e5%ba%a6&#34;&gt;&lt;/a&gt;&#xA;2.感光度&#xA;&lt;/h2&gt;&lt;p&gt;数值越高，画面越亮，噪点越少 ; 数值越低，画面越暗，噪点越少&lt;/p&gt;&#xA;&lt;p&gt;不过有些相机有双原生ISO&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;例如:我的相机双原生ISO是400和3200&lt;/p&gt;&#xA;&lt;p&gt;如果拍摄时需要提高ISO到1000以上的话，这时候噪点会很多，这时候使用第二档iSO效果会更好。&lt;/p&gt;&#xA;&lt;p&gt;夜景拍摄推荐使用第二档ISO!&lt;/p&gt;&#xA;&lt;p&gt;不同相机它的双原生iso不同!&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;学会曝光三要素不仅是为了曝光正常!&lt;/p&gt;&#xA;&lt;p&gt;而是对其中一两项参数有要求&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;案例1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&#x9;例如旅游拍照时人很多&lt;/p&gt;&#xA;&lt;p&gt;​&#x9;如果你想把背景或者前景其他人虚化掉所以你觉得开大光圈ISO调为最低100(保证画质最好)&lt;/p&gt;&#xA;&lt;p&gt;​&#x9;这时候根据曝光情况调整快门速度记得&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;案例2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&#x9;再比如说旅游想拍出人物和标志性建筑(风景)都清晰，那这时候你得用小光圈拍摄，大概调为(f8-f11),这时候把iSO调最低100，然后根据情况调整快门速度，&#x9;但是记得快门速度不能低于安全快门&lt;/p&gt;&#xA;&lt;p&gt;​&#x9;例如你用的是50mm镜头，那你快门速度就调为1/50s,这时候曝光不足就得把iSO提高!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;案例3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;​&#x9;再比如旅游想抓拍鸟类或者马奔跑等等，这时候快门速度就得优先考虑，所以你得先把快门速度调为1/1600s(或者更快)，然后这时候看你想要景深大还是景&#x9;深小，如果想要拍出虚化效果那就把光圈调大，这时候根据曝光情况调整ISO即可!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;晴天、日常: ISO100&lt;/li&gt;&#xA;&lt;li&gt;阴天、室内: ISO400&lt;/li&gt;&#xA;&lt;li&gt;傍晚、黄昏: IS0800-1600&lt;/li&gt;&#xA;&lt;li&gt;星空、银河: IS03200-6400&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;3光圈&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#3%e5%85%89%e5%9c%88&#34;&gt;&lt;/a&gt;&#xA;3.光圈&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;f值越小，光圈开的越大，进光量越多，景深越小4(清晰范围越小，也就是拍人像虚化效果好，很适合在背景或者前景杂乱时使用),光圈开的越大，越容易有暗角和紫边，这个因镜头而异。&lt;/li&gt;&#xA;&lt;li&gt;f值越大，光圈开的越小，进光量越少，景深越大(清晰范围越大，也就是拍人像虚化效果不好，很适合拍全家福，风景照等等),光圈开的越小，画质相对越好，暗角和紫边效果越弱。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;4结语&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#4%e7%bb%93%e8%af%ad&#34;&gt;&lt;/a&gt;&#xA;4.结语&#xA;&lt;/h2&gt;&lt;p&gt;​&#x9;只要理解曝光三要素，任何效果你都能拍&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>关于入门摄影的基础知识</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="基础参数知识">
+<a class="header-anchor" href="#%e5%9f%ba%e7%a1%80%e5%8f%82%e6%95%b0%e7%9f%a5%e8%af%86"></a>
+基础参数知识
+</h1><h2 id="1快门">
+<a class="header-anchor" href="#1%e5%bf%ab%e9%97%a8"></a>
+1.快门
+</h2><p>快门速度越快，进光量越少</p>
+<p>但是越容易清晰的拍摄到运动的物体</p>
+<ul>
+<li>抓拍行人(快门速度要比1/125s更快)</li>
+<li>抓拍鸟类(快门速度要比1/1600s更快)</li>
+<li>抓拍飞机(快门速度要比1/2000s更快)</li>
+<li>高铁上拍风景(快门速度要比1/1600s更快)</li>
+</ul>
+<p>快门速度很快我们称为“高速快门”</p>
+<p>相反快门速度越慢，进光量越多越难清晰的拍摄到运动的物体</p>
+<p>快门速度慢的一两秒时甚至能拍摄物体运动轨迹</p>
+<p>快门速度慢我们称为“慢速快门”</p>
+<p>慢速快门很适合拍溪流，烟花，瀑布，以及车流!</p>
+<p>慢速快门配合“甩拍”能拍出背景前景模糊但主体清晰的效果!</p>
+<p>原理就是我们拍摄的方向速度和人的运动是一致的，人对相机来说是相对静止的，所以人拍出来效果是清晰的，由于背景或者前景不动，不是相对静止所以就模糊了。</p>
+<p>拍视频的话快门速度不能随便乱调</p>
+<p>拍视频的快门速度一般是设置为帧速率的两倍分之一，比如你是用的帧速率是25帧，那快门速度就得设置为1/50s,如果你的帧速率是50帧，那快门速度就得设置为1/100s,如果你的帧速率是60帧，那快门速度就得设置为1/120s,因为相机没有1/120s,所以你就得设置为1/125s。</p>
+<p>当然你也可以慢速快门(1/8s)能模拟出王家卫的拍摄风格(慢门抽帧)</p>
+<p>安全快门=1/焦距一般情况下，拍照的快门速度要高于安全快门</p>
+<p>这样拍出来的照片会更清晰</p>
+<p>例如你使用的50焦段镜头安全快门就是1/50</p>
+<p>Ps:但是拍照时快门速度最好是比1/50s更快</p>
+<p><strong>参考</strong></p>
+<ul>
+<li>人物: 1/125-1/250s</li>
+<li>宠物: 1/500s</li>
+<li>宝宝: 1/400s</li>
+<li>车辆: 1/1000s</li>
+</ul>
+<h2 id="2感光度">
+<a class="header-anchor" href="#2%e6%84%9f%e5%85%89%e5%ba%a6"></a>
+2.感光度
+</h2><p>数值越高，画面越亮，噪点越少 ; 数值越低，画面越暗，噪点越少</p>
+<p>不过有些相机有双原生ISO</p>
+<ul>
+<li>
+<p>例如:我的相机双原生ISO是400和3200</p>
+<p>如果拍摄时需要提高ISO到1000以上的话，这时候噪点会很多，这时候使用第二档iSO效果会更好。</p>
+<p>夜景拍摄推荐使用第二档ISO!</p>
+<p>不同相机它的双原生iso不同!</p>
+</li>
+</ul>
+<p>学会曝光三要素不仅是为了曝光正常!</p>
+<p>而是对其中一两项参数有要求</p>
+<ul>
+<li>案例1</li>
+</ul>
+<p>​	例如旅游拍照时人很多</p>
+<p>​	如果你想把背景或者前景其他人虚化掉所以你觉得开大光圈ISO调为最低100(保证画质最好)</p>
+<p>​	这时候根据曝光情况调整快门速度记得</p>
+<ul>
+<li>案例2</li>
+</ul>
+<p>​	再比如说旅游想拍出人物和标志性建筑(风景)都清晰，那这时候你得用小光圈拍摄，大概调为(f8-f11),这时候把iSO调最低100，然后根据情况调整快门速度，	但是记得快门速度不能低于安全快门</p>
+<p>​	例如你用的是50mm镜头，那你快门速度就调为1/50s,这时候曝光不足就得把iSO提高!</p>
+<ul>
+<li>案例3</li>
+</ul>
+<p>​	再比如旅游想抓拍鸟类或者马奔跑等等，这时候快门速度就得优先考虑，所以你得先把快门速度调为1/1600s(或者更快)，然后这时候看你想要景深大还是景	深小，如果想要拍出虚化效果那就把光圈调大，这时候根据曝光情况调整ISO即可!</p>
+<p><strong>参考</strong></p>
+<ul>
+<li>晴天、日常: ISO100</li>
+<li>阴天、室内: ISO400</li>
+<li>傍晚、黄昏: IS0800-1600</li>
+<li>星空、银河: IS03200-6400</li>
+</ul>
+<h2 id="3光圈">
+<a class="header-anchor" href="#3%e5%85%89%e5%9c%88"></a>
+3.光圈
+</h2><ul>
+<li>f值越小，光圈开的越大，进光量越多，景深越小4(清晰范围越小，也就是拍人像虚化效果好，很适合在背景或者前景杂乱时使用),光圈开的越大，越容易有暗角和紫边，这个因镜头而异。</li>
+<li>f值越大，光圈开的越小，进光量越少，景深越大(清晰范围越大，也就是拍人像虚化效果不好，很适合拍全家福，风景照等等),光圈开的越小，画质相对越好，暗角和紫边效果越弱。</li>
+</ul>
+<h2 id="4结语">
+<a class="header-anchor" href="#4%e7%bb%93%e8%af%ad"></a>
+4.结语
+</h2><p>​	只要理解曝光三要素，任何效果你都能拍</p>
+        
+        <hr><p>本文2025-01-20首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-01-20</p>]]>
+      </description>
+      
+        <category>摄影教程</category>
+      
     </item>
+    
+    
+
     <item>
       <title>Github Actions &#43; Hugo 自动更新 Algolia 索引</title>
       <link>http://rafael.xiaoqiu.in/post/autoupdate-algolia-index_/</link>
-      <pubDate>Thu, 02 Jan 2025 14:59:33 +0800</pubDate>
+      <pubDate>Thu, 02 Jan 2025 14:59:33 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/autoupdate-algolia-index_/</guid>
-      <description>&lt;p&gt;首先，注册一个&lt;a href=&#34;https://www.algolia.com/&#34;&gt;Algolia&lt;/a&gt;账号，然后创建 &lt;code&gt;Search&lt;/code&gt;一个 应用, 进入左下角的&lt;code&gt;Data sources&lt;/code&gt; 依次点击&lt;code&gt;Crawler&lt;/code&gt;→&lt;code&gt;Domains&lt;/code&gt;绑定域名, 域名验证成功后可能创建一个&lt;code&gt;Crawler&lt;/code&gt;, 不用管, 可以删掉它。&lt;/p&gt;&#xA;&lt;p&gt;在 &lt;code&gt;hugo&lt;/code&gt; 项目的根目录下的 &lt;code&gt;.github/workflows/updata.yaml&lt;/code&gt;文件中添加以下内容:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Upload algolia&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;iChochy/Algolia-Upload-Records@main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;env&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;APPLICATION_ID&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ secrets.ALGOLIA_APP_ID }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ADMIN_API_KEY&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ secrets.ALGOLIA_API_KEY }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;INDEX_NAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ secrets.ALGOLIA_INDEX_NAME }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;FILE_PATH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;./public/algolia.json&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;来到 &lt;a href=&#34;https://dashboard.algolia.com/account/api-keys?&#34;&gt;API Key&lt;/a&gt; 页面,&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;复制 &lt;code&gt;Application ID&lt;/code&gt; 作为 &lt;code&gt;ALGOLIA_APP_ID&lt;/code&gt;。&lt;/li&gt;&#xA;&lt;li&gt;复制 &lt;code&gt;Write API Key&lt;/code&gt; 作为 &lt;code&gt;ALGOLIA_API_KEY&lt;/code&gt;。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;再来到 &lt;code&gt;Search&lt;/code&gt; → &lt;code&gt;CONFIGURE&lt;/code&gt; → &lt;code&gt;index&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;复制 &lt;code&gt;index&lt;/code&gt; 下面的名字作为 &lt;code&gt;ALGOLIA_INDEX_NAME&lt;/code&gt;。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;在存放主文件的GitHub仓库的 &lt;code&gt;Settings&lt;/code&gt; → &lt;code&gt;Secrets and variables&lt;/code&gt; → &lt;code&gt;Actions&lt;/code&gt; 中新建 &lt;code&gt;Repository secrets&lt;/code&gt; ,填入以上几个 &lt;code&gt;Secrets&lt;/code&gt;。&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>Github Actions + Hugo 自动更新 Algolia 索引</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <p>首先，注册一个<a href="https://www.algolia.com/">Algolia</a>账号，然后创建 <code>Search</code>一个 应用, 进入左下角的<code>Data sources</code> 依次点击<code>Crawler</code>→<code>Domains</code>绑定域名, 域名验证成功后可能创建一个<code>Crawler</code>, 不用管, 可以删掉它。</p>
+<p>在 <code>hugo</code> 项目的根目录下的 <code>.github/workflows/updata.yaml</code>文件中添加以下内容:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Upload algolia</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">iChochy/Algolia-Upload-Records@main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">APPLICATION_ID</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_APP_ID }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">ADMIN_API_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_API_KEY }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">INDEX_NAME</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_INDEX_NAME }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">FILE_PATH</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;./public/algolia.json&#34;</span><span class="w">
+</span></span></span></code></pre></div><p>来到 <a href="https://dashboard.algolia.com/account/api-keys?">API Key</a> 页面,</p>
+<ul>
+<li>复制 <code>Application ID</code> 作为 <code>ALGOLIA_APP_ID</code>。</li>
+<li>复制 <code>Write API Key</code> 作为 <code>ALGOLIA_API_KEY</code>。</li>
+</ul>
+<p>再来到 <code>Search</code> → <code>CONFIGURE</code> → <code>index</code></p>
+<ul>
+<li>复制 <code>index</code> 下面的名字作为 <code>ALGOLIA_INDEX_NAME</code>。</li>
+</ul>
+<p>在存放主文件的GitHub仓库的 <code>Settings</code> → <code>Secrets and variables</code> → <code>Actions</code> 中新建 <code>Repository secrets</code> ,填入以上几个 <code>Secrets</code>。</p>
+        
+        <hr><p>本文2025-01-02首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-01-03</p>]]>
+      </description>
+      
+        <category>hugo教程</category>
+      
     </item>
+    
+    
+
     <item>
       <title>Typora 免费安装教程</title>
       <link>http://rafael.xiaoqiu.in/post/install-free-typora_/</link>
-      <pubDate>Wed, 01 Jan 2025 20:43:37 +0800</pubDate>
+      <pubDate>Wed, 01 Jan 2025 20:43:37 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/install-free-typora_/</guid>
-      <description>&lt;h1 id=&#34;文章目录&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95&#34;&gt;&lt;/a&gt;&#xA;文章目录&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;Typora 简介&lt;/li&gt;&#xA;&lt;li&gt;安装教程&#xA;&lt;ul&gt;&#xA;&lt;li&gt;下载安装包与工具&lt;/li&gt;&#xA;&lt;li&gt;安装与解压&lt;/li&gt;&#xA;&lt;li&gt;复制文件至安装目录&lt;/li&gt;&#xA;&lt;li&gt;以管理员身份运行 CMD&lt;/li&gt;&#xA;&lt;li&gt;运行工具&lt;/li&gt;&#xA;&lt;li&gt;输入序列号&lt;/li&gt;&#xA;&lt;li&gt;错误处理&lt;/li&gt;&#xA;&lt;li&gt;安装完成&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;typora-简介&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#typora-%e7%ae%80%e4%bb%8b&#34;&gt;&lt;/a&gt;&#xA;Typora 简介&#xA;&lt;/h2&gt;&lt;p&gt;Typora 是一款跨平台的 Markdown 编辑器，因其简洁的界面和流畅的用户体验而受到广泛欢迎。它支持实时预览功能，让您在编辑 Markdown 文档的同时即时查看最终效果，无需切换视图。此外，Typora 还提供自动保存、多种导出格式（如 PDF、HTML、Word 等）、丰富的主题和样式选项，能够满足不同用户的需求。通过直观的操作界面和快捷键支持，您可以轻松进行文本编辑、格式调整和内容管理，极大提升写作、笔记记录和文档编写的效率。无论您是编程开发者、作家还是学生，Typora 都能为您带来出色的 Markdown 编辑体验。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;安装教程&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b&#34;&gt;&lt;/a&gt;&#xA;安装教程&#xA;&lt;/h2&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;下载安装包与工具&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7&#34;&gt;&lt;/a&gt;&#xA;下载安装包与工具&#xA;&lt;/h3&gt;&lt;p&gt;Typora 官网地址：https://typora.io&#xA;Typora 中文官网地址：https://typoraio.cn&lt;/p&gt;&#xA;&lt;p&gt;工具下载地址：&lt;a href=&#34;https://pan.xiaoqiu.in/s/zKYuE&#34;&gt;Typora工具包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;安装与解压&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%ae%89%e8%a3%85%e4%b8%8e%e8%a7%a3%e5%8e%8b&#34;&gt;&lt;/a&gt;&#xA;安装与解压&#xA;&lt;/h3&gt;&lt;p&gt;Typora 的安装过程我就不演示了，只需按提示点击“下一步”即可。接着，将下载的工具压缩包解压，您会看到两个 &lt;code&gt;exe&lt;/code&gt; 文件。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;复制文件至安装目录&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%a4%8d%e5%88%b6%e6%96%87%e4%bb%b6%e8%87%b3%e5%ae%89%e8%a3%85%e7%9b%ae%e5%bd%95&#34;&gt;&lt;/a&gt;&#xA;复制文件至安装目录&#xA;&lt;/h3&gt;&lt;p&gt;把解压出来的两个 &lt;code&gt;exe&lt;/code&gt; 文件复制到 Typora 的安装目录下，默认路径为：&lt;code&gt;C:\Program Files\Typora&lt;/code&gt;，如安装在其他路径，请自行替换。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;以管理员身份运行-cmd&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e4%bb%a5%e7%ae%a1%e7%90%86%e5%91%98%e8%ba%ab%e4%bb%bd%e8%bf%90%e8%a1%8c-cmd&#34;&gt;&lt;/a&gt;&#xA;以管理员身份运行 CMD&#xA;&lt;/h3&gt;&lt;p&gt;点击 Windows 键或在系统搜索框搜索 &lt;code&gt;CMD&lt;/code&gt;（即命令提示符），并以管理员身份运行。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;运行工具&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e8%bf%90%e8%a1%8c%e5%b7%a5%e5%85%b7&#34;&gt;&lt;/a&gt;&#xA;运行工具&#xA;&lt;/h3&gt;&lt;p&gt;点击 Windows 键或在系统搜索框搜索 &lt;code&gt;CMD&lt;/code&gt;（即命令提示符），并以管理员身份运行。&lt;/p&gt;&#xA;&lt;p&gt;​&#x9;（1）输入&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;cd&lt;/span&gt; C:\Program Files\Typora&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;按回车，跳转到 Typora 安装路径。&lt;br&gt;&#xA;​&#x9;（2）输入&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>Typora 免费安装教程</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="文章目录">
+<a class="header-anchor" href="#%e6%96%87%e7%ab%a0%e7%9b%ae%e5%bd%95"></a>
+文章目录
+</h1><ol>
+<li>Typora 简介</li>
+<li>安装教程
+<ul>
+<li>下载安装包与工具</li>
+<li>安装与解压</li>
+<li>复制文件至安装目录</li>
+<li>以管理员身份运行 CMD</li>
+<li>运行工具</li>
+<li>输入序列号</li>
+<li>错误处理</li>
+<li>安装完成</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>
+<h2 id="typora-简介">
+<a class="header-anchor" href="#typora-%e7%ae%80%e4%bb%8b"></a>
+Typora 简介
+</h2><p>Typora 是一款跨平台的 Markdown 编辑器，因其简洁的界面和流畅的用户体验而受到广泛欢迎。它支持实时预览功能，让您在编辑 Markdown 文档的同时即时查看最终效果，无需切换视图。此外，Typora 还提供自动保存、多种导出格式（如 PDF、HTML、Word 等）、丰富的主题和样式选项，能够满足不同用户的需求。通过直观的操作界面和快捷键支持，您可以轻松进行文本编辑、格式调整和内容管理，极大提升写作、笔记记录和文档编写的效率。无论您是编程开发者、作家还是学生，Typora 都能为您带来出色的 Markdown 编辑体验。</p>
+</li>
+<li>
+<h2 id="安装教程">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85%e6%95%99%e7%a8%8b"></a>
+安装教程
+</h2><ol>
+<li>
+<h3 id="下载安装包与工具">
+<a class="header-anchor" href="#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e5%8c%85%e4%b8%8e%e5%b7%a5%e5%85%b7"></a>
+下载安装包与工具
+</h3><p>Typora 官网地址：https://typora.io
+Typora 中文官网地址：https://typoraio.cn</p>
+<p>工具下载地址：<a href="https://pan.xiaoqiu.in/s/zKYuE">Typora工具包</a></p>
+</li>
+<li>
+<h3 id="安装与解压">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85%e4%b8%8e%e8%a7%a3%e5%8e%8b"></a>
+安装与解压
+</h3><p>Typora 的安装过程我就不演示了，只需按提示点击“下一步”即可。接着，将下载的工具压缩包解压，您会看到两个 <code>exe</code> 文件。</p>
+</li>
+<li>
+<h3 id="复制文件至安装目录">
+<a class="header-anchor" href="#%e5%a4%8d%e5%88%b6%e6%96%87%e4%bb%b6%e8%87%b3%e5%ae%89%e8%a3%85%e7%9b%ae%e5%bd%95"></a>
+复制文件至安装目录
+</h3><p>把解压出来的两个 <code>exe</code> 文件复制到 Typora 的安装目录下，默认路径为：<code>C:\Program Files\Typora</code>，如安装在其他路径，请自行替换。</p>
+</li>
+<li>
+<h3 id="以管理员身份运行-cmd">
+<a class="header-anchor" href="#%e4%bb%a5%e7%ae%a1%e7%90%86%e5%91%98%e8%ba%ab%e4%bb%bd%e8%bf%90%e8%a1%8c-cmd"></a>
+以管理员身份运行 CMD
+</h3><p>点击 Windows 键或在系统搜索框搜索 <code>CMD</code>（即命令提示符），并以管理员身份运行。</p>
+</li>
+<li>
+<h3 id="运行工具">
+<a class="header-anchor" href="#%e8%bf%90%e8%a1%8c%e5%b7%a5%e5%85%b7"></a>
+运行工具
+</h3><p>点击 Windows 键或在系统搜索框搜索 <code>CMD</code>（即命令提示符），并以管理员身份运行。</p>
+<p>​	（1）输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl"><span class="k">cd</span> C:\Program Files\Typora
+</span></span></code></pre></div><p>按回车，跳转到 Typora 安装路径。<br>
+​	（2）输入</p>
+        
+        <hr><p>本文2025-01-01首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-01-02</p>]]>
+      </description>
+      
+        <category>实用工具</category>
+      
     </item>
+    
+    
+
     <item>
       <title>怎么在hugo写一篇文章</title>
       <link>http://rafael.xiaoqiu.in/post/write-a-article_/</link>
-      <pubDate>Wed, 01 Jan 2025 19:40:55 +0800</pubDate>
+      <pubDate>Wed, 01 Jan 2025 19:40:55 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/write-a-article_/</guid>
-      <description>&lt;h1 id=&#34;摘要&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e6%91%98%e8%a6%81&#34;&gt;&lt;/a&gt;&#xA;摘要&#xA;&lt;/h1&gt;&lt;ul&gt;&#xA;&lt;li&gt;添加一篇文章&lt;/li&gt;&#xA;&lt;li&gt;本地开启草稿箱视图&lt;/li&gt;&#xA;&lt;li&gt;解除文章草稿状态&lt;/li&gt;&#xA;&lt;li&gt;发布草稿文章&lt;/li&gt;&#xA;&lt;li&gt;设置文章过期时间/发布时间&lt;/li&gt;&#xA;&lt;li&gt;发布保留过期文章及未发布文章&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;添加一篇文章&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e6%b7%bb%e5%8a%a0%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0&#34;&gt;&lt;/a&gt;&#xA;添加一篇文章&#xA;&lt;/h2&gt;&lt;p&gt;添加文章使用的是 &lt;code&gt;new&lt;/code&gt; 子命令，这里我们在 &lt;code&gt;post&lt;/code&gt;目录下创建一篇名为 &lt;code&gt;my-first-post&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new posts/my-first-post.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;创建完成后打开文章可以看到如下内容：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+++&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: ‘My First Post’ &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: &amp;#39;2025-01-01T19:10:33+08:00&amp;#39;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;draft: true&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+++&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这是一篇 Markdown 格式的文章，文章的开头由前后 &lt;code&gt;+++&lt;/code&gt; 包裹了一些信息，这些信息称为文章的元数据，用于说明文章的相关配套信息，其中包括但不限于标题、日期、标签、是否草稿等。&lt;/p&gt;&#xA;&lt;p&gt;这里对上述的元数据做解释如下：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;title&lt;/strong&gt;: 文章的标题&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;date&lt;/strong&gt;: 文章的日期&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;draft&lt;/strong&gt;: 文章是否草稿，草稿内容不会被发布&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;tags&lt;/strong&gt;: 为当前文章打标签，不同文章可以使用相同的标签&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;文章内容需要写在元数据的后面：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+++&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: ‘My First Post’ &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: &amp;#39;2025-01-01T19:10:33+08:00&amp;#39;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;draft: true&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+++&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hello，word！&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。&lt;/p&gt;&#xA;&lt;p&gt;如果我们想在本地查看草稿内容，只需要在启动 &lt;strong&gt;Hugo&lt;/strong&gt; 的时候带上参数 &lt;code&gt;-D&lt;/code&gt;或则 &lt;code&gt;--buildDrafts&lt;/code&gt; ：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -D&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;解除文章草稿状态&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e8%a7%a3%e9%99%a4%e6%96%87%e7%ab%a0%e8%8d%89%e7%a8%bf%e7%8a%b6%e6%80%81&#34;&gt;&lt;/a&gt;&#xA;解除文章草稿状态&#xA;&lt;/h2&gt;&lt;p&gt;在正式发布文章前我们需要解除当前文章的草稿状态，解除草稿状态只需要把文章开头的 &lt;code&gt;draft&lt;/code&gt; 选项去除即可。&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>怎么在hugo写一篇文章</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="摘要">
+<a class="header-anchor" href="#%e6%91%98%e8%a6%81"></a>
+摘要
+</h1><ul>
+<li>添加一篇文章</li>
+<li>本地开启草稿箱视图</li>
+<li>解除文章草稿状态</li>
+<li>发布草稿文章</li>
+<li>设置文章过期时间/发布时间</li>
+<li>发布保留过期文章及未发布文章</li>
+</ul>
+<h2 id="添加一篇文章">
+<a class="header-anchor" href="#%e6%b7%bb%e5%8a%a0%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0"></a>
+添加一篇文章
+</h2><p>添加文章使用的是 <code>new</code> 子命令，这里我们在 <code>post</code>目录下创建一篇名为 <code>my-first-post</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">hugo new posts/my-first-post.md
+</span></span></code></pre></div><p>创建完成后打开文章可以看到如下内容：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">title: ‘My First Post’ 
+</span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
+</span></span><span class="line"><span class="cl">draft: true
+</span></span><span class="line"><span class="cl">+++
+</span></span></code></pre></div><p>这是一篇 Markdown 格式的文章，文章的开头由前后 <code>+++</code> 包裹了一些信息，这些信息称为文章的元数据，用于说明文章的相关配套信息，其中包括但不限于标题、日期、标签、是否草稿等。</p>
+<p>这里对上述的元数据做解释如下：</p>
+<ul>
+<li><strong>title</strong>: 文章的标题</li>
+<li><strong>date</strong>: 文章的日期</li>
+<li><strong>draft</strong>: 文章是否草稿，草稿内容不会被发布</li>
+<li><strong>tags</strong>: 为当前文章打标签，不同文章可以使用相同的标签</li>
+</ul>
+<p>文章内容需要写在元数据的后面：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">title: ‘My First Post’ 
+</span></span><span class="line"><span class="cl">date: &#39;2025-01-01T19:10:33+08:00&#39;
+</span></span><span class="line"><span class="cl">draft: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hello，word！
+</span></span></code></pre></div><p>完成文章的编写后我们启动hugo来到浏览器，发现并没有看到新加的文章，即使刷新几百次也是一样的效果，这是因为文章仍处于草稿箱状态。</p>
+<p>如果我们想在本地查看草稿内容，只需要在启动 <strong>Hugo</strong> 的时候带上参数 <code>-D</code>或则 <code>--buildDrafts</code> ：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">hugo server -D
+</span></span></code></pre></div><h2 id="解除文章草稿状态">
+<a class="header-anchor" href="#%e8%a7%a3%e9%99%a4%e6%96%87%e7%ab%a0%e8%8d%89%e7%a8%bf%e7%8a%b6%e6%80%81"></a>
+解除文章草稿状态
+</h2><p>在正式发布文章前我们需要解除当前文章的草稿状态，解除草稿状态只需要把文章开头的 <code>draft</code> 选项去除即可。</p>
+        
+        <hr><p>本文2025-01-01首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-01-01</p>]]>
+      </description>
+      
+        <category>hugo教程</category>
+      
     </item>
+    
+    
+
     <item>
       <title>用Github仓库免费部署自己的Hugo博客</title>
       <link>http://rafael.xiaoqiu.in/post/build-a-hugo-blog_/</link>
-      <pubDate>Wed, 01 Jan 2025 19:10:33 +0800</pubDate>
+      <pubDate>Wed, 01 Jan 2025 19:10:33 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/build-a-hugo-blog_/</guid>
-      <description>&lt;h1 id=&#34;环境准备&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e7%8e%af%e5%a2%83%e5%87%86%e5%a4%87&#34;&gt;&lt;/a&gt;&#xA;环境准备&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;git下载&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#git%e4%b8%8b%e8%bd%bd&#34;&gt;&lt;/a&gt;&#xA;Git下载&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;前往【&lt;a href=&#34;https://git-scm.com/&#34;&gt;Git官网&lt;/a&gt;】，下载安装程序&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;一直点下一步，默认安装即可&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;hugo下载&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#hugo%e4%b8%8b%e8%bd%bd&#34;&gt;&lt;/a&gt;&#xA;Hugo下载&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;前往【&lt;a href=&#34;https://github.com/gohugoio/hugo/tags&#34;&gt;Hugo Github Tags&lt;/a&gt;】，选择对应版本下载，下载后解压即可&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Windows下载版本：&lt;strong&gt;hugo_extended_xxxxx_windows_amd64.zip&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;搭建博客&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e6%90%ad%e5%bb%ba%e5%8d%9a%e5%ae%a2&#34;&gt;&lt;/a&gt;&#xA;搭建博客&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;创建博客&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%88%9b%e5%bb%ba%e5%8d%9a%e5%ae%a2&#34;&gt;&lt;/a&gt;&#xA;创建博客&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;（1）在&lt;strong&gt;hugo.exe&lt;/strong&gt;所在文件夹的地址栏敲打cmd，然后Enter唤起命令行&lt;/li&gt;&#xA;&lt;li&gt;（2）敲打命令&lt;code&gt;hugo new site xxxx&lt;/code&gt;创建hugo文件&lt;/li&gt;&#xA;&lt;li&gt;（3）敲打命名&lt;code&gt;cd xxxx&lt;/code&gt;切换目录，并把&lt;strong&gt;hugo.exe&lt;/strong&gt;复制到刚生成的文件夹中&lt;/li&gt;&#xA;&lt;li&gt;（4）敲打命令&lt;code&gt;hugo server -D&lt;/code&gt;启动服务，访问&lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313&lt;/a&gt;，Ctrl+C停止服务 &lt;strong&gt;（hugo默认是没有主题的，需要进行主题配置）&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;配置主题&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e9%85%8d%e7%bd%ae%e4%b8%bb%e9%a2%98&#34;&gt;&lt;/a&gt;&#xA;配置主题&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;（1）前往【&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo Themes&lt;/a&gt;】，查找自己喜欢的主题，进行下载&lt;/li&gt;&#xA;&lt;li&gt;（2）这边以【&lt;a href=&#34;https://github.com/D-Sketon/hugo-theme-reimu&#34;&gt;Reimu主题&lt;/a&gt;】为例，将下载好的主题解压，放到&lt;code&gt;/themes&lt;/code&gt;文件夹中&lt;/li&gt;&#xA;&lt;li&gt;（3）&lt;code&gt;config&lt;/code&gt; 文件夹下创建 &lt;code&gt;_default&lt;/code&gt; 文件夹，然后将主题内的 &lt;code&gt;config/_default/params.yml&lt;/code&gt; 复制到 &lt;code&gt;_default&lt;/code&gt; 文件夹下&lt;/li&gt;&#xA;&lt;li&gt;（4）将主题内的 &lt;code&gt;config/data/&lt;/code&gt; 文件夹内的所有文件复制到外层 &lt;code&gt;data&lt;/code&gt; 文件夹下，此文件夹内的文件用于配置主题内的数据：&lt;/li&gt;&#xA;&lt;li&gt;（5）在hugo目录下创建&lt;code&gt;static&lt;/code&gt; 文件夹，然后将主题内的 &lt;code&gt;static&lt;/code&gt; 文件夹下的文件复制到外层 &lt;code&gt;static&lt;/code&gt; 文件夹下&lt;/li&gt;&#xA;&lt;li&gt;（6）修改 &lt;strong&gt;hugo.toml&lt;/strong&gt; 中的 &lt;strong&gt;theme&lt;/strong&gt;，将他修改为跟主题文件夹同名&lt;/li&gt;&#xA;&lt;li&gt;（7）再次启动hugo服务，查看主题。具体主题配置修改可以查看【&lt;a href=&#34;https://github.com/D-Sketon/hugo-theme-reimu&#34;&gt;Reimu&lt;/a&gt;】&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;github部署&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#github%e9%83%a8%e7%bd%b2&#34;&gt;&lt;/a&gt;&#xA;Github部署&#xA;&lt;/h1&gt;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;h2 id=&#34;常规部署&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%b8%b8%e8%a7%84%e9%83%a8%e7%bd%b2&#34;&gt;&lt;/a&gt;&#xA;常规部署&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;（1）前往【&lt;a href=&#34;https://github.com/&#34;&gt;Github官网&lt;/a&gt;】，创建仓库 &lt;strong&gt;{github用户名}.github.io&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>用Github仓库免费部署自己的Hugo博客</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <h1 id="环境准备">
+<a class="header-anchor" href="#%e7%8e%af%e5%a2%83%e5%87%86%e5%a4%87"></a>
+环境准备
+</h1><ol>
+<li>
+<h2 id="git下载">
+<a class="header-anchor" href="#git%e4%b8%8b%e8%bd%bd"></a>
+Git下载
+</h2><ul>
+<li>
+<p>前往【<a href="https://git-scm.com/">Git官网</a>】，下载安装程序</p>
+</li>
+<li>
+<p>一直点下一步，默认安装即可</p>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="hugo下载">
+<a class="header-anchor" href="#hugo%e4%b8%8b%e8%bd%bd"></a>
+Hugo下载
+</h2><ul>
+<li>
+<p>前往【<a href="https://github.com/gohugoio/hugo/tags">Hugo Github Tags</a>】，选择对应版本下载，下载后解压即可</p>
+</li>
+<li>
+<p>Windows下载版本：<strong>hugo_extended_xxxxx_windows_amd64.zip</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<h1 id="搭建博客">
+<a class="header-anchor" href="#%e6%90%ad%e5%bb%ba%e5%8d%9a%e5%ae%a2"></a>
+搭建博客
+</h1><ol>
+<li>
+<h2 id="创建博客">
+<a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e5%8d%9a%e5%ae%a2"></a>
+创建博客
+</h2><ul>
+<li>（1）在<strong>hugo.exe</strong>所在文件夹的地址栏敲打cmd，然后Enter唤起命令行</li>
+<li>（2）敲打命令<code>hugo new site xxxx</code>创建hugo文件</li>
+<li>（3）敲打命名<code>cd xxxx</code>切换目录，并把<strong>hugo.exe</strong>复制到刚生成的文件夹中</li>
+<li>（4）敲打命令<code>hugo server -D</code>启动服务，访问<a href="http://localhost:1313/">http://localhost:1313</a>，Ctrl+C停止服务 <strong>（hugo默认是没有主题的，需要进行主题配置）</strong></li>
+</ul>
+</li>
+<li>
+<h2 id="配置主题">
+<a class="header-anchor" href="#%e9%85%8d%e7%bd%ae%e4%b8%bb%e9%a2%98"></a>
+配置主题
+</h2><ul>
+<li>（1）前往【<a href="https://themes.gohugo.io/">Hugo Themes</a>】，查找自己喜欢的主题，进行下载</li>
+<li>（2）这边以【<a href="https://github.com/D-Sketon/hugo-theme-reimu">Reimu主题</a>】为例，将下载好的主题解压，放到<code>/themes</code>文件夹中</li>
+<li>（3）<code>config</code> 文件夹下创建 <code>_default</code> 文件夹，然后将主题内的 <code>config/_default/params.yml</code> 复制到 <code>_default</code> 文件夹下</li>
+<li>（4）将主题内的 <code>config/data/</code> 文件夹内的所有文件复制到外层 <code>data</code> 文件夹下，此文件夹内的文件用于配置主题内的数据：</li>
+<li>（5）在hugo目录下创建<code>static</code> 文件夹，然后将主题内的 <code>static</code> 文件夹下的文件复制到外层 <code>static</code> 文件夹下</li>
+<li>（6）修改 <strong>hugo.toml</strong> 中的 <strong>theme</strong>，将他修改为跟主题文件夹同名</li>
+<li>（7）再次启动hugo服务，查看主题。具体主题配置修改可以查看【<a href="https://github.com/D-Sketon/hugo-theme-reimu">Reimu</a>】</li>
+</ul>
+</li>
+</ol>
+<h1 id="github部署">
+<a class="header-anchor" href="#github%e9%83%a8%e7%bd%b2"></a>
+Github部署
+</h1><ol>
+<li>
+<h2 id="常规部署">
+<a class="header-anchor" href="#%e5%b8%b8%e8%a7%84%e9%83%a8%e7%bd%b2"></a>
+常规部署
+</h2><ul>
+<li>
+<p>（1）前往【<a href="https://github.com/">Github官网</a>】，创建仓库 <strong>{github用户名}.github.io</strong></p>
+        
+        <hr><p>本文2025-01-01首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2025-01-01</p>]]>
+      </description>
+      
+        <category>hugo教程</category>
+      
     </item>
+    
+    
+
     <item>
       <title>博客的第一篇文章</title>
       <link>http://rafael.xiaoqiu.in/post/hello_/</link>
-      <pubDate>Thu, 26 Dec 2024 01:04:52 +0800</pubDate>
+      <pubDate>Thu, 26 Dec 2024 01:04:52 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/hello_/</guid>
-      <description>&lt;p&gt;大家好，我是Тенеход&lt;br&gt;&#xA;这是我新创建的博客，希望大家可以在这个评论区下多多留言&lt;br&gt;&#xA;后续，我会出一个搭建这个博客还有应用这个主题的教程。&lt;br&gt;&#xA;尽请期待吧 &lt;em&gt;:ஐ٩(๑´ᵕ`)۶ஐ:&lt;/em&gt;&lt;br&gt;&#xA;ps:后续也会有许多各种各样的教程&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>博客的第一篇文章</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <p>大家好，我是Тенеход<br>
+这是我新创建的博客，希望大家可以在这个评论区下多多留言<br>
+后续，我会出一个搭建这个博客还有应用这个主题的教程。<br>
+尽请期待吧 <em>:ஐ٩(๑´ᵕ`)۶ஐ:</em><br>
+ps:后续也会有许多各种各样的教程</p>
+        
+        <hr><p>本文2024-12-26首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2024-12-26</p>]]>
+      </description>
+      
     </item>
-    <item>
-      <title>关于</title>
-      <link>http://rafael.xiaoqiu.in/about/</link>
-      <pubDate>Thu, 10 Jun 2021 21:19:52 +0800</pubDate>
-      <guid>http://rafael.xiaoqiu.in/about/</guid>
-      <description>&lt;p&gt;站主很懒，什么都没有写……&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>友情链接</title>
-      <link>http://rafael.xiaoqiu.in/friend/</link>
-      <pubDate>Thu, 10 Jun 2021 21:19:52 +0800</pubDate>
-      <guid>http://rafael.xiaoqiu.in/friend/</guid>
-      <description>&lt;h2 id=&#34;本站信息&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e6%9c%ac%e7%ab%99%e4%bf%a1%e6%81%af&#34;&gt;&lt;/a&gt;&#xA;本站信息&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;站名： Тенеход的小窝&lt;/li&gt;&#xA;&lt;li&gt;站长： Тенеход&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;申请方法&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e7%94%b3%e8%af%b7%e6%96%b9%e6%b3%95&#34;&gt;&lt;/a&gt;&#xA;申请方法&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;添加本站后，在本页留言，格式如下&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;l&#34;&gt;```yml&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#您的名字&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#您的网址&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;desc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#简短描述&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#一张图片&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;```&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;小伙伴们&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%b0%8f%e4%bc%99%e4%bc%b4%e4%bb%ac&#34;&gt;&lt;/a&gt;&#xA;小伙伴们&#xA;&lt;/h2&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;friend-wrap&#34; data-aos=&#34;zoom-in&#34;&gt;&#xA;  &#xA;    &lt;div class=&#34;friend-item-wrap&#34;&gt;&#xA;      &lt;a href=&#34;https://www.yxqi.cn/&#34; rel=&#34;noopener external nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;&#xA;      &lt;div class=&#34;friend-icon-wrap&#34;&gt;&#xA;        &lt;div class=&#34;friend-icon&#34;&gt;&#xA;          &lt;img&#xA;            data-src=&#34;https://www.yxqi.cn/wp-content/uploads/2024/07/%e6%b5%b7%e6%9e%ab%e5%a4%a7%e5%a4%b4.webp&#34;&#xA;            data-sizes=&#34;auto&#34;&#xA;            alt=&#34;于小丘Blog&#34;&#xA;            class=&#34;lazyload&#34;&#xA;          /&gt;&#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;div class=&#34;friend-info-wrap&#34;&gt;&#xA;        &lt;div class=&#34;friend-name&#34;&gt;&#xA;          于小丘Blog&#xA;        &lt;/div&gt;&#xA;        &lt;div class=&#34;friend-desc&#34;&gt;&#xA;          printf(&amp;#34;为了尚未完成的未来&amp;#34;）&#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;</description>
-    </item>
+    
   </channel>
 </rss>

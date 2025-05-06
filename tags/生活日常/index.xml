@@ -3,17 +3,43 @@
   <channel>
     <title>生活日常 on Тенеход的小窝</title>
     <link>http://rafael.xiaoqiu.in/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</link>
-    <description>Recent content in 生活日常 on Тенеход的小窝</description>
+    <description>Recent content from Тенеход的小窝</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (Тенеход)</managingEditor>
+    <webMaster>xxx@example.com (Тенеход)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
     <lastBuildDate>Thu, 26 Dec 2024 01:05:20 +0800</lastBuildDate>
-    <atom:link href="http://rafael.xiaoqiu.in/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <atom:link href="http://rafael.xiaoqiu.in/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
     <item>
       <title>博客的第一篇文章</title>
       <link>http://rafael.xiaoqiu.in/post/hello_/</link>
-      <pubDate>Thu, 26 Dec 2024 01:04:52 +0800</pubDate>
+      <pubDate>Thu, 26 Dec 2024 01:04:52 &#43;0800</pubDate>
+      <author>xxx@example.com (Тенеход)</author>
       <guid>http://rafael.xiaoqiu.in/post/hello_/</guid>
-      <description>&lt;p&gt;大家好，我是Тенеход&lt;br&gt;&#xA;这是我新创建的博客，希望大家可以在这个评论区下多多留言&lt;br&gt;&#xA;后续，我会出一个搭建这个博客还有应用这个主题的教程。&lt;br&gt;&#xA;尽请期待吧 &lt;em&gt;:ஐ٩(๑´ᵕ`)۶ஐ:&lt;/em&gt;&lt;br&gt;&#xA;ps:后续也会有许多各种各样的教程&lt;/p&gt;</description>
+      <description>
+        <![CDATA[<h1>博客的第一篇文章</h1><p>作者：Тенеход（xxx@example.com）</p>
+        
+          <p>大家好，我是Тенеход<br>
+这是我新创建的博客，希望大家可以在这个评论区下多多留言<br>
+后续，我会出一个搭建这个博客还有应用这个主题的教程。<br>
+尽请期待吧 <em>:ஐ٩(๑´ᵕ`)۶ஐ:</em><br>
+ps:后续也会有许多各种各样的教程</p>
+        
+        <hr><p>本文2024-12-26首发于<a href='http://rafael.xiaoqiu.in/'>Тенеход的小窝</a>，最后修改于2024-12-26</p>]]>
+      </description>
+      
     </item>
+    
   </channel>
 </rss>
