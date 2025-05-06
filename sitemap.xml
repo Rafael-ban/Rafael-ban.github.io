@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>http://rafael.xiaoqiu.in/zh-cn/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://rafael.xiaoqiu.in/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://rafael.xiaoqiu.in/categories/</loc>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/tags/</loc>
+  </url><url>
+    <loc>http://rafael.xiaoqiu.in/</loc>
+  </url>
+</urlset>
