@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Тенеход的小窝</title>
-    <link>http://rafael.xiaoqiu.in/tags/</link>
+    <link>http://rafael.xiaoqiu.in/en/tags/</link>
     <description>Recent content in Tags on Тенеход的小窝</description>
     <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <atom:link href="http://rafael.xiaoqiu.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="http://rafael.xiaoqiu.in/en/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
